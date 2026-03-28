@@ -2917,5 +2917,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "68": [
+    {
+      "attempt": 1,
+      "id": 68,
+      "timestamp": "2026-03-28T18:18:32.529Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4022 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 371"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Genotipi bilinmeyen bir canlının meydana getirdiği gametin genotipi AbCdEF şeklinde olup bu gametin oluşma olasılığı 1/16'dır. Buna göre, belirtilen g...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) AaBbCcddEEFf\",\"cleaned\":\"A) AaBbCcddEEFf\"},{\"raw\":\"B) AaBBCcddEeFf\",\"cleaned\":\"B) AaBBCcddEeFf\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) AaBbCcddEEFf\",\"B) AaBBCcddEeFf\",\"C) AABBCcDdEeFf\",\"D) AaBbccDdEEFF\",\"E) AABbCcddeeFf\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
