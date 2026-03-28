@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "question": "Aşağıda verilenlerden hangisi vejetatif reme rneği değildir ?",
+    "choices": [
+      "A) Zambak bitkisinin soğanından yeni bitki oluşması",
+      "B) Kavak ağacının dalının toprağa ekilmesiyle yeni kavak ağacı oluşması",
+      "C) Patates yumrusunun toprağa ekilmesiyle yeni patates bitkisinin oluşması",
+      "D) Doku k lt r y ntemiyle orkide bitkisinin oğaltılması",
+      "E) Elma ağacında tozlaşma sonucu meydana gelen tohumlardan yeni bitkinin gelişmesi"
+    ],
+    "answer": "E"
+  }
+]
