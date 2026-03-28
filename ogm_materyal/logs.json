@@ -15281,5 +15281,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "255": [
+    {
+      "attempt": 1,
+      "id": 255,
+      "timestamp": "2026-03-28T18:50:09.835Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3945 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 227"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi Atat rk d nemi dış politika gelişmelerinden biri değildir ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Lozan Barış Antlaşması\\r\\n\",\"cleaned\":\"A) Lozan Barış Antlaşması\"},{\"raw\":\"B) Hatay&#39;ın anavatana katılması\\r\\n\",\"cleaned\":\"B) Hatay&#39;ın anavatana katılması\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Lozan Barış Antlaşması\",\"B) Hatay&#39;ın anavatana katılması\",\"C) Sadabat Paktı\",\"D) Balkan Antantı\",\"E) Montr Boğazlar S zleşmesi\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
