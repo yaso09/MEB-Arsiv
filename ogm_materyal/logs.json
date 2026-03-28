@@ -4510,5 +4510,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "93": [
+    {
+      "attempt": 1,
+      "id": 93,
+      "timestamp": "2026-03-28T18:22:20.158Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4168 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 534"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Yukarıdaki soy ağacında otozomal ekinik genle taşınan bir zelliği fenotipte g steren bireyler koyu renkle g sterilmiştir. Numaralandırılmış bireylerde...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) 1 ve 3\\r\\n\",\"cleaned\":\"A) 1 ve 3\"},{\"raw\":\"B) 3 ve 6\\r\\n\",\"cleaned\":\"B) 3 ve 6\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) 1 ve 3\",\"B) 3 ve 6\",\"C) 2 ve 5\",\"D) 4 ve 5\",\"E) 3, 4 ve 5\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
