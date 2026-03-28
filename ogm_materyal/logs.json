@@ -4408,5 +4408,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "91": [
+    {
+      "attempt": 1,
+      "id": 91,
+      "timestamp": "2026-03-28T18:22:14.042Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3921 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 314"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Bir ailede; 1. Çocuk - 0 kan gruplu erkek 2. Çocuk - A kan gruplu kız 3. Çocuk - B kan gruplu erkek olduğuna göre 4. çocuğun AB kan gruplu erkek olma ...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) 1/4\",\"cleaned\":\"A) 1/4\"},{\"raw\":\"B) 1/8\",\"cleaned\":\"B) 1/8\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) 1/4\",\"B) 1/8\",\"C) 2/8\",\"D) 4/8\",\"E) 3/16\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
