@@ -118,5 +118,29 @@
       "E) Çekirdek zarının erimesi"
     ],
     "answer": "C"
+  },
+  {
+    "id": 11,
+    "question": "2n = 24 kromozomlu bir hücre mayoz bölünme geçiriyor. Bölünmenin profaz I evresinde gözlenen tetrat ve kromatit sayıları sırasıyla kaçtır?",
+    "choices": [
+      "A) 12-48",
+      "B) 24-96",
+      "C) 12-24",
+      "D) 24-48",
+      "E) 48-6"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 12,
+    "question": "I. Büyüme II. Birey sayısında artış III. Kalıtsal çeşitlilik Paramesyumda gerçekleşen mitoz bölünme yukarıdakilerden hangisini sağlar?",
+    "choices": [
+      "A) Yalnız II",
+      "B) Yalnız III",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "A"
   }
 ]
