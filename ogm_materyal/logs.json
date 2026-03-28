@@ -6837,5 +6837,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "124": [
+    {
+      "attempt": 1,
+      "id": 124,
+      "timestamp": "2026-03-28T18:26:23.570Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3931 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 250"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Ormanlık bir alanda, alanın tahrip olması ile ilgili olaylar sıralandığında aşağıdakilerden hangisinin en sonda gerçekleşmesi beklenir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Otlak açılması\",\"cleaned\":\"A) Otlak açılması\"},{\"raw\":\"B) Ağaçların kesilmesi\",\"cleaned\":\"B) Ağaçların kesilmesi\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Otlak açılması\",\"B) Ağaçların kesilmesi\",\"C) Erozyon artışı\",\"D) Orman vasfının kaybolması\",\"E) Yangınların artışı\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "125": [
+    {
+      "attempt": 1,
+      "id": 125,
+      "timestamp": "2026-03-28T18:26:27.496Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4012 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 378"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Düşük kalorili ve kükürt oranı yüksek katı yakıtların tüketimi II. Yenilenebilir enerji kaynaklarının tüketimi III. Toplu taşıma araçlarının yaygın...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) Yalnız II\",\"cleaned\":\"B) Yalnız II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) Yalnız II\",\"C) Yalnız III\",\"D) I ve II\",\"E) II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
