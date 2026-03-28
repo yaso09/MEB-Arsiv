@@ -4306,5 +4306,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "89": [
+    {
+      "attempt": 1,
+      "id": 89,
+      "timestamp": "2026-03-28T18:22:07.185Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4438 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 386"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Yukarıdaki aprazlamalarla ilgili olarak aşağıdaki ifadelerden hangisi s ylenemez ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I. &ccedil;aprazlamada kız &ccedil;ocuklarının renk k&ouml;r&uuml; olma olası\",\"cleaned\":\"A) I. aprazlamada kız ocuklarının renk k r olma olasılığı yoktur.\"},{\"raw\":\"B) II. &ccedil;aprazlamada erkek &ccedil;ocuklarının %50&#39;si renk k&ouml;r&uu\",\"cleaned\":\"B) II. ap"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I. aprazlamada kız ocuklarının renk k r olma olasılığı yoktur.\",\"B) II. aprazlamada erkek ocuklarının %50&#39;si renk k r d r.\",\"C) III. aprazlamada erkek ve kız ocuklarının hepsi renk k r d r.\",\"D) IV. aprazlamada kız ocuklarının % 50&#39;si renk k r d r.\",\"E) II. apraz"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
