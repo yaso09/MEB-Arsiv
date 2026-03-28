@@ -2914,5 +2914,41 @@
       "E) Eisenhower"
     ],
     "answer": "A"
+  },
+  {
+    "id": 279,
+    "question": "Cumhuriyet D nemi&#39;nde TBMM&#39;de kabul edilen ve T rkiye&#39;nin kıta sahanlığını (deniz kıyı g venliği) garanti altına alan yasa aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) Kabotaj Kanunu",
+      "B) Teşkil t-ı Esasiye Kanunu",
+      "C) Hıyanet-i Vataniye Kanunu",
+      "D) Takrir-i S kun Kanunu",
+      "E) Teşvik-i Sanayi Kanunu"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 280,
+    "question": "Musul, aşağıdaki antlaşmalardan hangisi ile İngiliz y netimindeki Irak&#39;a bırakılmıştır?",
+    "choices": [
+      "A) Berlin",
+      "B) Londra",
+      "C) Ankara",
+      "D) Paris",
+      "E) Moskova"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 281,
+    "question": "Atat rk&#39; n hastalığının ağırlaştığı d neme denk gelmesine rağmen z m i in b y k gayret sarf ettiği dış sorun aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) Boğazlar Sorunu",
+      "B) Hatay Sorunu",
+      "C) Musul Sorunu",
+      "D) Batı Trakya Sorunu",
+      "E) Batum Sorunu"
+    ],
+    "answer": "B"
   }
 ]
