@@ -14465,5 +14465,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "239": [
+    {
+      "attempt": 1,
+      "id": 239,
+      "timestamp": "2026-03-28T18:49:14.025Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4139 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 319"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"T rkiye, 1932 yılında kurulan Milletler Cemiyetine girmek i in acele etmedi. T rkiye&#39;nin b yle davranmasının temel nedeni aşağıdakilerden hangisid...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Hatay meselesini &ccedil;&ouml;zmesi\\r\\n\",\"cleaned\":\"A) Hatay meselesini zmesi\"},{\"raw\":\"B) Komşu devletlerle dostluk ilişkileri kurması\\r\\n\",\"cleaned\":\"B) Komşu devletlerle dostluk ilişkileri kurması\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Hatay meselesini zmesi\",\"B) Komşu devletlerle dostluk ilişkileri kurması\",\"C) Sovyet Rusya ile yakınlaşması\",\"D) Siyasi bağımsızlığını tamamlama isteği\",\"E) Milletler Cemiyetinin Musul sorunundaki taraflı tutumu\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "240": [
+    {
+      "attempt": 1,
+      "id": 240,
+      "timestamp": "2026-03-28T18:49:18.296Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3889 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 240"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Bozkurt - Lotus Davası olarak bilinen hukuki sorun, T rkiye ile hangi lke arasında yaşanmıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) İngiltere\\r\\n\",\"cleaned\":\"A) İngiltere\"},{\"raw\":\"B) Fransa&nbsp;\\r\\n\",\"cleaned\":\"B) Fransa\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) İngiltere\",\"B) Fransa\",\"C) İtalya\",\"D) Yunanistan\",\"E) Bulgaristan\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
