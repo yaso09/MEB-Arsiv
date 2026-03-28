@@ -16588,5 +16588,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "266": [
+    {
+      "attempt": 1,
+      "id": 266,
+      "timestamp": "2026-03-28T18:51:19.766Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3901 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 258"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Atat rk d neminde n fus m badelesi (değişimi) T rkiye ile aşağıdaki hangi lke arasında yapılmıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yunanistan\\r\\n\",\"cleaned\":\"A) Yunanistan\"},{\"raw\":\"B) Bulgaristan\\r\\n\",\"cleaned\":\"B) Bulgaristan\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yunanistan\",\"B) Bulgaristan\",\"C) Suriye\",\"D) İngiltere\",\"E) Fransa\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
