@@ -2356,5 +2356,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "57": [
+    {
+      "attempt": 1,
+      "id": 57,
+      "timestamp": "2026-03-28T18:17:56.890Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3826 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 168"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi Mendel Genetiği ile açıklanabilir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Eş baskınlık\",\"cleaned\":\"A) Eş baskınlık\"},{\"raw\":\"B) Bağımsız gen\",\"cleaned\":\"B) Bağımsız gen\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Eş baskınlık\",\"B) Bağımsız gen\",\"C) Bağlı gen\",\"D) Çok alellik\",\"E) Cinsiyete bağlı kalıtım\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
