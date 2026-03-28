@@ -142,5 +142,41 @@
       "E) I, II ve III"
     ],
     "answer": "A"
+  },
+  {
+    "id": 13,
+    "question": "Aşağıda verilen bilgilerden hangisi mayoz bölünmeye ait bir özelliktir?",
+    "choices": [
+      "A) Kromozomların niteliği ve niceliği değişmez.",
+      "B) Kromozom sayısı değişmez.",
+      "C) Hayat boyu devam eder.",
+      "D) Tetrat ve sinapsis görülür.",
+      "E) Çekirdek ve sitoplazma bölünmeleri birer defa gerçekleşir."
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 14,
+    "question": "The contributions of the French philosopher Ren Descartes in the seventeenth century to mechanics, like his contributions to the scientific endeavour as a whole, were _______ concerned with problems in the foundations of science _______ the solutions of specific technical problems.",
+    "choices": [
+      "A) either / or",
+      "B) as / as",
+      "C) so / that",
+      "D) more / than",
+      "E) such a / that"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 15,
+    "question": "I . ATP kullanımı ve protein sentez hızı artar. II. Organel sayısı artar. III. DNA miktarı iki katına çıkar. IV. Kromatitler zıt kutuplara çekilir. Yukarıdaki olaylardan hangileri bir hücrenin interfaz evresinde gerçekleşir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) I, II ve III",
+      "C) I, II ve IV",
+      "D) II, III ve IV",
+      "E) I, II, III ve IV"
+    ],
+    "answer": "B"
   }
 ]
