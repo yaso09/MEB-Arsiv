@@ -17761,5 +17761,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "289": [
+    {
+      "attempt": 1,
+      "id": 289,
+      "timestamp": "2026-03-28T19:06:40.286Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4078 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 395"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"ABD ve Fransa&#39;nın nc l k ettiği Almanya, İngiltere, Bel ika, Polonya, &Ccedil;ekoslavakya ve Rusya gibi devletlerin katıldığı, d nya sorunlarının ...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Eisenhower Planı\\r\\n\",\"cleaned\":\"A) Eisenhower Planı\"},{\"raw\":\"B) Briand - Kellog Paktı\\r\\n\",\"cleaned\":\"B) Briand - Kellog Paktı\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Eisenhower Planı\",\"B) Briand - Kellog Paktı\",\"C) Marshall Planı\",\"D) Locarno Antlaşması\",\"E) Sadabat Paktı\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
