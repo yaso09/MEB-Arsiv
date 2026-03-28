@@ -3535,5 +3535,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "77": [
+    {
+      "attempt": 1,
+      "id": 77,
+      "timestamp": "2026-03-28T18:19:09.428Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4092 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 462"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Kas distrofisi çekinik genle kontrol edilen, X gonozomu ile taşınan, kasların gittikçe zayıflamasına ve uyumlu çalışmalarını kaybetmesine neden olan b...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) 1/4&nbsp;\",\"cleaned\":\"A) 1/4\"},{\"raw\":\"B) 2/4&nbsp;\",\"cleaned\":\"B) 2/4\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) 1/4\",\"B) 2/4\",\"C) 3/4\",\"D) 1/3\",\"E) 2/3\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
