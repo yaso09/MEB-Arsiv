@@ -7245,5 +7245,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "132": [
+    {
+      "attempt": 1,
+      "id": 132,
+      "timestamp": "2026-03-28T18:26:50.218Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4015 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 185"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi toprak kirliliğinin nedenlerinden sayılamaz?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Tarımda suni gübre kullanımının artması\",\"cleaned\":\"A) Tarımda suni gübre kullanımının artması\"},{\"raw\":\"B) Sanayi faaliyetleri ile toprağa aşırı civa ve kurşun gibi ağır metallerin kar\",\"cleaned\":\"B) Sanayi faaliyetleri ile toprağa aşırı civa ve kurşun gibi ağır meta"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Tarımda suni gübre kullanımının artması\",\"B) Sanayi faaliyetleri ile toprağa aşırı civa ve kurşun gibi ağır metallerin karışması\",\"C) Arıtma tesislerinin kurulması\",\"D) Evsel ve sanayi atıklarının sularla toprağa karışması\",\"E) Tarımda kimyasal mücadele yapılması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
