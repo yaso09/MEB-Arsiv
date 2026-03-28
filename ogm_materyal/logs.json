@@ -16121,5 +16121,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "259": [
+    {
+      "attempt": 1,
+      "id": 259,
+      "timestamp": "2026-03-28T18:50:51.050Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4218 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 422"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Atat rk&#39; n Biz her şeyden nce başka devletlerin egemenliğine saygı duyar, başka devletlerin de bizim egemenliğimize saygı duymasını bekleriz. s z ...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Uluslararası barışı korumak\\r\\n\",\"cleaned\":\"A) Uluslararası barışı korumak\"},{\"raw\":\"B) K&uuml;lt&uuml;r etkileşimini sağlamak\\r\\n\",\"cleaned\":\"B) K lt r etkileşimini sağlamak\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Uluslararası barışı korumak\",\"B) K lt r etkileşimini sağlamak\",\"C) Batı d nyasında kabul g rmek\",\"D) Ekonomik g birliğini sağlamak\",\"E) Tam bağımsızlık anlayışını ger ekleştirmek\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
