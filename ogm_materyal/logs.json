@@ -18120,5 +18120,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "295": [
+    {
+      "attempt": 1,
+      "id": 295,
+      "timestamp": "2026-03-28T19:09:24.974Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4052 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 422"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"T rkiye, II. D nya Savaşı&#39;nın ncesinde ve ilk yıllarında yaşanan gelişmeler karşısında karşılıklı yardım ve saldırmazlık antlaşmaları imzalamıştır...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) İngiltere\\r\\n\",\"cleaned\":\"A) İngiltere\"},{\"raw\":\"B) Fransa\\r\\n\",\"cleaned\":\"B) Fransa\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) İngiltere\",\"B) Fransa\",\"C) SSCB\",\"D) Almanya\",\"E) ABD\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
