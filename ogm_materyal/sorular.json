@@ -226,5 +226,17 @@
       "E) I, II ve III"
     ],
     "answer": "C"
+  },
+  {
+    "id": 18,
+    "question": "Mitoz bölünme sonucu oluşan hücrelerde kromozom sayısının sabit kalmasını sağlayan olay aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) Kromatin ipliklerinin kısalıp kalınlaşması",
+      "B) Kardeş kromatitlerin ayrılması",
+      "C) Kromozomların ekvatoral düzlemde dizilmesi",
+      "D) Sitoplazmanın boğumlanması",
+      "E) İğ ipliklerinin oluşması"
+    ],
+    "answer": "B"
   }
 ]
