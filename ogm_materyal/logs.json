@@ -3688,5 +3688,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "80": [
+    {
+      "attempt": 1,
+      "id": 80,
+      "timestamp": "2026-03-28T18:19:18.847Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4072 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 161"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıda verilen bilgilerden hangisi doğru değildir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Kız çocuk hemofili hastası ise, babası mutlaka hemofili hastasıdır.\",\"cleaned\":\"A) Kız çocuk hemofili hastası ise, babası mutlaka hemofili hastasıdır.\"},{\"raw\":\"B) Erkek çocuk hemofili hastası ise, annesi hemofili taşıyıcısı olabilir.\",\"cleaned\":\"B) Erkek çocuk hemofi"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Kız çocuk hemofili hastası ise, babası mutlaka hemofili hastasıdır.\",\"B) Erkek çocuk hemofili hastası ise, annesi hemofili taşıyıcısı olabilir.\",\"C) Renk körü annenin erkek çocukları renk körüdür.\",\"D) Yapışık parmaklılık geni erkek çocuklara babalarından aktarılmaktadır"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
