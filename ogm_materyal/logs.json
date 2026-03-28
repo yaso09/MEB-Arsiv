@@ -10935,5 +10935,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "195": [
+    {
+      "attempt": 1,
+      "id": 195,
+      "timestamp": "2026-03-28T18:45:39.321Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3790 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 162"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıda verilen canlılardan hangisi ototrof beslenme yapar?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Kara yosunu\",\"cleaned\":\"A) Kara yosunu\"},{\"raw\":\"B) Amip\",\"cleaned\":\"B) Amip\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Kara yosunu\",\"B) Amip\",\"C) Paramesyum\",\"D) Kartal\",\"E) Mantar\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
