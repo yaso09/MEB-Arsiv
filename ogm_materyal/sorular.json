@@ -1870,5 +1870,17 @@
       "E) Döngüde nitrit ve nitrat bakterileri görev alır."
     ],
     "answer": "A"
+  },
+  {
+    "id": 187,
+    "question": "Bitki &Ccedil;ekirge Kurbağa Yılan Atmaca Yukarıda bir besin zinciri rneği verilmiştir. Buna g re I. Kurbağa sayısı artarsa ekirge sayısı azalır. II. Yılan sayısı azalırsa atmaca sayısı azalır. III. Atmaca sayısı artarsa kurbağalar bundan etkilenmez. yargılarından hangileri doğrudur?",
+    "choices": [
+      "A) Yalnız III",
+      "B) I ve II",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "B"
   }
 ]
