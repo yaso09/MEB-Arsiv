@@ -2806,5 +2806,29 @@
       "E) Rusya"
     ],
     "answer": "B"
+  },
+  {
+    "id": 269,
+    "question": "Aşağıdakilerden hangisini Mustafa Kemal Atat rk &#39;&#39;benim en b y k eserim&#39;&#39; diye nitelendirmiştir?",
+    "choices": [
+      "A) T rkiye Cumhuriyeti Devleti",
+      "B) T rkiye B y k Millet Meclisi",
+      "C) Nutuk",
+      "D) Cumhuriyet Halk Partisi",
+      "E) Lozan Antlaşması"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 270,
+    "question": "Mustafa Kemal Atat rk&#39; n naaşı ge ici olarak aşağıdakilerden hangisine nakledilmiştir?",
+    "choices": [
+      "A) İstanbul Karacaahmet Mezarlığı",
+      "B) Ankara Etnografya M zesi",
+      "C) İstanbul Etnografya M zesi",
+      "D) İstanbul Zincirlikuyu Mezarlığı",
+      "E) İzmir Etnografya M zesi"
+    ],
+    "answer": "B"
   }
 ]
