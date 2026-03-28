@@ -10476,5 +10476,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "186": [
+    {
+      "attempt": 1,
+      "id": 186,
+      "timestamp": "2026-03-28T18:45:10.699Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4128 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 196"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Doğadaki azot döngüsü ile ilgili aşağıda verilen ifadelerden hangisi yanlıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Döngüde ototrof beslenen canlılar görev almaz.\",\"cleaned\":\"A) Döngüde ototrof beslenen canlılar görev almaz.\"},{\"raw\":\"B) Saprofitler döngünün gerçekleşmesi için organik maddeleri inorganik maddelere\",\"cleaned\":\"B) Saprofitler döngünün gerçekleşmesi için organik madde"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Döngüde ototrof beslenen canlılar görev almaz.\",\"B) Saprofitler döngünün gerçekleşmesi için organik maddeleri inorganik maddelere dönüştürürler.\",\"C) İnorganik yapıdaki azot tuzları, fotosentez yoluyla organik bileşiklerin yapısına katılır.\",\"D) Denitrifikasyon bakterile"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "187": [
+    {
+      "attempt": 1,
+      "id": 187,
+      "timestamp": "2026-03-28T18:45:14.115Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4226 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 579"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Bitki &Ccedil;ekirge Kurbağa Yılan Atmaca Yukarıda bir besin zinciri rneği verilmiştir. Buna g re I. Kurbağa sayısı artarsa ekirge sayısı azalır. II. ...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız III\\r\\n\",\"cleaned\":\"A) Yalnız III\"},{\"raw\":\"B) I ve II\\r\\n\",\"cleaned\":\"B) I ve II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız III\",\"B) I ve II\",\"C) I ve III\",\"D) II ve III\",\"E) I, II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
