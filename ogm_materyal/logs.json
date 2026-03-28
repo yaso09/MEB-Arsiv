@@ -11655,5 +11655,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "206": [
+    {
+      "attempt": 1,
+      "id": 206,
+      "timestamp": "2026-03-28T18:46:22.936Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3883 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 252"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Bir ekosistemde birlikte yer alan iki farklı canlı türü aşağıdaki ekolojik birimlerden hangisinde kesinlikle birarada bulunamaz?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Popülasyon\",\"cleaned\":\"A) Popülasyon\"},{\"raw\":\"B) Biyotop\",\"cleaned\":\"B) Biyotop\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Popülasyon\",\"B) Biyotop\",\"C) Komünite\",\"D) Habitat\",\"E) Biyosfer\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
