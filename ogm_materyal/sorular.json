@@ -3094,5 +3094,53 @@
       "E) Japonya"
     ],
     "answer": "D"
+  },
+  {
+    "id": 294,
+    "question": "Cumhuriyet d neminin ilk muhalefet partisi olan Terakkiperver Cumhuriyet Fırkası, Şeyh Said İsyanı ile bağlantısının olabileceği d ş n lerek kapatılmıştır. Bu gelişmenin arkasından 1930&#39;da Serbest Cumhuriyet Fırkasının kuruluşuna kadar tek partili hayat devam etmiştir. Bu durumun; I. H k metin denetlenmesi, II. Farklı g r şlerin temsil edilmesi, III. Halk egemenliğinin TBMM&#39;ye tamamen yansıması gelişmelerinden hangilerini doğrudan engellediği s ylenebilir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve II",
+      "D) I ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 295,
+    "question": "T rkiye, II. D nya Savaşı&#39;nın ncesinde ve ilk yıllarında yaşanan gelişmeler karşısında karşılıklı yardım ve saldırmazlık antlaşmaları imzalamıştır. T rkiye&#39;nin bu d nemde antlaşma imzaladığı devletler arasında aşağıdakilerden hangisi yer almamıştır ?",
+    "choices": [
+      "A) İngiltere",
+      "B) Fransa",
+      "C) SSCB",
+      "D) Almanya",
+      "E) ABD"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 296,
+    "question": "20 Ekim 1921&#39;de Fransa&#39;yla T rkiye arasında imzalanan Ankara Antlaşması&#39;nda Hatay ile ilgili; I. T rk milli k lt r n n korunması, II. T rk parasının resmi para olarak kullanılması, III. &Ouml;zel bir y netim oluşturulması şartlarından hangileri Hatay&#39;ın T rkiye&#39;ye katılımını kolaylaştırmıştır?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız III",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 297,
+    "question": "T rkiye&#39;nin 20 Ekim 1921&#39; de Fransa&#39;yla Ankara Antlaşması&#39;nı imzalarken Misak-ı Mill sınırları dışında kalan Hatay&#39;da; - T rk mill k lt r n n korunması, - T rk parasının resmi olarak kullanılması, - &Ouml;zel bir y netim oluşturulması konularını şart koşmasının amacı aşağıdakilerden hangisini ger ekleştirmeye y neliktir?",
+    "choices": [
+      "A) K lt rel bağları korumak",
+      "B) T rk parasının değerini arttırmak",
+      "C) T rk n fusunu arttırmak",
+      "D) Anavatana katılmasını kolaylaştırmak",
+      "E) Yeni bir y netim şekli oluşturmak"
+    ],
+    "answer": "D"
   }
 ]
