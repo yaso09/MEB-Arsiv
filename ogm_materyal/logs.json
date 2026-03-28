@@ -17914,5 +17914,160 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "292": [
+    {
+      "attempt": 1,
+      "id": 292,
+      "timestamp": "2026-03-28T19:08:42.581Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 27 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "❌",
+          "detail": "question-item-ask bloğu bulunamadı"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "❌",
+          "detail": "null"
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "❌",
+          "detail": "0 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "❌",
+          "detail": "Toplam eşleşme: 0 → []"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "❌",
+          "detail": "Geçerli şık sayısı: 0 → []"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "❌",
+          "detail": "Cevap bulunamadı"
+        }
+      ],
+      "result": "FAILED",
+      "missing": [
+        "soru",
+        "şıklar",
+        "cevap"
+      ]
+    },
+    {
+      "attempt": 2,
+      "id": 292,
+      "timestamp": "2026-03-28T19:08:50.497Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4050 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 355"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Savunmaya dayanmayan savaş kanun dışı sayılıp, devletler arası ilişkilerin barış ı yollarla z lmesi&#39;&#39; fikri er evesinde yapılmış olan barış an...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Locarno Antlaşması\\r\\n\",\"cleaned\":\"A) Locarno Antlaşması\"},{\"raw\":\"B) Milletler Cemiyeti\\r\\n\",\"cleaned\":\"B) Milletler Cemiyeti\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Locarno Antlaşması\",\"B) Milletler Cemiyeti\",\"C) Briand - Kellog Paktı\",\"D) Monreo Doktrini\",\"E) Paris Barış Konferansı\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "293": [
+    {
+      "attempt": 1,
+      "id": 293,
+      "timestamp": "2026-03-28T19:09:02.528Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4062 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 424"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"1930&#39;lu yıllarda d nyada yaşanan gelişmelerden sonra T rkiye, Boğazların Lozan Antlaşması&#39;ndaki stat s nde değişiklik yapmak i in girişimde bu...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) İngiltere\\r\\n\",\"cleaned\":\"A) İngiltere\"},{\"raw\":\"B) Bulgaristan\\r\\n\",\"cleaned\":\"B) Bulgaristan\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) İngiltere\",\"B) Bulgaristan\",\"C) SSCB\",\"D) İtalya\",\"E) Japonya\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
