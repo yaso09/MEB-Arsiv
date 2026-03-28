@@ -15077,5 +15077,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "251": [
+    {
+      "attempt": 1,
+      "id": 251,
+      "timestamp": "2026-03-28T18:49:55.751Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4091 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 231"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdaki gelişmelerden hangisi Misak-ı Mill &#39;den d n verilmediğinin g stergesidir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Batum&#39;un G&uuml;rcistan&#39;a verilmesi\\r\\n\",\"cleaned\":\"A) Batum&#39;un G rcistan&#39;a verilmesi\"},{\"raw\":\"B) Musul&#39;un İngiliz mandasındaki Irak&#39;a bırakılması\\r\\n\",\"cleaned\":\"B) Musul&#39;un İngiliz mandasındaki Irak&#39;a bırakılması\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Batum&#39;un G rcistan&#39;a verilmesi\",\"B) Musul&#39;un İngiliz mandasındaki Irak&#39;a bırakılması\",\"C) Hatay&#39;ın Fransız mandasındaki Suriye&#39;ye bırakılması\",\"D) Kapit lasyonların kaldırılması\",\"E) Boğazların y netiminin uluslararası bir komisyona bırakılması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
