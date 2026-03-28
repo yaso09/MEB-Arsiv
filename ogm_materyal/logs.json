@@ -2407,5 +2407,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "58": [
+    {
+      "attempt": 1,
+      "id": 58,
+      "timestamp": "2026-03-28T18:18:00.015Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3994 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 324"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdaki aprazlamalardan hangisinde I. BB x Bb II. Bb x Bb III. BB x bb IV. Bb x bb ekinik fenotipli birey oluşabilir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız III&nbsp;\\r\\n\",\"cleaned\":\"A) Yalnız III\"},{\"raw\":\"B) Yalnız IV&nbsp;\\r\\n\",\"cleaned\":\"B) Yalnız IV\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız III\",\"B) Yalnız IV\",\"C) I ve II\",\"D) II ve IV\",\"E) I , II , III ve IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
