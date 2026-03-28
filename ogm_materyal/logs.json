@@ -14822,5 +14822,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "246": [
+    {
+      "attempt": 1,
+      "id": 246,
+      "timestamp": "2026-03-28T18:49:38.838Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3987 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 269"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"T rkiye&#39;nin Boğazlar ile ilgili sorunlarının b y k oranda z me kavuştuğu antlaşma aşağıdakilerden hangisidir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Locarno Antlaşması&nbsp;\\r\\n\",\"cleaned\":\"A) Locarno Antlaşması\"},{\"raw\":\"B) Sadabat Paktı&nbsp;\\r\\n\",\"cleaned\":\"B) Sadabat Paktı\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Locarno Antlaşması\",\"B) Sadabat Paktı\",\"C) Balkan Antantı\",\"D) Montreux Boğazlar S zleşmesi\",\"E) Lozan Antlaşması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
