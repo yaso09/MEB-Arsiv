@@ -802,5 +802,29 @@
       "E) 3/32"
     ],
     "answer": "A"
+  },
+  {
+    "id": 91,
+    "question": "Bir ailede; 1. Çocuk - 0 kan gruplu erkek 2. Çocuk - A kan gruplu kız 3. Çocuk - B kan gruplu erkek olduğuna göre 4. çocuğun AB kan gruplu erkek olma olasılığı kaçtır?",
+    "choices": [
+      "A) 1/4",
+      "B) 1/8",
+      "C) 2/8",
+      "D) 4/8",
+      "E) 3/16"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 92,
+    "question": "Soy ağacında taralı bireyler O kan grubuna sahip olduğuna g re aşağıda verilen bireylerden hangilerinin kan grubunun genotipi tam olarak belirlenemez ?",
+    "choices": [
+      "A) 1, 2 ve 3",
+      "B) 2, 3 ve 4",
+      "C) 3, 4 ve 5",
+      "D) 3, 5 ve 6",
+      "E) 4, 5 ve 6"
+    ],
+    "answer": "E"
   }
 ]
