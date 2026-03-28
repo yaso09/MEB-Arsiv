@@ -3166,5 +3166,29 @@
       "E) Ticaret"
     ],
     "answer": "D"
+  },
+  {
+    "id": 300,
+    "question": "- H k met kurmak zorunludur, - Ge ici olarak bir h k met başkanı tanımak veya padişah vekili atamak doğru değildir, - B y k Millet Meclisi yasama ve y r tme yetkisine sahiptir, - Meclis i inden se ilen bir heyet h k met işlerine bakar. Meclis başkanı h k metin de başkanıdır, - Mecliste toplanmış olan mill iradeyi vatanın kaderine tayin kılmak temel ilkedir. B y k Millet Meclisi zerinde g yoktur Yukarıda verilen bilgilere g re 23 Nisan 1920&#39;de kurulan ilk TBMM i in aşağıdaki hangi ıkarım doğru değildir ?",
+    "choices": [
+      "A) G ler birliği ilkesi hakimdir.",
+      "B) Meclis h k meti sistemi benimsenmiştir.",
+      "C) Padişaha bağlıdır.",
+      "D) Milli egemenlik esasına dayandırılmıştır.",
+      "E) Meclisin devamlılığı belirtilmiştir."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 301,
+    "question": "T rkiye 9 Şubat 1934&#39;te Yunanistan, Yugoslavya ve Romanya ile Balkan Antantı&#39;nı, 8 Temmuz 1937&#39;de İran, Irak ve Afganistan ile Sadabat Paktı&#39;nı imzaladı. Devletlerin hızla II. D nya Savaşı&#39;na s r klendiği bir d nemde, aşağıdaki se eneklerden hangisi T rkiye&#39;nin bu girişimlerinin ama larından sayılamaz ?",
+    "choices": [
+      "A) Yeni bir d nya savaşının ıkmasını engellemek",
+      "B) B lgesel barışı korumak",
+      "C) Sınır g venliğini sağlamak",
+      "D) B lgesel işbirliği kurmak",
+      "E) Alman ve İtalyan yayılmacılığına karşı tedbir almak"
+    ],
+    "answer": "A"
   }
 ]
