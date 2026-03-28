@@ -14414,5 +14414,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "238": [
+    {
+      "attempt": 1,
+      "id": 238,
+      "timestamp": "2026-03-28T18:49:10.617Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4404 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 745"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Montr Boğazlar S zleşmesi&#39;nin; l. Savaş zamanında, T rkiye savaşan ise, savaş gemilerinin ge işi konusunda T rk h k meti t m yle dilediği gibi dav...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I&nbsp;\\r\\n\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) Yalnız II\\r\\n\",\"cleaned\":\"B) Yalnız II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) Yalnız II\",\"C) Yalnız III\",\"D) I ve II\",\"E) I, II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
