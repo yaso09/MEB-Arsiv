@@ -1522,5 +1522,125 @@
       "E) Jeotermal"
     ],
     "answer": "C"
+  },
+  {
+    "id": 158,
+    "question": "Bir b lgedeki orman rt s kısa s rede tahrip edilmiştir. Sonrasında bu b lgedeki I. Toprağın emdiği su miktarı II. Erozyon ile kaybedilen toprak miktarı III. Ortamdaki hayvan miktarı IV. Ortamda absorbe edilen karbondioksit miktarı niceliklerinden hangilerinin azalması beklenir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) I ve II",
+      "C) I ve III",
+      "D) II, III ve IV",
+      "E) I, III ve IV"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 159,
+    "question": "Hava kirliliğinin artması sonucunda; I. Yeraltı sularının kirlenmesi II. Asit yağmurlarının artması III. Küresel ısınma IV. Ozon tabakasında incelme çevre sorunlarından hangilerinin ortaya çıkması beklenir?",
+    "choices": [
+      "A) I ve II",
+      "B) III ve IV",
+      "C) I, II ve III",
+      "D) I, II ve IV",
+      "E) I, II, III ve IV"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 160,
+    "question": "Aşağıdakilerden hangisi doğal bir ortamın korunmasına yönelik bir çalışma değildir ?",
+    "choices": [
+      "A) Endüstriyel atıkların arıtılması",
+      "B) Biyolojik mücadele",
+      "C) Yenilenebilir enerji kaynaklarının kullanılması",
+      "D) Ormanlık alanların korunması ve artırılması",
+      "E) Kimyasal ilaçların kullanılması"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 161,
+    "question": "Yaban hayatının devam ettiği bir yaşam alanının tahrip edilmesi, bazı canlı türlerinin; I. Neslinin tükenmesi II. Yaşam alanını kaybetmesi III. Sayısının kontrolsüz artması durumlarından hangilerine neden olabilir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 162,
+    "question": "I. Çekirge II. Kurbağa III. Yılan Aynı ekosistemde bulunan yukarıdaki canlılardan hangileri heterotrof beslenirler?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız III",
+      "C) I ve II",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 163,
+    "question": "I. End striyel atıklar II. Tarımsal ila lar III. Asit yağmurları Yukarıdakilerden hangisi su kaynaklarının pH&#39; sini değiştirerek canlı yaşamına zarar verir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız III",
+      "C) I ve II",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 164,
+    "question": "I. Beyşehir gölündeki aynalı sazanlar II. Beyşehir gölündeki balıklar III. Beyşehir gölü Yukarıdakilerden hangileri bir ekosistem örneğidir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) I ve II",
+      "E) I, II ve III"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 165,
+    "question": "I. Karadeniz'de yaşayan balıklar II. Kazdağlarında yaşayan Kazdağı göknarları III. Van Gölü'nde yaşayan İnci kefalleri Yukarıdakilerden hangileri bir popülasyon örneğidir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) I ve II",
+      "E) II ve III"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 166,
+    "question": "I. Proteinleri hidroliz ederek aminoasit elde etme II. Amino asitlerden oksijenli ortamda enerji retme III. İnorganik maddeleri kullanarak ATP sentezleme Yukarıdaki reaksiyonların t m n ger ekleştirebilen bir canlı ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "choices": [
+      "A) &Ccedil;ok h creli karyot bir canlıdır.",
+      "B) Protein sentezi yapabilir.",
+      "C) Azot d ng s nde g revlidir.",
+      "D) Işığa ihtiya duymadan besin retebilir.",
+      "E) Sindirim enzimleri sentezleyebilir."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 167,
+    "question": "Aşağıdakilerden hangisi ototrof bir canlı grubu değildir ?",
+    "choices": [
+      "A) Algler",
+      "B) Mantarlar",
+      "C) Bitkiler",
+      "D) Fotosentetik bakteriler",
+      "E) Nitrat bakterileri"
+    ],
+    "answer": "B"
   }
 ]
