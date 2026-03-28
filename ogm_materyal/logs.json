@@ -10833,5 +10833,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "193": [
+    {
+      "attempt": 1,
+      "id": 193,
+      "timestamp": "2026-03-28T18:45:32.925Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4125 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 170"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi azot döngüsü için söylenemez?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Azotlu organik atıklar ayrıştırılırsa ortamda inorganik azotlu bileşikler bir\",\"cleaned\":\"A) Azotlu organik atıklar ayrıştırılırsa ortamda inorganik azotlu bileşikler birikir\"},{\"raw\":\"B) Nitrifikasyon olayında nitrit ve nitrat bakterileri görev alır.\",\"cleaned\":\"B) N"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Azotlu organik atıklar ayrıştırılırsa ortamda inorganik azotlu bileşikler birikir\",\"B) Nitrifikasyon olayında nitrit ve nitrat bakterileri görev alır.\",\"C) Bitkiler azotlu inorganik bileşikleri azotlu organik bileşiklere dönüştürürler.\",\"D) Canlıların azotlu organik atık"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
