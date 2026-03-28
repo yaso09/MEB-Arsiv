@@ -12783,5 +12783,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "225": [
+    {
+      "attempt": 1,
+      "id": 225,
+      "timestamp": "2026-03-28T18:47:46.596Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4053 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 397"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"l. Ekosistem ll. Pop lasyon lll. Biyosfer lV. Kom nite Yukarıda verilen ekolojik kavramlar kendi aralarındaki ilişkileri dikkate alınarak k kten b y ğ...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I-IV-II-III\\r\\n\",\"cleaned\":\"A) I-IV-II-III\"},{\"raw\":\"B) I-IV-III-II\\r\\n\",\"cleaned\":\"B) I-IV-III-II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I-IV-II-III\",\"B) I-IV-III-II\",\"C) II-I-IV-III\",\"D) II-IV-I-III\",\"E) III-I-IV-II\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
