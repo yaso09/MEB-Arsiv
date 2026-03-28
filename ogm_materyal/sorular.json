@@ -10,5 +10,29 @@
       "E) Elma ağacında tozlaşma sonucu meydana gelen tohumlardan yeni bitkinin gelişmesi"
     ],
     "answer": "E"
+  },
+  {
+    "id": 2,
+    "question": "Rejenerasyon yeteneği canlılarda gelişmişlik d zeyi arttık a gerilemektedir. Bu ifadeden yola ıkarak I. İnsanda kesilen derinin kendini tamir etmesi II. Planaryanın kopan par alarının yeni bir planarya oluşturması III. Yengecin kopan enesini yenilemesi olaylarının rejenerasyon yeteneği a ısından en fazla olandan en aza doğru sıralanışı hangisinde doğru olarak verilmiştir?",
+    "choices": [
+      "A) I-II-III",
+      "B) II-I-III",
+      "C) II-III-I",
+      "D) III-I-II",
+      "E) III-II-I"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 3,
+    "question": "Yukarıda verilen mitoz b l nme evrelerinin ger ekleşme sırası aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "choices": [
+      "A) I-III-II-IV",
+      "B) II-I-III-IV",
+      "C) II-I-IV-III",
+      "D) IV-II-III-I",
+      "E) IV-III-II-I"
+    ],
+    "answer": "A"
   }
 ]
