@@ -3190,5 +3190,53 @@
       "E) Alman ve İtalyan yayılmacılığına karşı tedbir almak"
     ],
     "answer": "A"
+  },
+  {
+    "id": 303,
+    "question": "Siyasi D ş nceler Tarihi yazarı, faşizim ve nazizm ideolojilerinin doğuş sebeplerini ş yle izah ediyor: &#39;&#39;Her iki ideoloji de savaşın ve bozgunun ocuğudurlar. Yani bir fke, bir hın , bir isyan belirtirler. Ayrıca bu ideolojiler, sefalet ve buhrandan, işsizlikten ve a lıktan doğdular. Bir isyan ve bir mitsizlik hamlesi olarak ortaya ıktılar. Buna g re, aşağıdakilerden hangisi d nyada baskıcı y netimlerin ortaya ıkmasının sebepleri arasında g sterilemez ?",
+    "choices": [
+      "A) İşsizliğin artması",
+      "B) Yaşam şartlarının k t leşmesi",
+      "C) Barış antlaşmalarının ağır şartlar i ermesi",
+      "D) Ekonomik sıkıntılar oluşması",
+      "E) Milletler Cemiyeti&#39;nin kurulması"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 304,
+    "question": "I. D nya Savaşı sonrası imzalanan Briand-Kellog Paktı ile savunmaya dayanmayan savaş kanun dışı sayılmıştır.&#39;&#39; Buna g re; I. Silahsızlanma abası g sterildiği, II. B t n savaşların kanun dışı sayıldığı, III. D nya barışının korunmaya alışıldığı yargılarından hangilerine ulaşılamaz ?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 305,
+    "question": "1929 D nya Ekonomik Krizi zellikle hangi kıtalarda etkili olmuştur?",
+    "choices": [
+      "A) Asya - Avrupa",
+      "B) Asya - Afrika",
+      "C) Amerika - Asya",
+      "D) Amerika - Avrupa",
+      "E) Avrupa - Afrika"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 306,
+    "question": "Aşağıdakilerden hangisi I. D nya Savaşı sonrası d nya barışını sağlama ve koruma amacına y nelik gelişmelerden biri değildir ?",
+    "choices": [
+      "A) Locarno Antlaşması&#39;nın imzalanması",
+      "B) Briand-Kellog Paktı&#39;nın yapılması",
+      "C) Milletler Cemiyeti&#39;nin kurulması",
+      "D) K k Antant&#39;ın kurulması",
+      "E) Manda y netimleri oluşturulması"
+    ],
+    "answer": "E"
   }
 ]
