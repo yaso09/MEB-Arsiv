@@ -14669,5 +14669,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "243": [
+    {
+      "attempt": 1,
+      "id": 243,
+      "timestamp": "2026-03-28T18:49:28.259Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4141 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 443"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Birleşmiş Milletler II. Montr S zleşmesi III. Balkan Antantı IV. Sadabat Paktı V. Milletler Cemiyeti VI. Lozan Antlaşması Yukarıdaki rg t ve antlaş...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I ve&nbsp;III&nbsp;\\r\\n\",\"cleaned\":\"A) I ve III\"},{\"raw\":\"B) II ve&nbsp;IV\\r\\n\",\"cleaned\":\"B) II ve IV\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I ve III\",\"B) II ve IV\",\"C) I, II ve VI\",\"D) III, V ve VI\",\"E) III, IV ve V\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
