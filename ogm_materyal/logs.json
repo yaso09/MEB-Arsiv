@@ -10221,5 +10221,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "181": [
+    {
+      "attempt": 1,
+      "id": 181,
+      "timestamp": "2026-03-28T18:44:54.755Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4086 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 269"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Buğday II. Çekirge III. Kurbağa Yukarıdaki canlıların oluşturduğu besin zinciriyle ilgili aşağıdaki yargılardan hangisi söylenemez?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Biyokütlesi en fazla olan buğdaydır.\",\"cleaned\":\"A) Biyokütlesi en fazla olan buğdaydır.\"},{\"raw\":\"B) Nişastayı hidroliz edebilen enzimler sadece çekirgede bulunur.\",\"cleaned\":\"B) Nişastayı hidroliz edebilen enzimler sadece çekirgede bulunur.\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Biyokütlesi en fazla olan buğdaydır.\",\"B) Nişastayı hidroliz edebilen enzimler sadece çekirgede bulunur.\",\"C) Kimyasal madde birikimi en fazla kurbağadadır.\",\"D) Çekirge ve kurbağa heterotrof beslenir.\",\"E) Vücut büyüklüğü son tüketicide en fazladır.\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
