@@ -17455,5 +17455,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "283": [
+    {
+      "attempt": 1,
+      "id": 283,
+      "timestamp": "2026-03-28T19:05:07.283Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4345 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 697"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Mustafa Kemal Atat rk 1881&#39;de doğmuş, 1938&#39;de vefat etmiştir. II. Mustafa Kemal Atat rk Sel nik&#39;te doğmuş, İstanbul&#39;da vefat etmişt...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I ve II\\r\\n\",\"cleaned\":\"A) I ve II\"},{\"raw\":\"B) I&nbsp;ve V\\r\\n\",\"cleaned\":\"B) I ve V\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I ve II\",\"B) I ve V\",\"C) II ve IV\",\"D) III ve IV\",\"E) IV ve V\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
