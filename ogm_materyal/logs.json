@@ -17251,5 +17251,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "279": [
+    {
+      "attempt": 1,
+      "id": 279,
+      "timestamp": "2026-03-28T19:04:18.323Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4018 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 299"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Cumhuriyet D nemi&#39;nde TBMM&#39;de kabul edilen ve T rkiye&#39;nin kıta sahanlığını (deniz kıyı g venliği) garanti altına alan yasa aşağıdakilerden...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Kabotaj Kanunu\\r\\n\",\"cleaned\":\"A) Kabotaj Kanunu\"},{\"raw\":\"B) Teşkil&acirc;t-ı Esasiye Kanunu\\r\\n\",\"cleaned\":\"B) Teşkil t-ı Esasiye Kanunu\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Kabotaj Kanunu\",\"B) Teşkil t-ı Esasiye Kanunu\",\"C) Hıyanet-i Vataniye Kanunu\",\"D) Takrir-i S kun Kanunu\",\"E) Teşvik-i Sanayi Kanunu\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
