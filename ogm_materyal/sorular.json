@@ -490,5 +490,29 @@
       "E) 4 - 4 - 8"
     ],
     "answer": "B"
+  },
+  {
+    "id": 57,
+    "question": "Aşağıdakilerden hangisi Mendel Genetiği ile açıklanabilir?",
+    "choices": [
+      "A) Eş baskınlık",
+      "B) Bağımsız gen",
+      "C) Bağlı gen",
+      "D) Çok alellik",
+      "E) Cinsiyete bağlı kalıtım"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 58,
+    "question": "Aşağıdaki aprazlamalardan hangisinde I. BB x Bb II. Bb x Bb III. BB x bb IV. Bb x bb ekinik fenotipli birey oluşabilir?",
+    "choices": [
+      "A) Yalnız III",
+      "B) Yalnız IV",
+      "C) I ve II",
+      "D) II ve IV",
+      "E) I , II , III ve IV"
+    ],
+    "answer": "D"
   }
 ]
