@@ -17506,5 +17506,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "284": [
+    {
+      "attempt": 1,
+      "id": 284,
+      "timestamp": "2026-03-28T19:05:21.295Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3882 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 242"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi Atat rk&#39; n hayatı boyunca ge irdiği rahatsızlıklardan biri değildir ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Akciğer\\r\\n\",\"cleaned\":\"A) Akciğer\"},{\"raw\":\"B) B&ouml;brek\\r\\n\",\"cleaned\":\"B) B brek\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Akciğer\",\"B) B brek\",\"C) Karaciğer\",\"D) G z\",\"E) Kalp\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
