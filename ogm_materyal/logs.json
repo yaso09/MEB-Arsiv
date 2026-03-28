@@ -10782,5 +10782,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "192": [
+    {
+      "attempt": 1,
+      "id": 192,
+      "timestamp": "2026-03-28T18:45:29.789Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4191 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 368"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Bitki ​​​​​​​ &Ccedil;ekirge ​​​​​​​ Kurbağa ​​​​​​​ Yılan ​​​​​​​ Atmaca Yukarıda verilen besin zincirine g re aşağıdakilerden hangisi yanlıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) İkincil t&uuml;ketici kurbağadır.\\r\\n\",\"cleaned\":\"A) İkincil t ketici kurbağadır.\"},{\"raw\":\"B) &Uuml;&ccedil;&uuml;nc&uuml;l etobur t&uuml;ketici yılandır.\\r\\n\",\"cleaned\":\"B) &Uuml; nc l etobur t ketici yılandır.\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) İkincil t ketici kurbağadır.\",\"B) &Uuml; nc l etobur t ketici yılandır.\",\"C) Birincil t ketici ekirgedir.\",\"D) D rd nc l t ketici atmacadır.\",\"E) Otobur t ketici ekirgedir.\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
