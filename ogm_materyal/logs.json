@@ -11859,5 +11859,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "210": [
+    {
+      "attempt": 1,
+      "id": 210,
+      "timestamp": "2026-03-28T18:46:36.317Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4721 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 1106"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Bitki türü Yayılma alanı Çam + Ladin ++ Sedir +++++ Köknar +++ Ardıç ++++ Tabloda belirli bir bölgede yaşayan bitki çeşitlerinin yayılma alanlarındaki...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Çam\",\"cleaned\":\"A) Çam\"},{\"raw\":\"B) Ladin\",\"cleaned\":\"B) Ladin\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Çam\",\"B) Ladin\",\"C) Sedir\",\"D) Köknar\",\"E) Ardıç\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
