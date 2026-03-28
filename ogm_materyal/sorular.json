@@ -2374,5 +2374,53 @@
       "E) l, ll, lll ve lV"
     ],
     "answer": "D"
+  },
+  {
+    "id": 229,
+    "question": "Bir ekosistemde yer alan aşağıdaki canlıların oluşturduğu besin zincirinde hangisinin sayısının azalması t m besin zincirini olumsuz etkiler?",
+    "choices": [
+      "A) Su yosunu",
+      "B) Ot ul balık",
+      "C) Et il balık",
+      "D) Fok",
+      "E) K pek balığı"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 230,
+    "question": "Başka bir bölgeden getirilen ve yeni getirildikleri ortamda hızla çoğalıp yerleşen ve orada doğal habitatlarında yaşayan canlıların sayısını azaltan canlı türüne denir. Yukarıda ifade edilen ekolojik kavram aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) Endemik",
+      "B) İstilacı",
+      "C) Ekoton",
+      "D) Flora",
+      "E) Epifit"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 231,
+    "question": "Biyoçeşitliliği korumak için aşağıdakilerden hangisi yapılmamalıdır?",
+    "choices": [
+      "A) Çöplerde geri dönüşümün sağlanması",
+      "B) Fabrika atıklarının arındırılması",
+      "C) Doğal yeşil alanların korunması",
+      "D) Tarımda verimliliği artırmak için böcek öldürücülerin kullanılması",
+      "E) Kanalizasyon sularının arıtılması"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 232,
+    "question": "K resel iklim değişikliği; hangi canlılara, ne gibi etki yapar?",
+    "choices": [
+      "A) -",
+      "B) -",
+      "C) -",
+      "D) -",
+      "E) -"
+    ],
+    "answer": null
   }
 ]
