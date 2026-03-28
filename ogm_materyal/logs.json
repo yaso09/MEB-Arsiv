@@ -12885,5 +12885,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "227": [
+    {
+      "attempt": 1,
+      "id": 227,
+      "timestamp": "2026-03-28T18:47:53.307Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4282 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 372"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Azot d ng s i in aşağıdaki ifadelerden hangisi yanlıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Nitrifikasyon olayını yapan canlılar ototroftur.\\r\\n\",\"cleaned\":\"A) Nitrifikasyon olayını yapan canlılar ototroftur.\"},{\"raw\":\"B) Denitrifikasyon olayını yapan canlılar, bitki i&ccedil;in olumsuz etki yapar.\",\"cleaned\":\"B) Denitrifikasyon olayını yapan canlılar, bitki"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Nitrifikasyon olayını yapan canlılar ototroftur.\",\"B) Denitrifikasyon olayını yapan canlılar, bitki i in olumsuz etki yapar.\",\"C) Saprofit olan canlılar, kesinlikle prokaryottur.\",\"D) Siyanobakteriler, d ng de nemli bir role sahiptirler.\",\"E) B cek il bitki, azot ihtiyac"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
