@@ -13140,5 +13140,58 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "232": [
+    {
+      "attempt": 1,
+      "id": 232,
+      "timestamp": "2026-03-28T18:48:10.400Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3639 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 188"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"K resel iklim değişikliği; hangi canlılara, ne gibi etki yapar?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) -\",\"cleaned\":\"A) -\"},{\"raw\":\"B) -\",\"cleaned\":\"B) -\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) -\",\"B) -\",\"C) -\",\"D) -\",\"E) -\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "❌",
+          "detail": "Cevap bulunamadı"
+        }
+      ],
+      "result": "OK",
+      "missing": [
+        "cevap"
+      ]
+    }
   ]
 }
