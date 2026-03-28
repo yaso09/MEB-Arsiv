@@ -16070,5 +16070,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "258": [
+    {
+      "attempt": 1,
+      "id": 258,
+      "timestamp": "2026-03-28T18:50:47.457Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4338 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 486"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. D nya Savaşı sonrası silahlanmanın hızla devam etmesi ve yeni bir d nya savaşının ıkabileceği ihtimaline karşı doğu sınırını g vence altına almak i...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Suriye&#39;nin T&uuml;rkiye Cumhuriyeti&#39;ni tanımaması\\r\\n\",\"cleaned\":\"A) Suriye&#39;nin T rkiye Cumhuriyeti&#39;ni tanımaması\"},{\"raw\":\"B) Suriye ile T&uuml;rkiye arasında Hatay sorununun yaşanıyor olması\\r\\n\",\"cleaned\":\"B) Suriye ile T rkiye arasında Hatay sorunu"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Suriye&#39;nin T rkiye Cumhuriyeti&#39;ni tanımaması\",\"B) Suriye ile T rkiye arasında Hatay sorununun yaşanıyor olması\",\"C) Suriye&#39;nin savaş yanlısı olması\",\"D) Suriye&#39;nin İran ile savaş halinde olması\",\"E) Suriye&#39;nin Alman yanlısı bir politika izlemesi\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
