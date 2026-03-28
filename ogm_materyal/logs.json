@@ -17659,5 +17659,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "287": [
+    {
+      "attempt": 1,
+      "id": 287,
+      "timestamp": "2026-03-28T19:06:12.341Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4028 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 237"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"&Ccedil;ok partili hayata ge iş alışmaları aşağıdaki gelişmelerden hangisi ile kesintiye uğramıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Anzavur Ayaklanması&#39;nın &ccedil;ıkması\\r\\n\",\"cleaned\":\"A) Anzavur Ayaklanması&#39;nın ıkması\"},{\"raw\":\"B) &Ccedil;erkez Ethem İsyanı&#39;nın başlaması\\r\\n\",\"cleaned\":\"B) &Ccedil;erkez Ethem İsyanı&#39;nın başlaması\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Anzavur Ayaklanması&#39;nın ıkması\",\"B) &Ccedil;erkez Ethem İsyanı&#39;nın başlaması\",\"C) İstanbul&#39;un işgal edilmesi\",\"D) Kapit lasyonların kaldırılması\",\"E) Şeyh Said Ayaklanması&#39;nın başlaması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
