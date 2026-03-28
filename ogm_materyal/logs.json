@@ -12216,5 +12216,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "217": [
+    {
+      "attempt": 1,
+      "id": 217,
+      "timestamp": "2026-03-28T18:47:02.421Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4073 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 276"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Yaşadığı habitattaki çevre şartları canlının yaşamasını olumsuz etkileyecek şekilde değiştiğinde aşağıdaki canlılardan hangisi daha kısa sürede yok ol...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Marmara Denizi'ndeki hamsiler&nbsp;\",\"cleaned\":\"A) Marmara Denizi'ndeki hamsiler\"},{\"raw\":\"B) Büyük Ada'da yaşayan inekler&nbsp;\",\"cleaned\":\"B) Büyük Ada'da yaşayan inekler\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Marmara Denizi'ndeki hamsiler\",\"B) Büyük Ada'da yaşayan inekler\",\"C) Gelibolu Yarımadası'ndaki maskeli ötleğen kuşları\",\"D) Karadeniz ormanlarında yaşayan ağaçkakanlar\",\"E) Kaz Dağları'nda yaşayan sincaplar\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
