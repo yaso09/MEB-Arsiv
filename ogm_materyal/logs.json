@@ -7092,5 +7092,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "129": [
+    {
+      "attempt": 1,
+      "id": 129,
+      "timestamp": "2026-03-28T18:26:40.351Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3780 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 163"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıda verilenlerden hangisi yenilenemeyen kaynaklardandır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Güneş\",\"cleaned\":\"A) Güneş\"},{\"raw\":\"B) Dalga\",\"cleaned\":\"B) Dalga\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Güneş\",\"B) Dalga\",\"C) Doğalgaz\",\"D) Rüzgar\",\"E) Su\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
