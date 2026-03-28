@@ -18691,5 +18691,56 @@
         "cevap"
       ]
     }
+  ],
+  "303": [
+    {
+      "attempt": 1,
+      "id": 303,
+      "timestamp": "2026-03-28T19:11:42.976Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4467 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 695"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Siyasi D ş nceler Tarihi yazarı, faşizim ve nazizm ideolojilerinin doğuş sebeplerini ş yle izah ediyor: &#39;&#39;Her iki ideoloji de savaşın ve bozgu...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) İşsizliğin artması\\r\\n\",\"cleaned\":\"A) İşsizliğin artması\"},{\"raw\":\"B) Yaşam şartlarının k&ouml;t&uuml;leşmesi\\r\\n\",\"cleaned\":\"B) Yaşam şartlarının k t leşmesi\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) İşsizliğin artması\",\"B) Yaşam şartlarının k t leşmesi\",\"C) Barış antlaşmalarının ağır şartlar i ermesi\",\"D) Ekonomik sıkıntılar oluşması\",\"E) Milletler Cemiyeti&#39;nin kurulması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
