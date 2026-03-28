@@ -4102,5 +4102,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "85": [
+    {
+      "attempt": 1,
+      "id": 85,
+      "timestamp": "2026-03-28T18:21:55.249Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3799 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 189"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Bir ailenin doğacak olan 5 çocuğundan 3'ünün kız, 2'sinin erkek olma olasılığı kaçtır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) 3/4\",\"cleaned\":\"A) 3/4\"},{\"raw\":\"B) 3/16\",\"cleaned\":\"B) 3/16\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) 3/4\",\"B) 3/16\",\"C) 5/16\",\"D) 3/32\",\"E) 5/32\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
