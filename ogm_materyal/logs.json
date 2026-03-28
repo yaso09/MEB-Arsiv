@@ -7965,5 +7965,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "143": [
+    {
+      "attempt": 1,
+      "id": 143,
+      "timestamp": "2026-03-28T18:27:33.040Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3964 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 325"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Anemi II. Astım III. Bronşit IV. Hepatit Bir yerleşim biriminde hava kirliliğinin artmasına bağlı olarak insanlarda yukarıda verilen hastalıklardan...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I ve II\",\"cleaned\":\"A) I ve II\"},{\"raw\":\"B) I ve IV\",\"cleaned\":\"B) I ve IV\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I ve II\",\"B) I ve IV\",\"C) II ve III\",\"D) I, II ve III\",\"E) II, III ve IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
