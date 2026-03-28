@@ -13089,5 +13089,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "231": [
+    {
+      "attempt": 1,
+      "id": 231,
+      "timestamp": "2026-03-28T18:48:06.839Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3973 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 185"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Biyoçeşitliliği korumak için aşağıdakilerden hangisi yapılmamalıdır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Çöplerde geri dönüşümün sağlanması\",\"cleaned\":\"A) Çöplerde geri dönüşümün sağlanması\"},{\"raw\":\"B) Fabrika atıklarının arındırılması\",\"cleaned\":\"B) Fabrika atıklarının arındırılması\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Çöplerde geri dönüşümün sağlanması\",\"B) Fabrika atıklarının arındırılması\",\"C) Doğal yeşil alanların korunması\",\"D) Tarımda verimliliği artırmak için böcek öldürücülerin kullanılması\",\"E) Kanalizasyon sularının arıtılması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
