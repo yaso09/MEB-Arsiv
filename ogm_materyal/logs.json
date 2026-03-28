@@ -12114,5 +12114,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "215": [
+    {
+      "attempt": 1,
+      "id": 215,
+      "timestamp": "2026-03-28T18:46:54.872Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3920 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 189"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi canlıların neslinin tükenmesinde etkili değildir ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Biyoçeşitliliğin azalması&nbsp;\",\"cleaned\":\"A) Biyoçeşitliliğin azalması\"},{\"raw\":\"B) İklim değişiklikleri&nbsp;\",\"cleaned\":\"B) İklim değişiklikleri\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Biyoçeşitliliğin azalması\",\"B) İklim değişiklikleri\",\"C) Aşırı avlanma\",\"D) Milli parkların yaygınlaşması\",\"E) Habitata yabancı canlıların girmesi\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
