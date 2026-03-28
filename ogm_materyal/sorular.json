@@ -2110,5 +2110,65 @@
       "E) Biyosfer"
     ],
     "answer": "A"
+  },
+  {
+    "id": 207,
+    "question": "I. Üretici, tüketici ve ayrıştırıcı canlılar sayesinde gerçekleşir. II. Bir canlının ürettiği atık madde döngüde başka bir canlı tarafından kullanılabilmektedir. III. Madde döngülerinde enerji akışı üreticiden tüketiciye doğrudur. Madde döngüleri ile ilgili yukarıda verilen ifadelerden hangileri doğrudur?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) I ve II",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 208,
+    "question": "Saprofit beslenen canlılarla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "choices": [
+      "A) Ortamda inorganik madde miktarını artırırlar.",
+      "B) Tabiatta madde döngüsüne katkı sağlarlar.",
+      "C) Parazit yaşam sürerler.",
+      "D) Heterotrof beslenirler.",
+      "E) Mantar veya bakteri olabilirler."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 209,
+    "question": "I. Üreticiler II. Tüketiciler III. Ayrıştırıcılar Bir ekosistemde yukarıdaki canlı gruplarından hangilerinin madde döngülerinin meydana gelebilmesi için kesinlikle bulunması gereklidir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve II",
+      "D) I ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 210,
+    "question": "Bitki türü Yayılma alanı Çam + Ladin ++ Sedir +++++ Köknar +++ Ardıç ++++ Tabloda belirli bir bölgede yaşayan bitki çeşitlerinin yayılma alanlarındaki yoğunlukları gösterilmiştir. Bitki türlerinden ortam şartlarına en iyi uyum sağlayan tür aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) Çam",
+      "B) Ladin",
+      "C) Sedir",
+      "D) Köknar",
+      "E) Ardıç"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 211,
+    "question": "Bir ekosistem içerisinde organik madde çevrimini başlatan olay aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) Organik maddelerin hidrolizi",
+      "B) Organik maddenin yapımı için gerekli maddelerin organizma tarafından alınması",
+      "C) Organik maddelerin hücrede yıkımı",
+      "D) Organik maddelerin besin zinciri içinde taşınması",
+      "E) Organizmaların ölümü"
+    ],
+    "answer": "B"
   }
 ]
