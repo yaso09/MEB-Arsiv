@@ -2242,5 +2242,29 @@
       "E) Kaz Dağları'nda yaşayan sincaplar"
     ],
     "answer": "B"
+  },
+  {
+    "id": 218,
+    "question": "Kilit taşı türler için aşağıdakilerden hangisi doğrudur?",
+    "choices": [
+      "A) Popülasyındaki baskın türlerdir.",
+      "B) Kilit taşı türlerin neslinin tükenmesi popülasyonun geleceği için; olumsuz sonuçlara neden olabilir.",
+      "C) Her habitatta yaşayabilirler.",
+      "D) Adaptasyon yetenekleri yüksektir.",
+      "E) Neslinin tükenmesi besin zincirini etkilemez."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 219,
+    "question": "Pop lasyonla ilgili I. Birey sayısı artan pop lasyonlarda evre direnci de artar II. Populasyon dağılımı; d zenli, k meli ve rastgele dağılım olmak zere 3 farklı şekilde olabilir III. J b y me eğrisinde denge evresi g r lmez a ıklamalardan hangileri doğrudur?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
   }
 ]
