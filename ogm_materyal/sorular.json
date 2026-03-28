@@ -466,5 +466,29 @@
       "E) l, ll, lll ve lV"
     ],
     "answer": "D"
+  },
+  {
+    "id": 55,
+    "question": "Aşağıdakilerden hangisinin remesinde sadece eşeyli reme g r l r?",
+    "choices": [
+      "A) Prokaryot",
+      "B) Protista",
+      "C) Mantar",
+      "D) Tohumlı bitki",
+      "E) Omurgalı hayvan"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 56,
+    "question": "2n=4 olan reme ana h cresinin, mayoz profaz l safhasında sahip olduğu sentromer, kromatit ve kromozom sayıları sırayla hangi se enekte doğru olarak sıralanmıştır?",
+    "choices": [
+      "A) 8 - 4 - 4",
+      "B) 4 - 8 - 4",
+      "C) 8 - 8 - 4",
+      "D) 4 - 8 - 8",
+      "E) 4 - 4 - 8"
+    ],
+    "answer": "B"
   }
 ]
