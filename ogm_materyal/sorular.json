@@ -3250,5 +3250,29 @@
       "E) Se men sayısının artması"
     ],
     "answer": "E"
+  },
+  {
+    "id": 308,
+    "question": "Aşağıdakilerden hangisi I. D nya Savaşı ve sonrası totaliter (baskıcı) rejimlerin g r ld ğ lkelerden biri değildir ?",
+    "choices": [
+      "A) Amerika",
+      "B) İtalya",
+      "C) Almanya",
+      "D) İspanya",
+      "E) Sovyetler"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 309,
+    "question": "Aşağıdakilerden hangisi 1923&#39;ten sonra T rk dış politikasında ele alınıp z mlenmeye alışılmış konulardan biri değildir ?",
+    "choices": [
+      "A) Boğazlar Sorunu",
+      "B) Kapit lasyonlar",
+      "C) Dış Bor lar",
+      "D) Irak Sınırı",
+      "E) N fus M badelesi"
+    ],
+    "answer": "B"
   }
 ]
