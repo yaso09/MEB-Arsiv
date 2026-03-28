@@ -1,5 +1,5 @@
 {
-  "lastSuccessId": 177,
+  "lastSuccessId": 178,
   "savedIds": [
     1,
     2,
@@ -175,8 +175,11 @@
     174,
     175,
     176,
-    177
+    177,
+    178
   ],
-  "failedIds": [],
+  "failedIds": [
+    42
+  ],
   "notFoundId": null
 }
