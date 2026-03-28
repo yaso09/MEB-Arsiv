@@ -8475,5 +8475,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "153": [
+    {
+      "attempt": 1,
+      "id": 153,
+      "timestamp": "2026-03-28T18:28:04.979Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3947 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 291"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Fosil yakıtların kullanımı ile oluşan azot dioksit ve kükürt dioksit gibi gazların atmosferde su damlacıkları ile birleşerek çevre için zararlı hangi ...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Asit yağmurları\",\"cleaned\":\"A) Asit yağmurları\"},{\"raw\":\"B) Sera etkisi\",\"cleaned\":\"B) Sera etkisi\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Asit yağmurları\",\"B) Sera etkisi\",\"C) Ötrofikasyon\",\"D) Radyoaktivite\",\"E) Küresel ısınma\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
