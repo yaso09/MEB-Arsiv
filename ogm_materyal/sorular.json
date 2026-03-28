@@ -514,5 +514,77 @@
       "E) I , II , III ve IV"
     ],
     "answer": "D"
+  },
+  {
+    "id": 59,
+    "question": "Aşağıda verilen karakterlerden hangisi sadece kalıtıma bağlı olarak ortaya ıkmaz?",
+    "choices": [
+      "A) Hemofili",
+      "B) İnsanda kan grupları",
+      "C) Renk k rl ğ",
+      "D) Bronşit",
+      "E) G z rengi"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 60,
+    "question": "Aşağıda verilen canlılardan hangisinin oluşturacağı gamet çeşidi en fazladır? ( Genler bağımsızdır. )",
+    "choices": [
+      "A) EeFfGG",
+      "B) EeffGG",
+      "C) EeFfGg",
+      "D) eeffGg",
+      "E) EeFFGG"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 61,
+    "question": "Annenin mavi babanın kahverengi göz rengine sahip olduğu bir ailede bir çocuk mavi gözlü, bir çocuk kahverengi gözlüdür. Dünyaya gelecek olan üçüncü çocuğun mavi gözlü olma olasılığı nedir? (Kahverengi göz rengi geni, mavi göz rengi genine baskındır.)",
+    "choices": [
+      "A) 1/2",
+      "B) 1/4",
+      "C) 1/8",
+      "D) 1/12",
+      "E) 1/16"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 62,
+    "question": "I. Göz rengi II. Kan grubu III. Cinsiyet IV. Genotip V. Fenotip Yukarıdaki kalıtım ile ilgili özelliklerden hangileri tek yumurta ikizlerinde farklılık gösterebilir?",
+    "choices": [
+      "A) Yalnız IV",
+      "B) Yalnız V",
+      "C) I ve II",
+      "D) II ve III",
+      "E) I , II ve III"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 63,
+    "question": "Balık pulluluğu Y kromozomu zerinde taşınan bir hastalıktır. Fenotipinde balık pulluluğu g zlenen bir bireyin aşağıdaki aile bireylerinin veya akrabalarının hangisinde bu hastalık g zlenmeyebilir?",
+    "choices": [
+      "A) Babasında",
+      "B) Erkek ocuğunda",
+      "C) Teyzesinin oğlunda",
+      "D) Amcasında",
+      "E) Erkek kardeşinde"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 64,
+    "question": "Aralarında baskınlık - çekiniklik ilişkisi bulunan genleri taşıyan bireylerde anne ve babada görülmeyen özelliklerin yavruda görülmesi için hangi genotipli bireyler çaprazlanmalıdır?",
+    "choices": [
+      "A) homozigot dominant x homozigot resesif",
+      "B) homozigot resesif x homozigot resesif",
+      "C) heterozigot dominant x homozigot dominant",
+      "D) heterozigot dominant x heterozigot dominant",
+      "E) homozigot resesif x heterozigot dominant"
+    ],
+    "answer": "D"
   }
 ]
