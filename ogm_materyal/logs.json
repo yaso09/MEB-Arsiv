@@ -4255,5 +4255,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "88": [
+    {
+      "attempt": 1,
+      "id": 88,
+      "timestamp": "2026-03-28T18:22:04.216Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4035 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 387"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Mendel alışmalarını I. Bağlı gen II. Tam baskınlık III. &Ccedil;ok allellik IV. Eş baskınlık V. Bağımsız gen kavramlarından hangileri zerinde y r tm ş...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I ve II\\r\\n\",\"cleaned\":\"A) I ve II\"},{\"raw\":\"B) II ve III\\r\\n\",\"cleaned\":\"B) II ve III\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I ve II\",\"B) II ve III\",\"C) II ve V\",\"D) I, III ve V\",\"E) II, III ve IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
