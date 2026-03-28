@@ -298,5 +298,125 @@
       "E) I, II ve III"
     ],
     "answer": "B"
+  },
+  {
+    "id": 40,
+    "question": "İnsanda I. &Uuml;reme h creleri haploittir. II. V cut h creleri diploittir. III. Sperm ana h cresi haploittir. şeklindeki ifadelerden hangileri doğrudur?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve II",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 41,
+    "question": "Spermatogenezi normal gerçekleşmeyen bir erkekte aşağıdaki gametlerden hangisi mayoz II de ayrılmama sonucu oluşmamıştır?",
+    "choices": [
+      "A) 22+0",
+      "B) 22+XX",
+      "C) 22+YY",
+      "D) 22+XY",
+      "E) 23+X"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 43,
+    "question": "Aşağıdakilerden hangisinin gerçekleşmesi için hücre bölünmesi gerçekleşmez ?",
+    "choices": [
+      "A) Yaraların iyileşmesi",
+      "B) Sporcunun kas geliştirmesi",
+      "C) Bira mayasının tomurcuklanması",
+      "D) Üreme hücresinin oluşumu",
+      "E) Boy uzaması"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 44,
+    "question": "Aşağıdakilerden hangisi mitoz hücre bölünmesini açıklayan doğru ifadelerden değildir ?",
+    "choices": [
+      "A) Ökaryot hücrelerde görülen bölünmedir.",
+      "B) Diploit hücrelerde homolog kromozomlar metafaz evrede yan yana dizilmiştir.",
+      "C) Profaz evresinde kromatinler kromozomlara dönüşür.",
+      "D) Anafazda kromozom sayısı iki katına çıkar.",
+      "E) İnsanda oluşan haploit hücrelerde mitoz bölünme gerçekleşir."
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 45,
+    "question": "l. Erkek arıların üreme ana hücreleri ll. Rejenerasyon ile üreyen planarya lll.Tomurcuklanma ile üreyen maya lV.Tohumla üreyen bitki Yukarıdaki üreme çeşitlerinden hangisinde sadece mitoz hücre bölünmesi gerçekleşir?",
+    "choices": [
+      "A) Yalnız l",
+      "B) Yalnız lV",
+      "C) ll ve lll",
+      "D) l,ll ve lll",
+      "E) ll,lll ve lV"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 46,
+    "question": "Aşağıda eşeysiz üreme örneklerinden hangisi yanlıştır ?",
+    "choices": [
+      "A) Planarya canlısında, ikiye bölünerek üreme görülür.",
+      "B) Çilek bitkisinde, sürünücü gövde vejetatif üreme görülür.",
+      "C) Hidra omurgasız hayvanında, tomurcuklanma görülür.",
+      "D) Patates bitkisinde, yumru gövde ile vejetatif üreme görülür.",
+      "E) Öglenada, boyuna ikiye bölünme görülür."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 47,
+    "question": "Aşağıdakilerden hangisi farklı bir eşeysiz üreme örneğidir?",
+    "choices": [
+      "A) Kara yosunu",
+      "B) Çilek",
+      "C) Ayrık otu",
+      "D) Cam güzeli",
+      "E) Patates"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 48,
+    "question": "l. Hidra ve mercan gibi canlılarda görülür. ll. Ana bireye bağlı ya da ayrı yaşayabilir. lll. Mitoz hücre bölünmesi ile gerçekleşir. Yukarıda verilenler hangi eşeysiz üreme çeşidine aittir?",
+    "choices": [
+      "A) Vejetatif",
+      "B) Bölünme",
+      "C) Tomurcuklanma",
+      "D) Aşılama",
+      "E) Rejenerasyon"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 49,
+    "question": "l. Tomurcuklanmayla üreme ll.Sporla üreme lll. Çelikle üreme lV. Rejenerasyon ile üreme Yukarıdaki eşeysiz üreme çeşitlerinden hangileri bir hücreli ve çok hücreli canlılarda görülebilir?",
+    "choices": [
+      "A) Yalnız l",
+      "B) l ve ll",
+      "C) l ve lV",
+      "D) ll ve lll",
+      "E) lll ve lV"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 50,
+    "question": "Aşağıdakilerden hangisi çelikle vejetatif üremeye örnektir?",
+    "choices": [
+      "A) Patatesin çoğalması",
+      "B) Eğrelti otunun sporla üremesi",
+      "C) Gül bitkisinin dalının kesilip toprağa ekilmesi",
+      "D) Tohum ile üremenin gerçekleşmesi",
+      "E) Çileğin sürünücü gövdeyle çoğalması"
+    ],
+    "answer": "C"
   }
 ]
