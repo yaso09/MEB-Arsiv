@@ -18273,5 +18273,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "298": [
+    {
+      "attempt": 1,
+      "id": 298,
+      "timestamp": "2026-03-28T19:10:07.000Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4456 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 639"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"10 Ocak 1920&#39;de devletlerarası sorunların g r ş lebilmesi i in Milletler Cemiyeti kurulmuş, 1 Aralık 1925&#39;te devletlerarası siyasi gerilimleri...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yeni d&uuml;nya d&uuml;zeni oluşturmak\\r\\n\",\"cleaned\":\"A) Yeni d nya d zeni oluşturmak\"},{\"raw\":\"B) D&uuml;nyada ekonomik krizleri &ouml;nlemek\\r\\n\",\"cleaned\":\"B) D nyada ekonomik krizleri nlemek\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yeni d nya d zeni oluşturmak\",\"B) D nyada ekonomik krizleri nlemek\",\"C) Yeni y netim şekilleri oluşturmak\",\"D) Avrupa&#39;yı d nyanın siyasi merkezi haline getirmek\",\"E) D nya barışını sağlamak ve korumak\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "299": [
+    {
+      "attempt": 1,
+      "id": 299,
+      "timestamp": "2026-03-28T19:10:19.036Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4609 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 974"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"1929 D nya Ekonomik Krizi, en ok sanayileşmiş şehirleri vurmuş, bu kentlerde bir işsizler ve evsizler ordusu oluşturmuştur. Bunalımdan etkilenen bir o...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Tarım\\r\\n\",\"cleaned\":\"A) Tarım\"},{\"raw\":\"B) Madencilik\\r\\n\",\"cleaned\":\"B) Madencilik\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Tarım\",\"B) Madencilik\",\"C) İnşaat\",\"D) Eğitim\",\"E) Ticaret\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
