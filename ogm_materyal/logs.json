@@ -15026,5 +15026,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "250": [
+    {
+      "attempt": 1,
+      "id": 250,
+      "timestamp": "2026-03-28T18:49:52.281Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4062 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 261"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi, I. D nya Savaşı sonrası kurulan Milletler Cemiyeti&#39;nin kuruluş ama ları arasında yer almaz ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Enerji kaynaklarının kullanımına karar vermek\\r\\n\",\"cleaned\":\"A) Enerji kaynaklarının kullanımına karar vermek\"},{\"raw\":\"B) Uluslararası sorunları barış yoluyla &ccedil;&ouml;zmek\\r\\n\",\"cleaned\":\"B) Uluslararası sorunları barış yoluyla zmek\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Enerji kaynaklarının kullanımına karar vermek\",\"B) Uluslararası sorunları barış yoluyla zmek\",\"C) Uluslararası hukuku işler kılmak\",\"D) Uluslararası iş birliğini geliştirmek\",\"E) Barış ve g venliği korumak\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
