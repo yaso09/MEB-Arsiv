@@ -2014,5 +2014,65 @@
       "E) I, II ve III"
     ],
     "answer": "D"
+  },
+  {
+    "id": 199,
+    "question": "I. Karbon döngüsü II. Azot döngüsü III. Su döngüsü Asit yağmurları, yukarıdaki döngülerden hangilerinin insanlar tarafından bozulması nedeniyle ortaya çıkmaktadır?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) I ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 200,
+    "question": "Aşağıdakilerden hangisi hepçil (omnivor) beslenmez ?",
+    "choices": [
+      "A) Karga",
+      "B) Tavuk",
+      "C) Tavşan",
+      "D) Domuz",
+      "E) İnsan"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 201,
+    "question": "Aşağıdakilerden hangisi omurgalı hayvanların beslenme şekillerine göre farklılık göstermez?",
+    "choices": [
+      "A) İnce bağırsağın uzunluğu",
+      "B) Dişlerin yapısı",
+      "C) Midenin yapısı",
+      "D) Ağzın yapısı",
+      "E) Besinlerin ince bağırsakta emilimi"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 202,
+    "question": "Aşağıdakilerden hangisi inorganik maddelerden organik madde sentezi yapamaz?",
+    "choices": [
+      "A) Kara yosunu",
+      "B) Fotosentetik bakteri",
+      "C) Ökse otu",
+      "D) Canavar otu",
+      "E) Böcekçil bitki"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 203,
+    "question": "Bir besin piramidinde beslenme ilişkilerini g steren katmana o canlının trofik d zeyi denir. I- Buğday - I. trofik d zey II- &Ccedil;ekirge - II. trofik d zey III- Kurbağa - III. trofik d zey Buna g re yukarıdaki canlılar ve trofik d zeyleri ile ilgili bilgilerden hangileri doğrudur?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) I ve II",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
   }
 ]
