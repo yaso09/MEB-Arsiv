@@ -2950,5 +2950,17 @@
       "E) Batum Sorunu"
     ],
     "answer": "B"
+  },
+  {
+    "id": 282,
+    "question": "Atat rk d nemi T rk dış politikası ile ilgili aşağıdaki ifadelerden hangisi doğru değildir ?",
+    "choices": [
+      "A) Dış politika i dinamiklere dayanmalıdır.",
+      "B) Dış politika barışı ve ulusal ıkarları esas almalıdır.",
+      "C) Dış politika karşılıklılık ilkesine g re belirlenmelidir.",
+      "D) Dış politika kişisel istek ve hayallerle şekillenebilir.",
+      "E) Dış politikada d nya konjonkt r dikkate alınmalıdır."
+    ],
+    "answer": "D"
   }
 ]
