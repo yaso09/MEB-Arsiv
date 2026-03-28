@@ -1162,5 +1162,41 @@
       "E) I, II ve III"
     ],
     "answer": "E"
+  },
+  {
+    "id": 122,
+    "question": "Aşağıdaki uygulamalardan hangisi toprak kirliliğinin önlenebilmesi amacıyla yapılabilecek etkinliklerden biri değildir ?",
+    "choices": [
+      "A) Fabrika bacalarına, zehirli gazlar için filtreler takılmalıdır.",
+      "B) Tarımda, organik tarım yöntemleri seçilmelidir.",
+      "C) Ambalaj sanayinde, geri dönüştürülebilen maddeler seçilip geri dönüşümü sağlanmalıdır.",
+      "D) Ormanlar ve otlak alanları korunmalıdır.",
+      "E) Sanayi atıkları, çevreye bırakılmamalıdır."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 123,
+    "question": "Su ve r zgar gibi fiziksel etkenlerle verimli toprak tabakasının aşınıp, deniz ve g llere taşınmasına erozyon denir. I. Toprak y zeyindeki anız rt s n yakmak erozyona neden olabilir. II. Erozyonu nlemek i in, yanlış ekim ve sulama uygulamaları engellenmelidir. III. Ormanların sayıca artırılması ile erozyon nlenebilir. Erozyonla ilgili yukarıda verilen bilgilerden hangileri doğrudur?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) I ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 124,
+    "question": "Ormanlık bir alanda, alanın tahrip olması ile ilgili olaylar sıralandığında aşağıdakilerden hangisinin en sonda gerçekleşmesi beklenir?",
+    "choices": [
+      "A) Otlak açılması",
+      "B) Ağaçların kesilmesi",
+      "C) Erozyon artışı",
+      "D) Orman vasfının kaybolması",
+      "E) Yangınların artışı"
+    ],
+    "answer": "C"
   }
 ]
