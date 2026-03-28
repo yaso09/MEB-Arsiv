@@ -8067,5 +8067,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "145": [
+    {
+      "attempt": 1,
+      "id": 145,
+      "timestamp": "2026-03-28T18:27:39.380Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3970 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 204"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Ekolojik ayak izini küçültmek isteyen bir insan aşağıdaki uygulamalardan hangisini yapmalıdır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Ulaşımda özel araç kullanmalıdır.\",\"cleaned\":\"A) Ulaşımda özel araç kullanmalıdır.\"},{\"raw\":\"B) Isınmada fosil yakıt kullanmalıdır.\",\"cleaned\":\"B) Isınmada fosil yakıt kullanmalıdır.\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Ulaşımda özel araç kullanmalıdır.\",\"B) Isınmada fosil yakıt kullanmalıdır.\",\"C) Enerji tüketimini artırmalıdır.\",\"D) Geri dönüşümsüz maddeleri kullanmalıdır.\",\"E) Gereksiz su tüketimini azaltmalıdır.\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
