@@ -11910,5 +11910,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "211": [
+    {
+      "attempt": 1,
+      "id": 211,
+      "timestamp": "2026-03-28T18:46:39.593Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3991 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 193"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Bir ekosistem içerisinde organik madde çevrimini başlatan olay aşağıdakilerden hangisidir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Organik maddelerin hidrolizi\",\"cleaned\":\"A) Organik maddelerin hidrolizi\"},{\"raw\":\"B) Organik maddenin yapımı için gerekli maddelerin organizma tarafından alınması\",\"cleaned\":\"B) Organik maddenin yapımı için gerekli maddelerin organizma tarafından alınması\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Organik maddelerin hidrolizi\",\"B) Organik maddenin yapımı için gerekli maddelerin organizma tarafından alınması\",\"C) Organik maddelerin hücrede yıkımı\",\"D) Organik maddelerin besin zinciri içinde taşınması\",\"E) Organizmaların ölümü\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
