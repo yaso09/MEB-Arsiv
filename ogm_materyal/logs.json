@@ -19311,5 +19311,56 @@
         "cevap"
       ]
     }
+  ],
+  "313": [
+    {
+      "attempt": 1,
+      "id": 313,
+      "timestamp": "2026-03-28T19:15:56.480Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3986 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 264"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi T rk dış politikasının 1923-1938 arası d neminde meydana gelen gelişmelerden biri değildir ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Balkan Antantı\\r\\n\",\"cleaned\":\"A) Balkan Antantı\"},{\"raw\":\"B) Sadabat Paktı\\r\\n\",\"cleaned\":\"B) Sadabat Paktı\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Balkan Antantı\",\"B) Sadabat Paktı\",\"C) Montr Boğazlar S zleşmesi\",\"D) Milletler Cemiyetine Giriş\",\"E) Hatay&#39;ın Anavatana katılması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
