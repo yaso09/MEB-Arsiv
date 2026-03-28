@@ -10986,5 +10986,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "196": [
+    {
+      "attempt": 1,
+      "id": 196,
+      "timestamp": "2026-03-28T18:45:42.568Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3841 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 212"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi canlıların çeşitliliğini etkileyen abiyotik faktörlerden biri değildir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) İklim\",\"cleaned\":\"A) İklim\"},{\"raw\":\"B) Mineraller\",\"cleaned\":\"B) Mineraller\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) İklim\",\"B) Mineraller\",\"C) Toprak\",\"D) Hayvanlar\",\"E) Sıcaklık\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "197": [
+    {
+      "attempt": 1,
+      "id": 197,
+      "timestamp": "2026-03-28T18:45:46.265Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3803 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 165"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıda verilen canlılardan hangisi heterotrof beslenme yapar?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Kara yosunu\",\"cleaned\":\"A) Kara yosunu\"},{\"raw\":\"B) Eğrelti otu\",\"cleaned\":\"B) Eğrelti otu\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Kara yosunu\",\"B) Eğrelti otu\",\"C) Canavar otu\",\"D) Ökse otu\",\"E) Göknar\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
