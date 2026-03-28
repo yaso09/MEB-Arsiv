@@ -8424,5 +8424,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "152": [
+    {
+      "attempt": 1,
+      "id": 152,
+      "timestamp": "2026-03-28T18:28:01.783Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4075 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 186"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Biyolojik açıdan sürdürülebilirlik kavramı aşağıdakilerden hangisinde verilmiştir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) İnsanların gündelik ihtiyaçlarını bugün için karşılayabilmesinde etkili uygul\",\"cleaned\":\"A) İnsanların gündelik ihtiyaçlarını bugün için karşılayabilmesinde etkili uygulamalardır.\"},{\"raw\":\"B) İnsanların yeni teknolojiler ile geliştirdiği malzemelerdir.\",\"cleaned\":\"B"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) İnsanların gündelik ihtiyaçlarını bugün için karşılayabilmesinde etkili uygulamalardır.\",\"B) İnsanların yeni teknolojiler ile geliştirdiği malzemelerdir.\",\"C) Sürekli kullanılan malzemelerdir.\",\"D) Çeşitliliğin ve üretkenliğin devamlılığını sağlamaktır.\",\"E) Ekolojik ola"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
