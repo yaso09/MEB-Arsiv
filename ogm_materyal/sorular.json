@@ -922,5 +922,113 @@
       "E) 1/8"
     ],
     "answer": "D"
+  },
+  {
+    "id": 102,
+    "question": "Aşağıdakilerden hangisi ülkemize özgü endemik bir hayvan türü değildir?",
+    "choices": [
+      "A) Kelaynak",
+      "B) Toros kurbağası",
+      "C) Hamsi",
+      "D) Abant alabalığı",
+      "E) Kafkas semenderi"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 103,
+    "question": "I. Sıcaklık II. Tuzluluk III. Kimyasal bileşim Denizlerimizde tür zenginliğinin fazla olmasında deniz suyunun yukarıda verilen özelliklerinden hangileri etkilidir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve II",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 104,
+    "question": "Aşağıdaki doğal yaşam alanlarının koruma altında olduğu bölgelerden hangisi Ege Bölgesi'nde yer almaz?",
+    "choices": [
+      "A) Uzungöl",
+      "B) Gökova",
+      "C) Köyceğiz-Dalyan",
+      "D) Fethiye-Göcek",
+      "E) Datça-Bozburun"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 105,
+    "question": "Aşağıdakilerden hangisi yapay hava kirliliği kaynağıdır?",
+    "choices": [
+      "A) Çöl fırtınaları ile taşınan bazı maddeler",
+      "B) Orman yangınları ile oluşan gaz ve kirleticiler",
+      "C) Volkan patlamalarından kaynaklanan büyük kül bulutları",
+      "D) Bitkilerin solunum sonucu atmosfere verdiği gazlar",
+      "E) Motorlu taşıtların egzoz gazları"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 106,
+    "question": "I. Doğal kaynaklarımız korunur. II. Enerji tasarrufu sağlanır. III. Atık madde miktarı artar. Yukarıda verilenlerden hangileri geri dönüşüm uygulamalarının sağladığı faydalardandır?",
+    "choices": [
+      "A) Yalnız III",
+      "B) I ve II",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 107,
+    "question": "I. Organik atıkların çürümesiyle oluşan metan gazı II. Orman yangınları sonucu oluşan karbondioksit gazı III. Evlerin bacalarından çıkan karbonmonoksit gazı Yukarıdakilerden hangileri hava kirliliğine yol açar?",
+    "choices": [
+      "A) Yalnız III",
+      "B) I ve II",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 108,
+    "question": "Roket ve jet uçaklarından kaynaklanan hava kirliliğini azaltmak için aşağıdaki madenlerden hangisinin yakıt olarak kullanılması uygundur?",
+    "choices": [
+      "A) Krom",
+      "B) Bakır",
+      "C) Bor",
+      "D) Kükürt",
+      "E) Fosfat"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 109,
+    "question": "Aşağıdakilerden hangisi astım ve bronşit gibi rahatsızlıkları öncelikli olarak etkiler?",
+    "choices": [
+      "A) Hava kirliliği",
+      "B) Su kirliliği",
+      "C) Toprak kirliliği",
+      "D) Gürültü kirliliği",
+      "E) Besin kirliliği"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 110,
+    "question": "Aşağıdakilerden hangisinin çevre kirliliğine olan etkisi diğerlerine göre daha azdır?",
+    "choices": [
+      "A) Tarımsal mücadele ilçları",
+      "B) Endüstriyel atıklar",
+      "C) Kadmiyum ve kurşun gibi ağır metaller",
+      "D) Orman yangınları",
+      "E) Bitki ve hayvan atıkları"
+    ],
+    "answer": "E"
   }
 ]
