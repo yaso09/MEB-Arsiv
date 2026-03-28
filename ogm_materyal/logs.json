@@ -16172,5 +16172,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "260": [
+    {
+      "attempt": 1,
+      "id": 260,
+      "timestamp": "2026-03-28T18:50:54.747Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4098 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 434"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Atat rk d neminde izlenen dış politika ve imzalanan antlaşmalarda; I. Tam bağımsızlık, II. Ulusal egemenlik, III. Karşılıklılık, IV. Uluslararası huku...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I ve II\\r\\n\",\"cleaned\":\"A) I ve II\"},{\"raw\":\"B) I&nbsp;ve III\\r\\n\",\"cleaned\":\"B) I ve III\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I ve II\",\"B) I ve III\",\"C) I, II ve III\",\"D) II, III ve IV\",\"E) I, III ve IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "261": [
+    {
+      "attempt": 1,
+      "id": 261,
+      "timestamp": "2026-03-28T18:50:58.678Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3904 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 253"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi Atat rk nderliğinde kurulan Balkan Antantı&#39;na ye lkelerden biri değildir ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) T&uuml;rkiye\\r\\n\",\"cleaned\":\"A) T rkiye\"},{\"raw\":\"B) Yunanistan\\r\\n\",\"cleaned\":\"B) Yunanistan\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) T rkiye\",\"B) Yunanistan\",\"C) Romanya\",\"D) Bulgaristan\",\"E) Yugoslavya\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
