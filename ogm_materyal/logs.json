@@ -11553,5 +11553,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "204": [
+    {
+      "attempt": 1,
+      "id": 204,
+      "timestamp": "2026-03-28T18:46:16.253Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4251 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 301"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Ekosistemde madde ve enerji akışında üretici, tüketici ve ayrıştırıcı canlılar görev yaparlar. Aynı ekosistemde bulunan canlılarla ilgili aşağıda veri...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Üretici canlılar organik besin için sadece ışık enerjisinden faydalanırlar.\",\"cleaned\":\"A) Üretici canlılar organik besin için sadece ışık enerjisinden faydalanırlar.\"},{\"raw\":\"B) Birincil tüketiciler üretici canlılarla beslenen otçul hayvan türleridir.\",\"cleaned\":\"B)"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Üretici canlılar organik besin için sadece ışık enerjisinden faydalanırlar.\",\"B) Birincil tüketiciler üretici canlılarla beslenen otçul hayvan türleridir.\",\"C) Omnivor (karışık) beslenen hayvan türleri hem üretici hem de tüketicilerle beslenir.\",\"D) Ayrıştırıcı canlılar "
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
