@@ -6939,5 +6939,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "126": [
+    {
+      "attempt": 1,
+      "id": 126,
+      "timestamp": "2026-03-28T18:26:30.610Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4373 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 736"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Ekolojik ayak izi, günlük yaşantımızda kullandığımız kaynakların, enerjinin ham maddenin üretilmesi ile oluşturduğumuz atıkların, etkisiz hale getiril...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) Yalnız II\",\"cleaned\":\"B) Yalnız II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) Yalnız II\",\"C) Yalnız III\",\"D) I ve II\",\"E) I, II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
