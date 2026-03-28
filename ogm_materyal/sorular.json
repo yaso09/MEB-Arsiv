@@ -3286,5 +3286,29 @@
       "E) Sevr Antlaşması"
     ],
     "answer": "C"
+  },
+  {
+    "id": 311,
+    "question": "I. D nya Savaşı sonrası d nya barışını sağlamak amacıyla oluşturulan ilk uluslararası rg tlenmenin adı ve merkezi aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "choices": [
+      "A) Birleşmiş Milletler - Washington",
+      "B) Birleşmiş Milletler - Cenevre",
+      "C) Avrupa Birliği - Br ksel",
+      "D) Milletler Cemiyeti - Cenevre",
+      "E) Milletler Cemiyeti - Washington"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 313,
+    "question": "Aşağıdakilerden hangisi T rk dış politikasının 1923-1938 arası d neminde meydana gelen gelişmelerden biri değildir ?",
+    "choices": [
+      "A) Balkan Antantı",
+      "B) Sadabat Paktı",
+      "C) Montr Boğazlar S zleşmesi",
+      "D) Milletler Cemiyetine Giriş",
+      "E) Hatay&#39;ın Anavatana katılması"
+    ],
+    "answer": "E"
   }
 ]
