@@ -8628,5 +8628,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "156": [
+    {
+      "attempt": 1,
+      "id": 156,
+      "timestamp": "2026-03-28T18:28:14.639Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3989 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 354"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Ötrofikasyonun gerçekleştiği göllerde; I. Sudaki oksijenin azalması II. Alglerin aşırı çoğalmasına bağlı olarak balık sayısının artması III. Göl suyun...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) I ve II\",\"cleaned\":\"B) I ve II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) I ve II\",\"C) II ve III\",\"D) I ve III\",\"E) I, II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
