@@ -17302,5 +17302,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "280": [
+    {
+      "attempt": 1,
+      "id": 280,
+      "timestamp": "2026-03-28T19:04:31.349Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3849 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 218"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Musul, aşağıdaki antlaşmalardan hangisi ile İngiliz y netimindeki Irak&#39;a bırakılmıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Berlin\\r\\n\",\"cleaned\":\"A) Berlin\"},{\"raw\":\"B) Londra\\r\\n\",\"cleaned\":\"B) Londra\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Berlin\",\"B) Londra\",\"C) Ankara\",\"D) Paris\",\"E) Moskova\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
