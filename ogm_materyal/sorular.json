@@ -694,5 +694,113 @@
       "E) I, II ve III"
     ],
     "answer": "C"
+  },
+  {
+    "id": 82,
+    "question": "Renk k r bir babanın renk k r kızı oluyor ise I. Renk k rl ğ bakımından anne taşıyıcı olabilir II. Baba renk k rl ğ genini X kromozomu zerinde taşır III. Anne kesinlikle renk k r olmalıdır yargılarından hangileri doğrudur?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) I ve II",
+      "E) I ve III"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 83,
+    "question": "Yukarıda verilen soy ağacında koyu renkli olan bireylerde A hastalığı g r lmektedir. Bu hastalık ile ilgili olarak I- Otozomal baskın II- Otozomal ekinik III- X&#39;e bağlı baskın IV- X&#39;e bağlı ekinik hnagilerinin olduğu s ylenebilir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve III",
+      "D) II ve IV",
+      "E) III ve IV"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 84,
+    "question": "Sığırlarda boynuzluluk geni erkeklerde baskın, dişilerde ise çekiniktir. Buna göre; heterozigot taşıyıcı bir dişi yavrunun doğabilmesi için anne ve baba bireylerin genotipi aşağıdakilerden hangisi gibi olamaz?",
+    "choices": [
+      "A) BB X BB",
+      "B) BB X Bb",
+      "C) Bb X BB",
+      "D) Bb X Bb",
+      "E) Bb X bb"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 85,
+    "question": "Bir ailenin doğacak olan 5 çocuğundan 3'ünün kız, 2'sinin erkek olma olasılığı kaçtır?",
+    "choices": [
+      "A) 3/4",
+      "B) 3/16",
+      "C) 5/16",
+      "D) 3/32",
+      "E) 5/32"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 86,
+    "question": "Genotipi yukarıdaki gibi olan bir h creden EaBB genotipli bir gamet oluşuyor. Bu durum I. Eş baskınlık II. Ayrılmama III. Bağımsız dağılım IV. Cross-over olaylarından hangileri ile a ıklanabilir?",
+    "choices": [
+      "A) I ve II",
+      "B) II ve IV",
+      "C) III ve IV",
+      "D) I, II ve III",
+      "E) II, III ve IV"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 87,
+    "question": "Aa Bb Dd genotipli bir canlıda A ve B genleri bağlıdır. Buna g re en fazla ve en az ka eşit gamet oluşur?",
+    "choices": [
+      "A) En fazla: 6 En az: 4",
+      "B) En fazla: 8 En az: 6",
+      "C) En fazla: 4 En az: 2",
+      "D) En fazla: 8 En az: 4",
+      "E) En fazla: 8 En az: 2"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 88,
+    "question": "Mendel alışmalarını I. Bağlı gen II. Tam baskınlık III. &Ccedil;ok allellik IV. Eş baskınlık V. Bağımsız gen kavramlarından hangileri zerinde y r tm şt r?",
+    "choices": [
+      "A) I ve II",
+      "B) II ve III",
+      "C) II ve V",
+      "D) I, III ve V",
+      "E) II, III ve IV"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 89,
+    "question": "Yukarıdaki aprazlamalarla ilgili olarak aşağıdaki ifadelerden hangisi s ylenemez ?",
+    "choices": [
+      "A) I. aprazlamada kız ocuklarının renk k r olma olasılığı yoktur.",
+      "B) II. aprazlamada erkek ocuklarının %50&#39;si renk k r d r.",
+      "C) III. aprazlamada erkek ve kız ocuklarının hepsi renk k r d r.",
+      "D) IV. aprazlamada kız ocuklarının % 50&#39;si renk k r d r.",
+      "E) II. aprazlamada renk k rl ğ sadece erkeklerde g r l r."
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 90,
+    "question": "Rr ss Tt x Rr Ss tt Yukarıdaki çaprazlamada Rst fenotipli bireyin oluşma ihtimali kaçtır? (Genler bağımsızdır)",
+    "choices": [
+      "A) 3/16",
+      "B) 4/16",
+      "C) 3/8",
+      "D) 4/8",
+      "E) 3/32"
+    ],
+    "answer": "A"
   }
 ]
