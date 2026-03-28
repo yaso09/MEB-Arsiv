@@ -17812,5 +17812,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "290": [
+    {
+      "attempt": 1,
+      "id": 290,
+      "timestamp": "2026-03-28T19:06:52.302Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4091 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 447"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"T rkiye&#39;nin dış politikasında yaşanan; I. Bozkurt - Lotus Olayı&#39;nın yaşanması, II. Boğazların denetiminin ele ge irilmesi, III. Kore Savaşı&#3...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I\\r\\n\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) Yalnız II\\r\\n\",\"cleaned\":\"B) Yalnız II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) Yalnız II\",\"C) Yalnız III\",\"D) I ve II\",\"E) II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "291": [
+    {
+      "attempt": 1,
+      "id": 291,
+      "timestamp": "2026-03-28T19:07:06.293Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4035 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 265"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Atat rk d neminde T rkiye&#39;nin, İslam D nyası ile olan ilişkilerini aşağıdaki gelişmelerden hangisi olumlu etkilemiştir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Sadabat Paktı\\r\\n\",\"cleaned\":\"A) Sadabat Paktı\"},{\"raw\":\"B) Briant Kellog Paktı\\r\\n\",\"cleaned\":\"B) Briant Kellog Paktı\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Sadabat Paktı\",\"B) Briant Kellog Paktı\",\"C) T rkiye&#39;nin Milletler Cemiyeti&#39;ne ye olması\",\"D) T rkiye&#39;nin NATO&#39;ya girmesi\",\"E) Kore&#39;ye asker g nderilmesi\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
