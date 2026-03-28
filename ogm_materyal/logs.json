@@ -355,5 +355,311 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "8": [
+    {
+      "attempt": 1,
+      "id": 8,
+      "timestamp": "2026-03-28T18:06:16.489Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4299 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 461"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Şemada diploit olan A, B ve C h crelerine ait olan kromozom, tetrat ve kromatit sayıları verilmiştir. Bu h crelere ait aşağıdaki ifadelerden hangisi y...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) A h&uuml;cresinin kromatit sayısı 80&#39;dir.\\r\\n\",\"cleaned\":\"A) A h cresinin kromatit sayısı 80&#39;dir.\"},{\"raw\":\"B) B h&uuml;cresinin kromozom sayısı 40&#39;dır.\\r\\n\",\"cleaned\":\"B) B h cresinin kromozom sayısı 40&#39;dır.\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) A h cresinin kromatit sayısı 80&#39;dir.\",\"B) B h cresinin kromozom sayısı 40&#39;dır.\",\"C) A h cresinin oluşturacağı tetrat sayısı 20&#39;dir.\",\"D) C h cresinin kromozom sayısı 10&#39;dur.\",\"E) B h cresinin kromatit sayısı 160&#39;dır.\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "9": [
+    {
+      "attempt": 1,
+      "id": 9,
+      "timestamp": "2026-03-28T18:06:20.115Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4032 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 381"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Profaz I II. Anafaz I III. Metafaz II IV. Anafaz II Yukarıda mayoz b l nmeye ait evrelerden bazıları verilmiştir. Bu evrelerden hangilerinde kalıts...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız II\\r\\n\",\"cleaned\":\"A) Yalnız II\"},{\"raw\":\"B) I ve II\\r\\n\",\"cleaned\":\"B) I ve II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız II\",\"B) I ve II\",\"C) III ve IV\",\"D) I, III ve IV\",\"E) II, III ve IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "10": [
+    {
+      "attempt": 1,
+      "id": 10,
+      "timestamp": "2026-03-28T18:06:23.750Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3893 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 206"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Mayoz bölünmede gerçekleşen olaylardan hangisi mayoz I ve mayoz II'de ortak olarak gerçekleşmez ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Karyokinez\",\"cleaned\":\"A) Karyokinez\"},{\"raw\":\"B) İğ ipliklerinin oluşumu\",\"cleaned\":\"B) İğ ipliklerinin oluşumu\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Karyokinez\",\"B) İğ ipliklerinin oluşumu\",\"C) Kardeş kromatitlerin ayrılması\",\"D) Sitokinez\",\"E) Çekirdek zarının erimesi\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "11": [
+    {
+      "attempt": 1,
+      "id": 11,
+      "timestamp": "2026-03-28T18:06:27.486Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3856 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 241"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"2n = 24 kromozomlu bir hücre mayoz bölünme geçiriyor. Bölünmenin profaz I evresinde gözlenen tetrat ve kromatit sayıları sırasıyla kaçtır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) 12-48\",\"cleaned\":\"A) 12-48\"},{\"raw\":\"B) 24-96\",\"cleaned\":\"B) 24-96\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) 12-48\",\"B) 24-96\",\"C) 12-24\",\"D) 24-48\",\"E) 48-6\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "12": [
+    {
+      "attempt": 1,
+      "id": 12,
+      "timestamp": "2026-03-28T18:06:31.294Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3901 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 262"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Büyüme II. Birey sayısında artış III. Kalıtsal çeşitlilik Paramesyumda gerçekleşen mitoz bölünme yukarıdakilerden hangisini sağlar?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız II\",\"cleaned\":\"A) Yalnız II\"},{\"raw\":\"B) Yalnız III\",\"cleaned\":\"B) Yalnız III\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız II\",\"B) Yalnız III\",\"C) I ve III\",\"D) II ve III\",\"E) I, II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "13": [
+    {
+      "attempt": 1,
+      "id": 13,
+      "timestamp": "2026-03-28T18:06:34.610Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3971 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 174"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıda verilen bilgilerden hangisi mayoz bölünmeye ait bir özelliktir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) &nbsp;Kromozomların niteliği ve niceliği değişmez.\",\"cleaned\":\"A) Kromozomların niteliği ve niceliği değişmez.\"},{\"raw\":\"B) &nbsp;Kromozom sayısı değişmez.\",\"cleaned\":\"B) Kromozom sayısı değişmez.\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Kromozomların niteliği ve niceliği değişmez.\",\"B) Kromozom sayısı değişmez.\",\"C) Hayat boyu devam eder.\",\"D) Tetrat ve sinapsis görülür.\",\"E) Çekirdek ve sitoplazma bölünmeleri birer defa gerçekleşir.\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
