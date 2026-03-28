@@ -11757,5 +11757,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "208": [
+    {
+      "attempt": 1,
+      "id": 208,
+      "timestamp": "2026-03-28T18:46:29.512Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3941 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 186"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Saprofit beslenen canlılarla ilgili aşağıdaki ifadelerden hangisi yanlıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Ortamda inorganik madde miktarını artırırlar.\",\"cleaned\":\"A) Ortamda inorganik madde miktarını artırırlar.\"},{\"raw\":\"B) Tabiatta madde döngüsüne katkı sağlarlar.\",\"cleaned\":\"B) Tabiatta madde döngüsüne katkı sağlarlar.\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Ortamda inorganik madde miktarını artırırlar.\",\"B) Tabiatta madde döngüsüne katkı sağlarlar.\",\"C) Parazit yaşam sürerler.\",\"D) Heterotrof beslenirler.\",\"E) Mantar veya bakteri olabilirler.\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
