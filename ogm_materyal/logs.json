@@ -8679,5 +8679,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "157": [
+    {
+      "attempt": 1,
+      "id": 157,
+      "timestamp": "2026-03-28T18:28:17.825Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3873 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 183"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi diğerlerine göre daha dar bir coğrafyayı etkiler?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Küresel ısınma\",\"cleaned\":\"A) Küresel ısınma\"},{\"raw\":\"B) Radyoaktif serpinti\",\"cleaned\":\"B) Radyoaktif serpinti\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Küresel ısınma\",\"B) Radyoaktif serpinti\",\"C) Ozon tabakasının incelmesi\",\"D) Ötrofikasyon\",\"E) Yeraltı sularının kirlenmesi\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
