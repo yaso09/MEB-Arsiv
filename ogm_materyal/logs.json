@@ -13354,5 +13354,217 @@
         "cevap"
       ]
     }
+  ],
+  "234": [
+    {
+      "attempt": 1,
+      "id": 234,
+      "timestamp": "2026-03-28T18:48:20.568Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 35 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "❌",
+          "detail": "question-item-ask bloğu bulunamadı"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "❌",
+          "detail": "null"
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "❌",
+          "detail": "0 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "❌",
+          "detail": "Toplam eşleşme: 0 → []"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "❌",
+          "detail": "Geçerli şık sayısı: 0 → []"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "❌",
+          "detail": "Cevap bulunamadı"
+        }
+      ],
+      "result": "FAILED",
+      "missing": [
+        "soru",
+        "şıklar",
+        "cevap"
+      ]
+    },
+    {
+      "attempt": 2,
+      "id": 234,
+      "timestamp": "2026-03-28T18:48:21.626Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 35 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "❌",
+          "detail": "question-item-ask bloğu bulunamadı"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "❌",
+          "detail": "null"
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "❌",
+          "detail": "0 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "❌",
+          "detail": "Toplam eşleşme: 0 → []"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "❌",
+          "detail": "Geçerli şık sayısı: 0 → []"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "❌",
+          "detail": "Cevap bulunamadı"
+        }
+      ],
+      "result": "FAILED",
+      "missing": [
+        "soru",
+        "şıklar",
+        "cevap"
+      ]
+    },
+    {
+      "attempt": 3,
+      "id": 234,
+      "timestamp": "2026-03-28T18:48:22.684Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 35 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "❌",
+          "detail": "question-item-ask bloğu bulunamadı"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "❌",
+          "detail": "null"
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "❌",
+          "detail": "0 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "❌",
+          "detail": "Toplam eşleşme: 0 → []"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "❌",
+          "detail": "Geçerli şık sayısı: 0 → []"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "❌",
+          "detail": "Cevap bulunamadı"
+        }
+      ],
+      "result": "FAILED",
+      "missing": [
+        "soru",
+        "şıklar",
+        "cevap"
+      ]
+    }
+  ],
+  "235": [
+    {
+      "attempt": 1,
+      "id": 235,
+      "timestamp": "2026-03-28T18:48:28.031Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3940 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 269"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi Atat rk&#39; n belirlediği mill dış politikada uyulması gereken esaslardan biri değildir ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Bağımsızlık\\r\\n\",\"cleaned\":\"A) Bağımsızlık\"},{\"raw\":\"B) Ger&ccedil;ek&ccedil;ilik\\r\\n\",\"cleaned\":\"B) Ger ek ilik\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Bağımsızlık\",\"B) Ger ek ilik\",\"C) Akılcılık\",\"D) Eşitlik\",\"E) Yayılmacılık\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
