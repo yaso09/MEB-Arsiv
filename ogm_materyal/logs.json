@@ -18844,5 +18844,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "306": [
+    {
+      "attempt": 1,
+      "id": 306,
+      "timestamp": "2026-03-28T19:12:27.610Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4074 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 280"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi I. D nya Savaşı sonrası d nya barışını sağlama ve koruma amacına y nelik gelişmelerden biri değildir ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Locarno Antlaşması&#39;nın imzalanması\\r\\n\",\"cleaned\":\"A) Locarno Antlaşması&#39;nın imzalanması\"},{\"raw\":\"B) Briand-Kellog Paktı&#39;nın yapılması\\r\\n\",\"cleaned\":\"B) Briand-Kellog Paktı&#39;nın yapılması\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Locarno Antlaşması&#39;nın imzalanması\",\"B) Briand-Kellog Paktı&#39;nın yapılması\",\"C) Milletler Cemiyeti&#39;nin kurulması\",\"D) K k Antant&#39;ın kurulması\",\"E) Manda y netimleri oluşturulması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
