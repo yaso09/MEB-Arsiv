@@ -2968,5 +2968,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "69": [
+    {
+      "attempt": 1,
+      "id": 69,
+      "timestamp": "2026-03-28T18:18:35.550Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3914 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 283"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıda genotipleri verilen aynı türden bireylerin hangisinin oluşturabileceği gamet çeşidi sayısı diğerlerinden fazla olur? ( Genler bağımsız)...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) AabbGghh\",\"cleaned\":\"A) AabbGghh\"},{\"raw\":\"B) AaBbggHH\",\"cleaned\":\"B) AaBbggHH\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) AabbGghh\",\"B) AaBbggHH\",\"C) AaBbGgHh\",\"D) aaBbGGhh\",\"E) aaBbGgHh\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "70": [
+    {
+      "attempt": 1,
+      "id": 70,
+      "timestamp": "2026-03-28T18:18:38.792Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4646 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 414"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Bir karakterin oluşumunda etkili olan beş alel genin baskınlık ilişkisi; B 1 B 2 B 3 B 4 = B 5 şeklinde olduğuna g re, bu karakter ile ilgili ka eşit ...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) 10 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 6&nbsp; &nb\",\"cleaned\":\"A) 10 6\"},{\"raw\":\"B) 15 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 6&nbsp; &nb\",\"cleaned\":\"B) 15 6\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) 10 6\",\"B) 15 6\",\"C) 15 4\",\"D) 10 4\",\"E) 15 8\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
