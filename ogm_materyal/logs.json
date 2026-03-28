@@ -6990,5 +6990,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "127": [
+    {
+      "attempt": 1,
+      "id": 127,
+      "timestamp": "2026-03-28T18:26:33.662Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4036 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 201"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi çevre kirliliğine karşı alınması gereken önlemlerden biri değildir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Fabrika ve ev bacalarına filtre takılması\",\"cleaned\":\"A) Fabrika ve ev bacalarına filtre takılması\"},{\"raw\":\"B) Nesli tükenmekte olan bazı hayvan türlerinin koruma altına alınması\",\"cleaned\":\"B) Nesli tükenmekte olan bazı hayvan türlerinin koruma altına alınması\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Fabrika ve ev bacalarına filtre takılması\",\"B) Nesli tükenmekte olan bazı hayvan türlerinin koruma altına alınması\",\"C) Binalara ısı yalıtımı yapılması\",\"D) Tarım zararlıları ile biyolojik mücadelenin yapılması\",\"E) Kullanılan malzemelerde geri dönüşüme önem verilmesi\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "128": [
+    {
+      "attempt": 1,
+      "id": 128,
+      "timestamp": "2026-03-28T18:26:37.174Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4188 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 196"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Çevre kirliliğine neden olan olaylarla ilgili aşağıdaki ifadelerden hangisi yanlıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Asit yağmurları ile su kaynaklarının pH'ının değişimi canlılara zarar verebil\",\"cleaned\":\"A) Asit yağmurları ile su kaynaklarının pH'ının değişimi canlılara zarar verebilir.\"},{\"raw\":\"B) Fosil yakıt tüketimi ile açığa çıkan gazlar küresel ısınmaya neden olabilir.\",\"cl"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Asit yağmurları ile su kaynaklarının pH'ının değişimi canlılara zarar verebilir.\",\"B) Fosil yakıt tüketimi ile açığa çıkan gazlar küresel ısınmaya neden olabilir.\",\"C) Nükleer atıklar ile oluşan radyoaktif kirlenme genetik bozukluklara neden olabilir.\",\"D) Organik gübre "
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
