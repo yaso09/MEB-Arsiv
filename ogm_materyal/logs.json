@@ -4816,5 +4816,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "99": [
+    {
+      "attempt": 1,
+      "id": 99,
+      "timestamp": "2026-03-28T18:22:39.419Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4153 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 363"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"AaBbDdEe genotipli birey i in aşağıdakilerden hangisi yanlıştır ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Kromozom sayısı en fazla sekizdir.\\r\\n\",\"cleaned\":\"A) Kromozom sayısı en fazla sekizdir.\"},{\"raw\":\"B) Homozigot gen &ccedil;ifti yoktur.\\r\\n\",\"cleaned\":\"B) Homozigot gen ifti yoktur.\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Kromozom sayısı en fazla sekizdir.\",\"B) Homozigot gen ifti yoktur.\",\"C) En fazla oluşacak gamet eşidi on altıdır.\",\"D) Alel gen ifti sayısı d rtt r.\",\"E) Karakter sayısı sekizdir.\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
