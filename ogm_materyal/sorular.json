@@ -2266,5 +2266,77 @@
       "E) I, II ve III"
     ],
     "answer": "E"
+  },
+  {
+    "id": 220,
+    "question": "Aşağıdaki ekolojik birimlerin aynı alanda aralarındaki b y kl k ilişkisi g sterilmiştir. A : Ekosistem B : Kom nite C : Pop lasyon Şekil ile ilgili; I. C&#39;de fotoototrof ve kemoototrof canlılar bir arada bulunabilir II. A&#39;da biyotik ve abiyotik fakt rler bir arada bulunur III. B&#39;de b t n canlıların kromozom sayısı aynıdır ifadelerinden hangileri doğrudur?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 221,
+    "question": "Omurgalı canlıların oluşturduğu popülasyonlar için, I. Erkek ve dişi bireylerden oluşması II. Bireylerin tümünün ölmesi ile tür neslinin yok olması III. Tümünde kapalı dolaşım görülmesi ifadelerinden hangileri kesinlikle doğrudur?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 222,
+    "question": "Popülasyonu oluşturan tüm sağlıklı bireylerin, I. Kromozom sayısı II. Beslenme şekli III. Solunum şekli gibi özelliklerden hangileri kesinlikle aynıdır?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 223,
+    "question": "Belirli bir alanda yer alan, I. Fauna II. Flora III. Komünite ekolojik birimlerden hangilerinde ototrof canlı türleri bulunabilir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 224,
+    "question": "Aşağıda belirtilen ekolojik kavramlar ile ilgili olarak hangisi söylenemez?",
+    "choices": [
+      "A) Habitat, abiyotik şartların değişiminden etkilenir.",
+      "B) Bir göldeki bakteriler, algler, balıklar vb canlılar komüniteyi oluşturur.",
+      "C) Ekoton, birden fazla popülasyon barındırır.",
+      "D) Habitat, canlı türünün en iyi adaptasyon gösterdiği yaşama ortamına denir.",
+      "E) Ekosistem, biyosferi de kapsayan ekolojik kavramdır."
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 225,
+    "question": "l. Ekosistem ll. Pop lasyon lll. Biyosfer lV. Kom nite Yukarıda verilen ekolojik kavramlar kendi aralarındaki ilişkileri dikkate alınarak k kten b y ğe doğru nasıl sıralanır?",
+    "choices": [
+      "A) I-IV-II-III",
+      "B) I-IV-III-II",
+      "C) II-I-IV-III",
+      "D) II-IV-I-III",
+      "E) III-I-IV-II"
+    ],
+    "answer": "D"
   }
 ]
