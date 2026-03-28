@@ -1762,5 +1762,77 @@
       "E) Bitkiler topraktan aldıkları nitrat tuzlarını protein sentezinde kullanırlar."
     ],
     "answer": "D"
+  },
+  {
+    "id": 178,
+    "question": "I. Terleme II. Solunum III. Fotosentez Bitkilerin gerçekleştirdiği yukarıdaki olayların hangileri sonucunda atmosferdeki su miktarı artar?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) I ve II",
+      "E) I ve III"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 179,
+    "question": "I. Aynı türden oluşma II. Aynı kromozom sayısına sahip olma III. İş bölümü olması Toroslardaki kızılçam popülasyonu içerisinde yer alan tüm bireyler için, yukarıdaki özelliklerinden hangilerinin aynı olması beklenir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve II",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 180,
+    "question": "Aşağıdakilerden hangisi havanın serbest azotunu kullanarak azot döngüsünde rol oynar?",
+    "choices": [
+      "A) Azot bağlayıcı bakteriler",
+      "B) Mantarlar",
+      "C) Patojen bakteriler",
+      "D) Denitrifikasyon bakterileri",
+      "E) Saprofit bakteriler"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 181,
+    "question": "I. Buğday II. Çekirge III. Kurbağa Yukarıdaki canlıların oluşturduğu besin zinciriyle ilgili aşağıdaki yargılardan hangisi söylenemez?",
+    "choices": [
+      "A) Biyokütlesi en fazla olan buğdaydır.",
+      "B) Nişastayı hidroliz edebilen enzimler sadece çekirgede bulunur.",
+      "C) Kimyasal madde birikimi en fazla kurbağadadır.",
+      "D) Çekirge ve kurbağa heterotrof beslenir.",
+      "E) Vücut büyüklüğü son tüketicide en fazladır."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 182,
+    "question": "I. İnorganik madde ----- Organik madde II. Organik madde ----- Organik polimer III. Organik madde ----- CO2 + H2O + ATP Bir ekosistemde yer alan t m t rler i in, yukarıdaki d n ş mlerden hangileri ortak ger ekleşir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) I ve III",
+      "E) II ve III"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 183,
+    "question": "Azot döngüsüyle ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "choices": [
+      "A) Saprofit bakteriler azotlu organik atıkları amonyağa dönüştürürler.",
+      "B) Nitrit bakterileri amoyağı nitrite dönüştürürler.",
+      "C) Nitrat bakterileri nitriti nitrata dönüştürürler.",
+      "D) Baklagillerin köklerinde mutualist yaşayan bakteriler havanın serbest azotunu bağlarlar.",
+      "E) Denitrifikasyon bakterileri havadaki serbest azotu nitrata dönüştürürler."
+    ],
+    "answer": "E"
   }
 ]
