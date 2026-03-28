@@ -18793,5 +18793,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "305": [
+    {
+      "attempt": 1,
+      "id": 305,
+      "timestamp": "2026-03-28T19:12:11.642Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3884 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 207"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"1929 D nya Ekonomik Krizi zellikle hangi kıtalarda etkili olmuştur?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Asya - Avrupa\\r\\n\",\"cleaned\":\"A) Asya - Avrupa\"},{\"raw\":\"B) Asya - Afrika\\r\\n\",\"cleaned\":\"B) Asya - Afrika\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Asya - Avrupa\",\"B) Asya - Afrika\",\"C) Amerika - Asya\",\"D) Amerika - Avrupa\",\"E) Avrupa - Afrika\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
