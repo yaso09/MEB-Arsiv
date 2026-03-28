@@ -1,5 +1,5 @@
 {
-  "lastSuccessId": 300,
+  "lastSuccessId": 301,
   "savedIds": [
     1,
     2,
@@ -294,8 +294,11 @@
     297,
     298,
     299,
-    300
+    300,
+    301
   ],
-  "failedIds": [],
+  "failedIds": [
+    302
+  ],
   "notFoundId": null
 }
