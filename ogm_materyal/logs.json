@@ -10629,5 +10629,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "189": [
+    {
+      "attempt": 1,
+      "id": 189,
+      "timestamp": "2026-03-28T18:45:20.400Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4032 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 389"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"&Ccedil;imen ​​​​​​​ B cek ​​​​​​​ Kertenkele ​​​​​​​ Yılan ​​​​​​​ Şahin Yukarıda verilen besin zincirine g re, en fazla zehirli madde aşağıdakilerde...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) &Ccedil;imen\\r\\n\",\"cleaned\":\"A) &Ccedil;imen\"},{\"raw\":\"B) B&ouml;cek\\r\\n\",\"cleaned\":\"B) B cek\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) &Ccedil;imen\",\"B) B cek\",\"C) Kertenkele\",\"D) Yılan\",\"E) Şahin\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
