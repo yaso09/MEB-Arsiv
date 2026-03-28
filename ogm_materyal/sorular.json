@@ -2602,5 +2602,89 @@
       "E) Barış ve g venliği korumak"
     ],
     "answer": "A"
+  },
+  {
+    "id": 251,
+    "question": "Aşağıdaki gelişmelerden hangisi Misak-ı Mill &#39;den d n verilmediğinin g stergesidir?",
+    "choices": [
+      "A) Batum&#39;un G rcistan&#39;a verilmesi",
+      "B) Musul&#39;un İngiliz mandasındaki Irak&#39;a bırakılması",
+      "C) Hatay&#39;ın Fransız mandasındaki Suriye&#39;ye bırakılması",
+      "D) Kapit lasyonların kaldırılması",
+      "E) Boğazların y netiminin uluslararası bir komisyona bırakılması"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 252,
+    "question": "I. Musul&#39;un İngiliz mandası altındaki Irak&#39;a verilmesi, II. Sadabat Paktı&#39;nın kurulması, III. Montr Boğazlar S zleşmesi&#39;nin imzalanması, IV. Balkan Antantı&#39;nın oluşturulması Yukarıdakilerden hangilerinin II. D nya Savaşı&#39;na karşı bir nlem niteliği taşıdığı s ylenebilir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız III",
+      "C) III ve IV",
+      "D) I, II ve IV",
+      "E) II, III ve IV"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 253,
+    "question": "Mustafa Kemal Atat rk, 1932 yılında ABD&#39;li General McArthur ile yaptığı s yleşide uluslararası sorunların barış yolu ile z lememesi durumunda 1940 ile 1945 yılları arasında ikinci bir d nya savaşının yaşanabileceğini s ylemiştir. Bu par ada Mustafa Kemal Atat rk&#39; n aşağıdaki zelliklerinden hangisi vurgulanmıştır?",
+    "choices": [
+      "A) Vatanseverliği",
+      "B) Barış ılığı",
+      "C) &Ccedil;alışkanlığı",
+      "D) D r stl ğ",
+      "E) İleri g r şl l ğ"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 254,
+    "question": "Tam bağımsızlık ilkesinden taviz vermeyen yeni T rk devleti bu konuda Fransa ile sorunlar yaşamıştır. Aşağıdakilerden hangisi Fransa ile aramızda yaşanan sorunlardan biri değildir ?",
+    "choices": [
+      "A) Hatay sorunu",
+      "B) Musul sorunu",
+      "C) Osmanlı bor ları",
+      "D) Yabancı okullar sorunu",
+      "E) Demiryolları sorunu"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 255,
+    "question": "Aşağıdakilerden hangisi Atat rk d nemi dış politika gelişmelerinden biri değildir ?",
+    "choices": [
+      "A) Lozan Barış Antlaşması",
+      "B) Hatay&#39;ın anavatana katılması",
+      "C) Sadabat Paktı",
+      "D) Balkan Antantı",
+      "E) Montr Boğazlar S zleşmesi"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 256,
+    "question": "Yurtta sulh, cihanda sulh Mecbur kalınmadık a savaş bir cinayettir. Mustafa Kemal Atat rk, yukarıda yer alan s zlerinde aşağıdakilerden hangisini vurgulamıştır?",
+    "choices": [
+      "A) Ulusal bağımsızlığı",
+      "B) Ekonomik bağımsızlığı",
+      "C) Barış yanlısı bir dış politikayı",
+      "D) Halk egemenliğini",
+      "E) G l devlet olmayı"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 257,
+    "question": "Lozan Antlaşması&#39;na g re yabancı okulların T rk kanunlarına ve T rk eğitim kurallarına uymaları ve denetimlerinin T rk Mill Eğitim m fettişlerince yapılması kararlaştırılmıştır. Bu durumun temel amacı aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) &Ccedil;ağdaş eğitim hedefini ger ekleştirmek",
+      "B) Eğitimde fırsat eşitliğini sağlamak",
+      "C) Yabancılara s z hakkı tanımak",
+      "D) Eğitim kalitesini arttırmak",
+      "E) Tam bağımsızlıktan taviz vermemek"
+    ],
+    "answer": "E"
   }
 ]
