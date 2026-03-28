@@ -1482,6 +1482,165 @@
         "şıklar",
         "cevap"
       ]
+    },
+    {
+      "attempt": 1,
+      "id": 42,
+      "timestamp": "2026-03-28T18:17:43.165Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 8 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "❌",
+          "detail": "question-item-ask bloğu bulunamadı"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "❌",
+          "detail": "null"
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "❌",
+          "detail": "0 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "❌",
+          "detail": "Toplam eşleşme: 0 → []"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "❌",
+          "detail": "Geçerli şık sayısı: 0 → []"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "❌",
+          "detail": "Cevap bulunamadı"
+        }
+      ],
+      "result": "FAILED",
+      "missing": [
+        "soru",
+        "şıklar",
+        "cevap"
+      ]
+    },
+    {
+      "attempt": 2,
+      "id": 42,
+      "timestamp": "2026-03-28T18:17:44.220Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 8 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "❌",
+          "detail": "question-item-ask bloğu bulunamadı"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "❌",
+          "detail": "null"
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "❌",
+          "detail": "0 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "❌",
+          "detail": "Toplam eşleşme: 0 → []"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "❌",
+          "detail": "Geçerli şık sayısı: 0 → []"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "❌",
+          "detail": "Cevap bulunamadı"
+        }
+      ],
+      "result": "FAILED",
+      "missing": [
+        "soru",
+        "şıklar",
+        "cevap"
+      ]
+    },
+    {
+      "attempt": 3,
+      "id": 42,
+      "timestamp": "2026-03-28T18:17:45.333Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 8 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "❌",
+          "detail": "question-item-ask bloğu bulunamadı"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "❌",
+          "detail": "null"
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "❌",
+          "detail": "0 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "❌",
+          "detail": "Toplam eşleşme: 0 → []"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "❌",
+          "detail": "Geçerli şık sayısı: 0 → []"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "❌",
+          "detail": "Cevap bulunamadı"
+        }
+      ],
+      "result": "FAILED",
+      "missing": [
+        "soru",
+        "şıklar",
+        "cevap"
+      ]
     }
   ],
   "43": [
@@ -1784,6 +1943,414 @@
           "step": "cevap_regex",
           "result": "✅",
           "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "49": [
+    {
+      "attempt": 1,
+      "id": 49,
+      "timestamp": "2026-03-28T18:17:22.863Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3978 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 347"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"l. Tomurcuklanmayla üreme ll.Sporla üreme lll. Çelikle üreme lV. Rejenerasyon ile üreme Yukarıdaki eşeysiz üreme çeşitlerinden hangileri bir hücreli v...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız l\",\"cleaned\":\"A) Yalnız l\"},{\"raw\":\"B) l ve ll\",\"cleaned\":\"B) l ve ll\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız l\",\"B) l ve ll\",\"C) l ve lV\",\"D) ll ve lll\",\"E) lll ve lV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "50": [
+    {
+      "attempt": 1,
+      "id": 50,
+      "timestamp": "2026-03-28T18:17:26.225Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3926 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 173"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi çelikle vejetatif üremeye örnektir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Patatesin çoğalması\",\"cleaned\":\"A) Patatesin çoğalması\"},{\"raw\":\"B) Eğrelti otunun sporla üremesi\",\"cleaned\":\"B) Eğrelti otunun sporla üremesi\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Patatesin çoğalması\",\"B) Eğrelti otunun sporla üremesi\",\"C) Gül bitkisinin dalının kesilip toprağa ekilmesi\",\"D) Tohum ile üremenin gerçekleşmesi\",\"E) Çileğin sürünücü gövdeyle çoğalması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "51": [
+    {
+      "attempt": 1,
+      "id": 51,
+      "timestamp": "2026-03-28T18:17:29.418Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4190 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 542"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Cross-overin ger ekleşmediği mayoz b l nmede oluşan h cre i in l. Oluşan h crelerin hepsi farklıdır. ll. Oluşan h creler ana h crenin kopyasıdır. lll....\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I\\r\\n\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) Yalnız ll\\r\\n\",\"cleaned\":\"B) Yalnız ll\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) Yalnız ll\",\"C) Yalnız lll\",\"D) l ve V\",\"E) III ve IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "52": [
+    {
+      "attempt": 1,
+      "id": 52,
+      "timestamp": "2026-03-28T18:17:32.761Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4018 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 178"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi mayoz hücre bölünmesi için yanlıştır ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Mayoz l de tür içi çeşitlilik sağlanır.\",\"cleaned\":\"A) Mayoz l de tür içi çeşitlilik sağlanır.\"},{\"raw\":\"B) Mayoz ll de interfaz evresi görülmez.\",\"cleaned\":\"B) Mayoz ll de interfaz evresi görülmez.\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Mayoz l de tür içi çeşitlilik sağlanır.\",\"B) Mayoz ll de interfaz evresi görülmez.\",\"C) Mayoz l de homolog kromozomlar ekvatoral düzlemde tek sıra halinde dizilir.\",\"D) Mayoz ll de ayrılan kromatitler kromozom adını alır.\",\"E) İnsanda sadece üreme ana hücrelerinde görülü"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "53": [
+    {
+      "attempt": 1,
+      "id": 53,
+      "timestamp": "2026-03-28T18:17:36.005Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3868 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 267"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Mayoz hücre bölünmesinin profaz l aşamasında 22 tetrat sayılan hücrenin, anafaz ll aşamasının sonunda kromozom sayısı aşağıdakilerden hangisidir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) 11\",\"cleaned\":\"A) 11\"},{\"raw\":\"B) 22\",\"cleaned\":\"B) 22\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) 11\",\"B) 22\",\"C) 44\",\"D) 66\",\"E) 88\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "54": [
+    {
+      "attempt": 1,
+      "id": 54,
+      "timestamp": "2026-03-28T18:17:39.219Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4155 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 498"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Diploit bir canlının, eşeyli remesiyle t r i i eşitliliğin oluşmasında l. Cross-overin ger ekleşmesi ll. DNA &#39;nın eşlenmesi lll. Homolog kromozoml...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) l ve lll\\r\\n\",\"cleaned\":\"A) l ve lll\"},{\"raw\":\"B) ll ve lV\\r\\n\",\"cleaned\":\"B) ll ve lV\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) l ve lll\",\"B) ll ve lV\",\"C) l, ll ve lll\",\"D) l, lll ve lV\",\"E) l, ll, lll ve lV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "55": [
+    {
+      "attempt": 1,
+      "id": 55,
+      "timestamp": "2026-03-28T18:17:50.533Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3865 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 213"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisinin remesinde sadece eşeyli reme g r l r?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Prokaryot\\r\\n\",\"cleaned\":\"A) Prokaryot\"},{\"raw\":\"B) Protista\\r\\n\",\"cleaned\":\"B) Protista\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Prokaryot\",\"B) Protista\",\"C) Mantar\",\"D) Tohumlı bitki\",\"E) Omurgalı hayvan\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "56": [
+    {
+      "attempt": 1,
+      "id": 56,
+      "timestamp": "2026-03-28T18:17:53.745Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3948 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 302"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"2n=4 olan reme ana h cresinin, mayoz profaz l safhasında sahip olduğu sentromer, kromatit ve kromozom sayıları sırayla hangi se enekte doğru olarak sı...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) 8 - 4 - 4\\r\\n\",\"cleaned\":\"A) 8 - 4 - 4\"},{\"raw\":\"B) 4 - 8 - 4\\r\\n\",\"cleaned\":\"B) 4 - 8 - 4\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) 8 - 4 - 4\",\"B) 4 - 8 - 4\",\"C) 8 - 8 - 4\",\"D) 4 - 8 - 8\",\"E) 4 - 4 - 8\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
         }
       ],
       "result": "OK",
