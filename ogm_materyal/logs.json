@@ -5958,5 +5958,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "113": [
+    {
+      "attempt": 1,
+      "id": 113,
+      "timestamp": "2026-03-28T18:23:43.827Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3995 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 360"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Solunum ve terlemenin hızlanması II. Yaprak uçlarında ve kenarlarında sararma ve yanma benzeri değişiklikler III. Bitki olgunlaşmasının gecikmesi Y...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) I ve II\",\"cleaned\":\"B) I ve II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) I ve II\",\"C) I ve III\",\"D) II ve III\",\"E) I, II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
