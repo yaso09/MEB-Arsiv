@@ -2830,5 +2830,17 @@
       "E) İzmir Etnografya M zesi"
     ],
     "answer": "B"
+  },
+  {
+    "id": 271,
+    "question": "Atat rk&#39; n l m ne sebep olan hastalığı aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) Karaciğer kanseri",
+      "B) Akciğer kanseri",
+      "C) Siroz",
+      "D) Pankreas kanseri",
+      "E) Verem"
+    ],
+    "answer": "C"
   }
 ]
