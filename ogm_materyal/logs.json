@@ -12012,5 +12012,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "213": [
+    {
+      "attempt": 1,
+      "id": 213,
+      "timestamp": "2026-03-28T18:46:46.357Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3852 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 197"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdaki canlı gruplarının hangisinin üretici, tüketici ve ayrıştırıcı türleri bulunmaktadır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Bakteriler\",\"cleaned\":\"A) Bakteriler\"},{\"raw\":\"B) Mantarlar\",\"cleaned\":\"B) Mantarlar\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Bakteriler\",\"B) Mantarlar\",\"C) Bitkiler\",\"D) Omurgasız hayvanlar\",\"E) Omurgalı hayvanlar\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "214": [
+    {
+      "attempt": 1,
+      "id": 214,
+      "timestamp": "2026-03-28T18:46:51.339Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4115 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 475"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Azot döngüsünde görülen nitrifikasyon olayında rol alan bakterilerle ilgili; I. Organik atıklardaki azotlu bileşikleri inorganik bileşiklere dönüştürü...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I ve III\",\"cleaned\":\"A) I ve III\"},{\"raw\":\"B) II ve III\",\"cleaned\":\"B) II ve III\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I ve III\",\"B) II ve III\",\"C) III ve IV\",\"D) I, II ve IV\",\"E) I, III ve IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
