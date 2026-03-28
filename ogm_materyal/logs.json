@@ -6111,5 +6111,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "116": [
+    {
+      "attempt": 1,
+      "id": 116,
+      "timestamp": "2026-03-28T18:23:53.228Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4192 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 189"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi küresel ısınmanın olumlu beklentileri arasında yer almaktadır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Buzulların erimesi ve denizlerdeki su seviyesinin yükselmesiyle kıyılarda top\",\"cleaned\":\"A) Buzulların erimesi ve denizlerdeki su seviyesinin yükselmesiyle kıyılarda toprak kayıplarının olması\"},{\"raw\":\"B) Bölgesel yağış sistemlerinin değişmesiyle taşkınların olması\""
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Buzulların erimesi ve denizlerdeki su seviyesinin yükselmesiyle kıyılarda toprak kayıplarının olması\",\"B) Bölgesel yağış sistemlerinin değişmesiyle taşkınların olması\",\"C) Yüksek sıcaklık artışlarının aşırı buharlaşma oluşturarak göl ve ırmak sularını azaltması\",\"D) Kana"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "117": [
+    {
+      "attempt": 1,
+      "id": 117,
+      "timestamp": "2026-03-28T18:23:56.573Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3884 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 189"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisinin toprak kirliliğine olan etkisi diğerlerine göre daha azdır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Endüstriyel atıklar\",\"cleaned\":\"A) Endüstriyel atıklar\"},{\"raw\":\"B) Tarımsal mücadele ilaçları\",\"cleaned\":\"B) Tarımsal mücadele ilaçları\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Endüstriyel atıklar\",\"B) Tarımsal mücadele ilaçları\",\"C) Bitki ve hayvan atıkları\",\"D) Radyoaktif atıklar\",\"E) Deterjan atıkları\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
