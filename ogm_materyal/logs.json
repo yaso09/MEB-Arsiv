@@ -4357,5 +4357,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "90": [
+    {
+      "attempt": 1,
+      "id": 90,
+      "timestamp": "2026-03-28T18:22:10.388Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3835 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 226"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Rr ss Tt x Rr Ss tt Yukarıdaki çaprazlamada Rst fenotipli bireyin oluşma ihtimali kaçtır? (Genler bağımsızdır)...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) 3/16\",\"cleaned\":\"A) 3/16\"},{\"raw\":\"B) 4/16\",\"cleaned\":\"B) 4/16\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) 3/16\",\"B) 4/16\",\"C) 3/8\",\"D) 4/8\",\"E) 3/32\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
