@@ -2002,5 +2002,17 @@
       "E) Göknar"
     ],
     "answer": "C"
+  },
+  {
+    "id": 198,
+    "question": "I. Fotosentez yapma II. Protein sentezleme III. Heterotrof beslenme Yukarıda verilenlerden hangileri saprofitler tarafından ortak olarak gerçekleşir?",
+    "choices": [
+      "A) Yalnız II",
+      "B) Yalnız III",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "D"
   }
 ]
