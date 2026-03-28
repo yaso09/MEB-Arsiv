@@ -16537,5 +16537,56 @@
         "cevap"
       ]
     }
+  ],
+  "265": [
+    {
+      "attempt": 1,
+      "id": 265,
+      "timestamp": "2026-03-28T18:51:16.272Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3923 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 239"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi Atat rk d nemi T rk dış politikasının temel ilkelerinden biri değildir ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Bağımsızlık\\r\\n\",\"cleaned\":\"A) Bağımsızlık\"},{\"raw\":\"B) Barış&ccedil;ılık\\r\\n\",\"cleaned\":\"B) Barış ılık\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Bağımsızlık\",\"B) Barış ılık\",\"C) Ger ek ilik\",\"D) Savaş ılık\",\"E) Karşılıklılık\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
