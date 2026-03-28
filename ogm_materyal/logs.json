@@ -14924,5 +14924,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "248": [
+    {
+      "attempt": 1,
+      "id": 248,
+      "timestamp": "2026-03-28T18:49:45.645Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4000 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 315"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Dış politikada g l olmanın ilk koşulu i politikada da g l olmaktır. Aşağıdakilerden hangisi yukarıdaki yargıyı doğrulayan bir gelişmedir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Musul Sorunu\\r\\n\",\"cleaned\":\"A) Musul Sorunu\"},{\"raw\":\"B) Milletler Cemiyetine &uuml;yelik\\r\\n\",\"cleaned\":\"B) Milletler Cemiyetine yelik\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Musul Sorunu\",\"B) Milletler Cemiyetine yelik\",\"C) Balkan Antantı\",\"D) Kubilay Olayı\",\"E) Sadabad Paktı\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
