@@ -10170,5 +10170,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "180": [
+    {
+      "attempt": 1,
+      "id": 180,
+      "timestamp": "2026-03-28T18:44:51.482Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3877 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 188"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi havanın serbest azotunu kullanarak azot döngüsünde rol oynar?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Azot bağlayıcı bakteriler\",\"cleaned\":\"A) Azot bağlayıcı bakteriler\"},{\"raw\":\"B) Mantarlar\",\"cleaned\":\"B) Mantarlar\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Azot bağlayıcı bakteriler\",\"B) Mantarlar\",\"C) Patojen bakteriler\",\"D) Denitrifikasyon bakterileri\",\"E) Saprofit bakteriler\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
