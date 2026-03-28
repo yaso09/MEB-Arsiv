@@ -9654,5 +9654,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "173": [
+    {
+      "attempt": 1,
+      "id": 173,
+      "timestamp": "2026-03-28T18:44:21.820Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3769 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 147"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdaki canlılardan hangisi bir otoburdur?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Kartal\",\"cleaned\":\"A) Kartal\"},{\"raw\":\"B) Baykuş\",\"cleaned\":\"B) Baykuş\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Kartal\",\"B) Baykuş\",\"C) Çekirge\",\"D) Kurbağa\",\"E) Yılan\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
