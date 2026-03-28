@@ -17353,5 +17353,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "281": [
+    {
+      "attempt": 1,
+      "id": 281,
+      "timestamp": "2026-03-28T19:04:39.302Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4010 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 325"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Atat rk&#39; n hastalığının ağırlaştığı d neme denk gelmesine rağmen z m i in b y k gayret sarf ettiği dış sorun aşağıdakilerden hangisidir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Boğazlar Sorunu\\r\\n\",\"cleaned\":\"A) Boğazlar Sorunu\"},{\"raw\":\"B) Hatay&nbsp;Sorunu\\r\\n\",\"cleaned\":\"B) Hatay Sorunu\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Boğazlar Sorunu\",\"B) Hatay Sorunu\",\"C) Musul Sorunu\",\"D) Batı Trakya Sorunu\",\"E) Batum Sorunu\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "282": [
+    {
+      "attempt": 1,
+      "id": 282,
+      "timestamp": "2026-03-28T19:04:51.034Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4146 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 235"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Atat rk d nemi T rk dış politikası ile ilgili aşağıdaki ifadelerden hangisi doğru değildir ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Dış politika i&ccedil; dinamiklere dayanmalıdır.\\r\\n\",\"cleaned\":\"A) Dış politika i dinamiklere dayanmalıdır.\"},{\"raw\":\"B) Dış politika barışı ve ulusal &ccedil;ıkarları esas almalıdır.\\r\\n\",\"cleaned\":\"B) Dış politika barışı ve ulusal ıkarları esas almalıdır.\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Dış politika i dinamiklere dayanmalıdır.\",\"B) Dış politika barışı ve ulusal ıkarları esas almalıdır.\",\"C) Dış politika karşılıklılık ilkesine g re belirlenmelidir.\",\"D) Dış politika kişisel istek ve hayallerle şekillenebilir.\",\"E) Dış politikada d nya konjonkt r dikkate "
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
