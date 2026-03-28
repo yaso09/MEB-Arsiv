@@ -12732,5 +12732,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "224": [
+    {
+      "attempt": 1,
+      "id": 224,
+      "timestamp": "2026-03-28T18:47:42.445Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4077 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 192"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıda belirtilen ekolojik kavramlar ile ilgili olarak hangisi söylenemez?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Habitat, abiyotik şartların değişiminden etkilenir.\",\"cleaned\":\"A) Habitat, abiyotik şartların değişiminden etkilenir.\"},{\"raw\":\"B) Bir göldeki bakteriler, algler, balıklar vb canlılar komüniteyi oluşturur.\",\"cleaned\":\"B) Bir göldeki bakteriler, algler, balıklar vb ca"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Habitat, abiyotik şartların değişiminden etkilenir.\",\"B) Bir göldeki bakteriler, algler, balıklar vb canlılar komüniteyi oluşturur.\",\"C) Ekoton, birden fazla popülasyon barındırır.\",\"D) Habitat, canlı türünün en iyi adaptasyon gösterdiği yaşama ortamına denir.\",\"E) Ekosi"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
