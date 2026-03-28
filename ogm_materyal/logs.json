@@ -7653,5 +7653,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "140": [
+    {
+      "attempt": 1,
+      "id": 140,
+      "timestamp": "2026-03-28T18:27:16.091Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4010 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 196"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi hava kirliliğini önlemek için alınması gereken önlemlerdendir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Isınmada fosil yakıtların kullanılması\",\"cleaned\":\"A) Isınmada fosil yakıtların kullanılması\"},{\"raw\":\"B) Mera alanların tarıma açılması\",\"cleaned\":\"B) Mera alanların tarıma açılması\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Isınmada fosil yakıtların kullanılması\",\"B) Mera alanların tarıma açılması\",\"C) Bozuk orman alanlarının yerine yerleşim alanlarının kurulması\",\"D) Toplu taşıma yerine özel araçların kullanılması\",\"E) Sanayi tesislerinin bacalarına filtre takılması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
