@@ -16639,5 +16639,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "267": [
+    {
+      "attempt": 1,
+      "id": 267,
+      "timestamp": "2026-03-28T18:51:23.240Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3952 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 296"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Mustafa Kemal Atat rk&#39; n vefat tarihi ile Ankara&#39;da inşa edilen Anıtkabir&#39;e naaşının nakledildiği tarih aşağıdakilerden hangisinde birlikt...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) 1938 - 1963\\r\\n\",\"cleaned\":\"A) 1938 - 1963\"},{\"raw\":\"B) 1939 - 1943\\r\\n\",\"cleaned\":\"B) 1939 - 1943\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) 1938 - 1963\",\"B) 1939 - 1943\",\"C) 1938 - 1973\",\"D) 1938 - 1953\",\"E) 1939 - 1951\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
