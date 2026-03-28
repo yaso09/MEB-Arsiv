@@ -15128,5 +15128,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "252": [
+    {
+      "attempt": 1,
+      "id": 252,
+      "timestamp": "2026-03-28T18:49:59.524Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4179 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 517"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Musul&#39;un İngiliz mandası altındaki Irak&#39;a verilmesi, II. Sadabat Paktı&#39;nın kurulması, III. Montr Boğazlar S zleşmesi&#39;nin imzalanmas...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I\\r\\n\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) Yalnız III\\r\\n\",\"cleaned\":\"B) Yalnız III\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) Yalnız III\",\"C) III ve IV\",\"D) I, II ve IV\",\"E) II, III ve IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
