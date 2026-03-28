@@ -1642,5 +1642,29 @@
       "E) Nitrat bakterileri"
     ],
     "answer": "B"
+  },
+  {
+    "id": 168,
+    "question": "Aşağıdakilerden hangisi fotosentez yapmaz?",
+    "choices": [
+      "A) Alg",
+      "B) Nitrit bakterisi",
+      "C) Çam",
+      "D) Siyanobakteri",
+      "E) Öglena"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 169,
+    "question": "Bir ekosistemde yer alan besin zincirinde üreticiden 3. tüketiciye doğru gidilirken aşağıdakilerden hangisi her zaman doğru değildir?",
+    "choices": [
+      "A) Enerji aktarımında kayıplar oluşur.",
+      "B) Canlıların toplam biyokütlesi azalır.",
+      "C) Kimyasal madde birikimi artar.",
+      "D) Evrimsel gelişmişlik artar.",
+      "E) Birey sayısı azalır."
+    ],
+    "answer": "D"
   }
 ]
