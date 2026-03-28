@@ -14975,5 +14975,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "249": [
+    {
+      "attempt": 1,
+      "id": 249,
+      "timestamp": "2026-03-28T18:49:49.052Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3934 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 297"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Yeni T rk devleti, Lozan Antlaşması&#39;nda karara bağlanan Osmanlı bor ları ile ilgili olarak aşağıdaki hangi devletle anlaşmazlığa d şm şt r?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) İngiltere\\r\\n\",\"cleaned\":\"A) İngiltere\"},{\"raw\":\"B) İtalya\\r\\n\",\"cleaned\":\"B) İtalya\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) İngiltere\",\"B) İtalya\",\"C) Fransa\",\"D) Yunanistan\",\"E) Rusya\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
