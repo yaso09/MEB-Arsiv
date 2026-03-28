@@ -3070,5 +3070,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "71": [
+    {
+      "attempt": 1,
+      "id": 71,
+      "timestamp": "2026-03-28T18:18:41.958Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4036 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 405"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Yukarıdaki soy ağacında numaralar ile g sterilen bireylerden hangileri arasındaki akrabalık derecesi en azdır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) 1 ve 5\\r\\n\",\"cleaned\":\"A) 1 ve 5\"},{\"raw\":\"B) 6 ve 7\\r\\n\",\"cleaned\":\"B) 6 ve 7\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) 1 ve 5\",\"B) 6 ve 7\",\"C) 2 ve 8\",\"D) 5 ve 6\",\"E) 3 ve 7\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
