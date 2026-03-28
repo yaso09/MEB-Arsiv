@@ -3058,5 +3058,41 @@
       "E) II ve III"
     ],
     "answer": "C"
+  },
+  {
+    "id": 291,
+    "question": "Atat rk d neminde T rkiye&#39;nin, İslam D nyası ile olan ilişkilerini aşağıdaki gelişmelerden hangisi olumlu etkilemiştir?",
+    "choices": [
+      "A) Sadabat Paktı",
+      "B) Briant Kellog Paktı",
+      "C) T rkiye&#39;nin Milletler Cemiyeti&#39;ne ye olması",
+      "D) T rkiye&#39;nin NATO&#39;ya girmesi",
+      "E) Kore&#39;ye asker g nderilmesi"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 292,
+    "question": "Savunmaya dayanmayan savaş kanun dışı sayılıp, devletler arası ilişkilerin barış ı yollarla z lmesi&#39;&#39; fikri er evesinde yapılmış olan barış antlaşması aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) Locarno Antlaşması",
+      "B) Milletler Cemiyeti",
+      "C) Briand - Kellog Paktı",
+      "D) Monreo Doktrini",
+      "E) Paris Barış Konferansı"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 293,
+    "question": "1930&#39;lu yıllarda d nyada yaşanan gelişmelerden sonra T rkiye, Boğazların Lozan Antlaşması&#39;ndaki stat s nde değişiklik yapmak i in girişimde bulunmuştur. Aşağıdaki lkelerden hangisi T rkiye&#39;nin bu girişimi karşısında olumsuz tavır takınmıştır?",
+    "choices": [
+      "A) İngiltere",
+      "B) Bulgaristan",
+      "C) SSCB",
+      "D) İtalya",
+      "E) Japonya"
+    ],
+    "answer": "D"
   }
 ]
