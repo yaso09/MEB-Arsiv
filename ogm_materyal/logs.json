@@ -12426,5 +12426,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "218": [
+    {
+      "attempt": 1,
+      "id": 218,
+      "timestamp": "2026-03-28T18:47:17.891Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3995 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 165"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Kilit taşı türler için aşağıdakilerden hangisi doğrudur?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Popülasyındaki baskın türlerdir.\",\"cleaned\":\"A) Popülasyındaki baskın türlerdir.\"},{\"raw\":\"B) Kilit taşı türlerin neslinin tükenmesi popülasyonun geleceği için; olumsuz so\",\"cleaned\":\"B) Kilit taşı türlerin neslinin tükenmesi popülasyonun geleceği için; olumsuz sonuçl"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Popülasyındaki baskın türlerdir.\",\"B) Kilit taşı türlerin neslinin tükenmesi popülasyonun geleceği için; olumsuz sonuçlara neden olabilir.\",\"C) Her habitatta yaşayabilirler.\",\"D) Adaptasyon yetenekleri yüksektir.\",\"E) Neslinin tükenmesi besin zincirini etkilemez.\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
