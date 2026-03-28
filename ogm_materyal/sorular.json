@@ -1402,5 +1402,125 @@
       "E) İnsanlarda astım ve bronşit gibi hastalıkların görülmesi"
     ],
     "answer": "B"
+  },
+  {
+    "id": 142,
+    "question": "Aşağıdakilerden hangisi hava kirliliğine neden olan faktörlerden değildir?",
+    "choices": [
+      "A) Motorlu taşıtların egzoz gazları",
+      "B) Bitkilerin fotosentez sonucu atmosfere verdiği gazlar",
+      "C) Evsel ve endüstriyel atıkların atmosfere karışması",
+      "D) Volkan patlamalarından kaynaklanan büyük kül bulutları",
+      "E) Isınmada fosil yakıtların kullanılması"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 143,
+    "question": "I. Anemi II. Astım III. Bronşit IV. Hepatit Bir yerleşim biriminde hava kirliliğinin artmasına bağlı olarak insanlarda yukarıda verilen hastalıklardan hangilerinin öncelikli artması beklenir?",
+    "choices": [
+      "A) I ve II",
+      "B) I ve IV",
+      "C) II ve III",
+      "D) I, II ve III",
+      "E) II, III ve IV"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 144,
+    "question": "I. Ozon tabakasının incelmesi II. Küresel ısınma III. Tür çeşitliliğinin artması Yukarıda verilenlerden hangileri biyosferde canlıların hayatta kalma şanslarını azaltıcı yönde etki yapar?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve II",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 145,
+    "question": "Ekolojik ayak izini küçültmek isteyen bir insan aşağıdaki uygulamalardan hangisini yapmalıdır?",
+    "choices": [
+      "A) Ulaşımda özel araç kullanmalıdır.",
+      "B) Isınmada fosil yakıt kullanmalıdır.",
+      "C) Enerji tüketimini artırmalıdır.",
+      "D) Geri dönüşümsüz maddeleri kullanmalıdır.",
+      "E) Gereksiz su tüketimini azaltmalıdır."
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 146,
+    "question": "I. Farklı iklim tiplerinin görülmesi II. Yükselti farklarının olması III. Boylam farklarının olması Yukarıdakilerden hangileri ülkemizde biyolojik çeşitliliğin zengin olmasında etkilidir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) I ve II",
+      "E) I, II ve III"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 147,
+    "question": "Türkiye'de tarım alanlarından erozyon nedeniyle önemli oranda toprak kaybedilmesinde, tarım alanlarının hangi özelliği öncelikli olarak etkilidir?",
+    "choices": [
+      "A) Humus oranının çok olması",
+      "B) Topraklarımızın azot yönünden fakir olması",
+      "C) Ülkemizde su kaynaklarının çok olması",
+      "D) Tarım yapılan alanların eğimli olması",
+      "E) Topraklarımızda saçak köklü bitkilerin tarımının az yapılması"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 148,
+    "question": "I. Canlıların metabolik faaliyetleri II. Kloroflorokarbon (CFC) gazlarının çok kullanılması III. Uzaydan gelen ultraviyole ışınlarının artması Ozon tabakasındaki incelmenin oluşmasında yukarıdaki faktörlerden hangileri etkilidir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) I ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 149,
+    "question": "I. Belirli bir coğrafik bölgede yaşama şansı olan türdür. II. Yayılış gösterdiği bölgeler farklılık gösterebilir. III. Çevresel değişimlere töleransı azdır. Endemik bir türün özellikleri ile ilgili yukarıdakilerden hangileri söylenebilir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) I ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 150,
+    "question": "I. Toplu taşıma araçlarının kullanılması II. Fosil yakıtların kullanılmasından kaçınılması III. Açık tohumlu bitki sayısının hızla artırılması IV. Ötrofikasyonun gerçekleştiği alanların artırılması Küresel ısınma yukarıdaki uygulamalardan hangileri ile belli oranda engellenebilir?",
+    "choices": [
+      "A) I ve II",
+      "B) I, II ve III",
+      "C) II, III ve IV",
+      "D) I, III ve IV",
+      "E) I, II, III ve IV"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 151,
+    "question": "Aşağıdakilerden hangisi yenilenemez enerji kaynaklarındandır?",
+    "choices": [
+      "A) Su",
+      "B) Güneş",
+      "C) Doğalgaz",
+      "D) Rüzgâr",
+      "E) Jeotermal"
+    ],
+    "answer": "C"
   }
 ]
