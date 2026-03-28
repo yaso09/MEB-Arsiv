@@ -11247,5 +11247,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "198": [
+    {
+      "attempt": 1,
+      "id": 198,
+      "timestamp": "2026-03-28T18:45:56.810Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3916 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 277"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Fotosentez yapma II. Protein sentezleme III. Heterotrof beslenme Yukarıda verilenlerden hangileri saprofitler tarafından ortak olarak gerçekleşir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız II\",\"cleaned\":\"A) Yalnız II\"},{\"raw\":\"B) Yalnız III\",\"cleaned\":\"B) Yalnız III\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız II\",\"B) Yalnız III\",\"C) I ve III\",\"D) II ve III\",\"E) I, II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
