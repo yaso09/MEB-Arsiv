@@ -9705,5 +9705,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "174": [
+    {
+      "attempt": 1,
+      "id": 174,
+      "timestamp": "2026-03-28T18:44:24.955Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3881 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 181"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi atmosferin karbon kaynaklarından biri değildir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Fotosentez tepkimeleri\",\"cleaned\":\"A) Fotosentez tepkimeleri\"},{\"raw\":\"B) Solunum tepkimeleri\",\"cleaned\":\"B) Solunum tepkimeleri\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Fotosentez tepkimeleri\",\"B) Solunum tepkimeleri\",\"C) Volkanik patlamalar\",\"D) Saprofitlerin faaliyetleri\",\"E) Endüstriyel faaliyetler\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
