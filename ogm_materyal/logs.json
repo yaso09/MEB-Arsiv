@@ -12987,5 +12987,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "229": [
+    {
+      "attempt": 1,
+      "id": 229,
+      "timestamp": "2026-03-28T18:47:59.816Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4148 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 482"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Bir ekosistemde yer alan aşağıdaki canlıların oluşturduğu besin zincirinde hangisinin sayısının azalması t m besin zincirini olumsuz etkiler?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Su yosunu\\r\\n\",\"cleaned\":\"A) Su yosunu\"},{\"raw\":\"B) Ot&ccedil;ul balık\\r\\n\",\"cleaned\":\"B) Ot ul balık\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Su yosunu\",\"B) Ot ul balık\",\"C) Et il balık\",\"D) Fok\",\"E) K pek balığı\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
