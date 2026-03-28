@@ -17710,5 +17710,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "288": [
+    {
+      "attempt": 1,
+      "id": 288,
+      "timestamp": "2026-03-28T19:06:25.310Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4043 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 334"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdaki gelişmelerden hangisi, lkede hen z ok partili hayata ge ilmesine hazır bir ortam olmadığı, inkılapların benimsenmesinin zaman alacağı d ş nc...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Demirci Mehmet Efe İsyanı\\r\\n\",\"cleaned\":\"A) Demirci Mehmet Efe İsyanı\"},{\"raw\":\"B) Menemen Olayı\\r\\n\",\"cleaned\":\"B) Menemen Olayı\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Demirci Mehmet Efe İsyanı\",\"B) Menemen Olayı\",\"C) Kuvay-ı İnzibatiye İsyanı\",\"D) N fus m badelesi sorunu\",\"E) Ethem İsyanı\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
