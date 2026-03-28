@@ -2194,5 +2194,53 @@
       "E) Omurgalı hayvanlar"
     ],
     "answer": "A"
+  },
+  {
+    "id": 214,
+    "question": "Azot döngüsünde görülen nitrifikasyon olayında rol alan bakterilerle ilgili; I. Organik atıklardaki azotlu bileşikleri inorganik bileşiklere dönüştürür II. Hücrelerinde klorofil bulunmaz III. İnorganik maddelerden organik madde üretebilir IV. DNA replikasyonu çekirdekte gerçekleşir ifadelerinden hangileri doğrudur?",
+    "choices": [
+      "A) I ve III",
+      "B) II ve III",
+      "C) III ve IV",
+      "D) I, II ve IV",
+      "E) I, III ve IV"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 215,
+    "question": "Aşağıdakilerden hangisi canlıların neslinin tükenmesinde etkili değildir ?",
+    "choices": [
+      "A) Biyoçeşitliliğin azalması",
+      "B) İklim değişiklikleri",
+      "C) Aşırı avlanma",
+      "D) Milli parkların yaygınlaşması",
+      "E) Habitata yabancı canlıların girmesi"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 216,
+    "question": "I. Panda II. Anadolu parsı III. Asya aslanı Hangileri ülkemizde nesli tükenen ya da tükenmekte olan türlerdendir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnz II",
+      "C) Yalnız III",
+      "D) II ve III",
+      "E) I , II ve III"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 217,
+    "question": "Yaşadığı habitattaki çevre şartları canlının yaşamasını olumsuz etkileyecek şekilde değiştiğinde aşağıdaki canlılardan hangisi daha kısa sürede yok olur?",
+    "choices": [
+      "A) Marmara Denizi'ndeki hamsiler",
+      "B) Büyük Ada'da yaşayan inekler",
+      "C) Gelibolu Yarımadası'ndaki maskeli ötleğen kuşları",
+      "D) Karadeniz ormanlarında yaşayan ağaçkakanlar",
+      "E) Kaz Dağları'nda yaşayan sincaplar"
+    ],
+    "answer": "B"
   }
 ]
