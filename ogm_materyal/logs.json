@@ -4051,5 +4051,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "84": [
+    {
+      "attempt": 1,
+      "id": 84,
+      "timestamp": "2026-03-28T18:21:52.118Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4401 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 416"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Sığırlarda boynuzluluk geni erkeklerde baskın, dişilerde ise çekiniktir. Buna göre; heterozigot taşıyıcı bir dişi yavrunun doğabilmesi için anne ve ba...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) BB &nbsp; &nbsp; X &nbsp; &nbsp; &nbsp;BB&nbsp;&nbsp;&nbsp;&nbsp;\",\"cleaned\":\"A) BB X BB\"},{\"raw\":\"B) BB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X&nbsp;&nbsp; &nbsp; &nbsp;Bb&nbsp; &nbsp; &n\",\"cleaned\":\"B) BB X Bb\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) BB X BB\",\"B) BB X Bb\",\"C) Bb X BB\",\"D) Bb X Bb\",\"E) Bb X bb\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
