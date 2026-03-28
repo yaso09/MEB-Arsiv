@@ -16945,5 +16945,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "273": [
+    {
+      "attempt": 1,
+      "id": 273,
+      "timestamp": "2026-03-28T18:51:53.284Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4055 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 281"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Atat rk d neminin son başbakanı ile T rkiye Cumhuriyeti&#39;nin ikinci cumhurbaşkanı aşağıdakilerden hangisinde doğru olarak sıralanmıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Recep Peker - İsmet İn&ouml;n&uuml;\\r\\n\",\"cleaned\":\"A) Recep Peker - İsmet İn n\"},{\"raw\":\"B) İsmet İn&ouml;n&uuml; - Celal Bayar\\r\\n\",\"cleaned\":\"B) İsmet İn n - Celal Bayar\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Recep Peker - İsmet İn n\",\"B) İsmet İn n - Celal Bayar\",\"C) Celal Bayar - Cevdet Sunay\",\"D) İsmet İn n - Cevdet Sunay\",\"E) Celal Bayar - İsmet İn n\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
