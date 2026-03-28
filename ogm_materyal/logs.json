@@ -1,0 +1,206 @@
+{
+  "1": [
+    {
+      "attempt": 1,
+      "id": 1,
+      "timestamp": "2026-03-28T18:05:49.650Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4164 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 201"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıda verilenlerden hangisi vejetatif reme rneği değildir ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Zambak bitkisinin soğanından yeni bitki oluşması\\r\\n\",\"cleaned\":\"A) Zambak bitkisinin soğanından yeni bitki oluşması\"},{\"raw\":\"B) Kavak ağacının dalının&nbsp;toprağa ekilmesiyle yeni kavak ağacı oluşması\\r\\n\",\"cleaned\":\"B) Kavak ağacının dalının toprağa ekilmesiyle ye"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Zambak bitkisinin soğanından yeni bitki oluşması\",\"B) Kavak ağacının dalının toprağa ekilmesiyle yeni kavak ağacı oluşması\",\"C) Patates yumrusunun toprağa ekilmesiyle yeni patates bitkisinin oluşması\",\"D) Doku k lt r y ntemiyle orkide bitkisinin oğaltılması\",\"E) Elma ağa"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "2": [
+    {
+      "attempt": 1,
+      "id": 2,
+      "timestamp": "2026-03-28T18:05:53.606Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4372 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 719"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Rejenerasyon yeteneği canlılarda gelişmişlik d zeyi arttık a gerilemektedir. Bu ifadeden yola ıkarak I. İnsanda kesilen derinin kendini tamir etmesi I...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I-II-III\\r\\n\",\"cleaned\":\"A) I-II-III\"},{\"raw\":\"B) II-I-III\\r\\n\",\"cleaned\":\"B) II-I-III\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I-II-III\",\"B) II-I-III\",\"C) II-III-I\",\"D) III-I-II\",\"E) III-II-I\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "3": [
+    {
+      "attempt": 1,
+      "id": 3,
+      "timestamp": "2026-03-28T18:05:57.193Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4110 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 454"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Yukarıda verilen mitoz b l nme evrelerinin ger ekleşme sırası aşağıdakilerden hangisinde doğru olarak verilmiştir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I-III-II-IV\\r\\n\",\"cleaned\":\"A) I-III-II-IV\"},{\"raw\":\"B) II-I-III-IV\\r\\n\",\"cleaned\":\"B) II-I-III-IV\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I-III-II-IV\",\"B) II-I-III-IV\",\"C) II-I-IV-III\",\"D) IV-II-III-I\",\"E) IV-III-II-I\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "4": [
+    {
+      "attempt": 1,
+      "id": 4,
+      "timestamp": "2026-03-28T18:06:01.250Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3946 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 227"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi doku kültürü çalışması yapan bir bilim insanının hazırlaması gereken besi ortamında bulunmaz ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Mineraller ve su\",\"cleaned\":\"A) Mineraller ve su\"},{\"raw\":\"B) Monosakkaritler ve aminoasitler\",\"cleaned\":\"B) Monosakkaritler ve aminoasitler\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Mineraller ve su\",\"B) Monosakkaritler ve aminoasitler\",\"C) Mutasyona uğramış nükleik asitler\",\"D) Vitaminler ve hormonlar\",\"E) Hormonlar ve yağ asitleri\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ]
+}
