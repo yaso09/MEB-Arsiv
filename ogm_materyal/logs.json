@@ -4204,5 +4204,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "87": [
+    {
+      "attempt": 1,
+      "id": 87,
+      "timestamp": "2026-03-28T18:22:01.221Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4024 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 248"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aa Bb Dd genotipli bir canlıda A ve B genleri bağlıdır. Buna g re en fazla ve en az ka eşit gamet oluşur?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) En fazla: 6&nbsp; &nbsp;En az: 4\\r\\n\",\"cleaned\":\"A) En fazla: 6 En az: 4\"},{\"raw\":\"B) En fazla: 8&nbsp; &nbsp;En az:&nbsp;6\\r\\n\",\"cleaned\":\"B) En fazla: 8 En az: 6\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) En fazla: 6 En az: 4\",\"B) En fazla: 8 En az: 6\",\"C) En fazla: 4 En az: 2\",\"D) En fazla: 8 En az: 4\",\"E) En fazla: 8 En az: 2\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
