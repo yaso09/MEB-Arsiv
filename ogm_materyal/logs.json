@@ -3637,5 +3637,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "79": [
+    {
+      "attempt": 1,
+      "id": 79,
+      "timestamp": "2026-03-28T18:19:15.875Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4023 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 380"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Bir canlıda I. X kromozomu II. Otozomal kromozom III. Y kromozomu zerinde taşınan ekinik ya da baskın genlerden hangileri etkisini fenotipte her zaman...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I\\r\\n\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) Yalnız II\\r\\n\",\"cleaned\":\"B) Yalnız II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) Yalnız II\",\"C) Yalnız III\",\"D) I ve II\",\"E) I ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
