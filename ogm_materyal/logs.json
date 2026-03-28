@@ -16792,5 +16792,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "270": [
+    {
+      "attempt": 1,
+      "id": 270,
+      "timestamp": "2026-03-28T18:51:39.397Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3990 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 240"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Mustafa Kemal Atat rk&#39; n naaşı ge ici olarak aşağıdakilerden hangisine nakledilmiştir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) İstanbul Karacaahmet Mezarlığı\\r\\n\",\"cleaned\":\"A) İstanbul Karacaahmet Mezarlığı\"},{\"raw\":\"B) Ankara Etnografya M&uuml;zesi\\r\\n\",\"cleaned\":\"B) Ankara Etnografya M zesi\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) İstanbul Karacaahmet Mezarlığı\",\"B) Ankara Etnografya M zesi\",\"C) İstanbul Etnografya M zesi\",\"D) İstanbul Zincirlikuyu Mezarlığı\",\"E) İzmir Etnografya M zesi\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
