@@ -17098,5 +17098,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "276": [
+    {
+      "attempt": 1,
+      "id": 276,
+      "timestamp": "2026-03-28T18:52:06.737Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3935 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 219"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdaki antlaşmalardan hangisinde Boğazlar ile ilgili alınmış bir karar bulunmamaktadır ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Sevr Antlaşması\\r\\n\",\"cleaned\":\"A) Sevr Antlaşması\"},{\"raw\":\"B) Paris Barış Konferansı\\r\\n\",\"cleaned\":\"B) Paris Barış Konferansı\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Sevr Antlaşması\",\"B) Paris Barış Konferansı\",\"C) Lozan Antlaşması\",\"D) Montr Boğazlar S zleşmesi\",\"E) Mondros Ateşkes Antlaşması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
