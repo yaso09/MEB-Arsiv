@@ -10731,5 +10731,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "191": [
+    {
+      "attempt": 1,
+      "id": 191,
+      "timestamp": "2026-03-28T18:45:26.584Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3974 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 318"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Fitoplankton II. Fok III. Zooplankton IV. Köpek balığı V. Balık Yukarıda verilen canlılar arasındaki besin zinciri aşağıdaki seçeneklerden hangisin...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I-III-V-II-IV\",\"cleaned\":\"A) I-III-V-II-IV\"},{\"raw\":\"B) I-II-III-IV-V\",\"cleaned\":\"B) I-II-III-IV-V\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I-III-V-II-IV\",\"B) I-II-III-IV-V\",\"C) III-I-V-IV-II\",\"D) IV-II-V-I-III\",\"E) III-I-V-II-IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
