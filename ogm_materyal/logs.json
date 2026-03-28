@@ -14720,5 +14720,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "244": [
+    {
+      "attempt": 1,
+      "id": 244,
+      "timestamp": "2026-03-28T18:49:31.653Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3931 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 321"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Yugoslavya II. Yunanistan III. T rkiye IV. Romanya V. Bulgaristan Yukarıdaki devletlerden hangisi Balkan Antantı&#39;na katılmamıştır ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I\\r\\n\",\"cleaned\":\"A) I\"},{\"raw\":\"B) II\\r\\n\",\"cleaned\":\"B) II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I\",\"B) II\",\"C) III\",\"D) IV\",\"E) V\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "245": [
+    {
+      "attempt": 1,
+      "id": 245,
+      "timestamp": "2026-03-28T18:49:35.604Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3878 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 226"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdaki devletlerden hangisi ile Atat rk D nemi&#39;nde siyasi ilişki kurulmamıştır ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Romanya&nbsp;\\r\\n\",\"cleaned\":\"A) Romanya\"},{\"raw\":\"B) Sovyet Rusya\\r\\n\",\"cleaned\":\"B) Sovyet Rusya\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Romanya\",\"B) Sovyet Rusya\",\"C) İran\",\"D) Afganistan\",\"E) Suriye\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
