@@ -2722,5 +2722,41 @@
       "E) I, III ve IV"
     ],
     "answer": "E"
+  },
+  {
+    "id": 261,
+    "question": "Aşağıdakilerden hangisi Atat rk nderliğinde kurulan Balkan Antantı&#39;na ye lkelerden biri değildir ?",
+    "choices": [
+      "A) T rkiye",
+      "B) Yunanistan",
+      "C) Romanya",
+      "D) Bulgaristan",
+      "E) Yugoslavya"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 262,
+    "question": "Boğazlar Komisyonu&#39;nun kaldırılması, İstanbul ve &Ccedil;anakkale Boğazları&#39;nın kontrol n n T rkiye Cumhuriyeti&#39;ne ge mesi aşağıdaki gelişmelerden hangisi ile olmuştur?",
+    "choices": [
+      "A) Lozan Antlaşması",
+      "B) Balkan Antantı",
+      "C) Sadabat Paktı",
+      "D) Montr Boğazlar S zleşmesi",
+      "E) Londra Konferansı"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 263,
+    "question": "Lozan Antlaşması&#39;nın imzalanmasından sonraki s re te T rkiye&#39;nin aleyhine z len tek sorun aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) Hatay Sorunu",
+      "B) Musul Sorunu",
+      "C) Boğazlar Sorunu",
+      "D) Yabancı okullar Sorunu",
+      "E) Kapit lasyonlar"
+    ],
+    "answer": "B"
   }
 ]
