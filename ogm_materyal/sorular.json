@@ -58,5 +58,65 @@
       "E) Aynı bitki zerinde farklı r nler elde etme"
     ],
     "answer": "E"
+  },
+  {
+    "id": 6,
+    "question": "Mayoz bölünmede gerçekleşen olaylardan hangisi mayoz I ve mayoz II' de ortak olarak gerçekleşmez ?",
+    "choices": [
+      "A) Karyokinez",
+      "B) İğ ipliklerinin oluşumu",
+      "C) Kardeş kromatitlerin ayrılması",
+      "D) Sitokinez",
+      "E) Çekirdek zarının erimesi"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 7,
+    "question": "22+X kromozoma sahip bir insan için aşağıdakilerden hangisi kesin olarak söylenebilir?",
+    "choices": [
+      "A) Yumurta hücresidir.",
+      "B) Üreme ana hücresinin mayoz geçirmesi ile oluşur.",
+      "C) Otozom sayısı 23'tür.",
+      "D) Sperm hücresidir.",
+      "E) Vücut hücresine aittir."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 8,
+    "question": "Şemada diploit olan A, B ve C h crelerine ait olan kromozom, tetrat ve kromatit sayıları verilmiştir. Bu h crelere ait aşağıdaki ifadelerden hangisi yanlıştır ?",
+    "choices": [
+      "A) A h cresinin kromatit sayısı 80&#39;dir.",
+      "B) B h cresinin kromozom sayısı 40&#39;dır.",
+      "C) A h cresinin oluşturacağı tetrat sayısı 20&#39;dir.",
+      "D) C h cresinin kromozom sayısı 10&#39;dur.",
+      "E) B h cresinin kromatit sayısı 160&#39;dır."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 9,
+    "question": "I. Profaz I II. Anafaz I III. Metafaz II IV. Anafaz II Yukarıda mayoz b l nmeye ait evrelerden bazıları verilmiştir. Bu evrelerden hangilerinde kalıtsal eşitliliğe neden olan olaylar ger ekleşir?",
+    "choices": [
+      "A) Yalnız II",
+      "B) I ve II",
+      "C) III ve IV",
+      "D) I, III ve IV",
+      "E) II, III ve IV"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 10,
+    "question": "Mayoz bölünmede gerçekleşen olaylardan hangisi mayoz I ve mayoz II'de ortak olarak gerçekleşmez ?",
+    "choices": [
+      "A) Karyokinez",
+      "B) İğ ipliklerinin oluşumu",
+      "C) Kardeş kromatitlerin ayrılması",
+      "D) Sitokinez",
+      "E) Çekirdek zarının erimesi"
+    ],
+    "answer": "C"
   }
 ]
