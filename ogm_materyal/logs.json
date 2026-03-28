@@ -15230,5 +15230,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "254": [
+    {
+      "attempt": 1,
+      "id": 254,
+      "timestamp": "2026-03-28T18:50:06.375Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4013 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 324"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Tam bağımsızlık ilkesinden taviz vermeyen yeni T rk devleti bu konuda Fransa ile sorunlar yaşamıştır. Aşağıdakilerden hangisi Fransa ile aramızda yaşa...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Hatay sorunu\\r\\n\",\"cleaned\":\"A) Hatay sorunu\"},{\"raw\":\"B) Musul sorunu\\r\\n\",\"cleaned\":\"B) Musul sorunu\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Hatay sorunu\",\"B) Musul sorunu\",\"C) Osmanlı bor ları\",\"D) Yabancı okullar sorunu\",\"E) Demiryolları sorunu\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
