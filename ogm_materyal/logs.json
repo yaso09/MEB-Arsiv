@@ -2866,5 +2866,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "67": [
+    {
+      "attempt": 1,
+      "id": 67,
+      "timestamp": "2026-03-28T18:18:29.231Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4336 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 680"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Renk k rl ğ X kromozomu zerinde bulunan ve ekinik alelle kalıtılan bir zelliktir. I. Renk k r bir annenin kız ocukları taşıyıcı olabilir II. Erkek ocu...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I\\r\\n\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) Yalnız II\\r\\n\",\"cleaned\":\"B) Yalnız II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) Yalnız II\",\"C) I , II ve III\",\"D) I, II ve IV\",\"E) II , III ve IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
