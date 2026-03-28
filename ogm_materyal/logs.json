@@ -9858,5 +9858,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "177": [
+    {
+      "attempt": 1,
+      "id": 177,
+      "timestamp": "2026-03-28T18:44:34.866Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4138 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 174"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Azot döngüsüyle ilgili olarak aşağıdakilerden hangisi yanlıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Mantarlar ve saprofit bakteriler azotlu organik atıkları amonyağa dönüştürür.\",\"cleaned\":\"A) Mantarlar ve saprofit bakteriler azotlu organik atıkları amonyağa dönüştürür.\"},{\"raw\":\"B) Nitrifikasyon bakterileri toprağın inorganik azot tuzlarınca zenginleşmesini \",\"clea"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Mantarlar ve saprofit bakteriler azotlu organik atıkları amonyağa dönüştürür.\",\"B) Nitrifikasyon bakterileri toprağın inorganik azot tuzlarınca zenginleşmesini sağlar.\",\"C) Denitrifikasyon olayı sonucunda atmosfer azot yönünden zenginleşir.\",\"D) Şimşek ve yıldırım toprak"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
