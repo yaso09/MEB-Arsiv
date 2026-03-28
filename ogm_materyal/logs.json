@@ -7602,5 +7602,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "139": [
+    {
+      "attempt": 1,
+      "id": 139,
+      "timestamp": "2026-03-28T18:27:12.931Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4037 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 387"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Atmosferin ısınması II. Buzulların erimesi III. Tür çeşitliliğinin artması IV. Yeryüzüne ulaşan ışınların atmosferden yansıması Yukarıdaki olaylard...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I ve II\",\"cleaned\":\"A) I ve II\"},{\"raw\":\"B) I, II ve III\",\"cleaned\":\"B) I, II ve III\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I ve II\",\"B) I, II ve III\",\"C) I, II ve IV\",\"D) II, III ve IV\",\"E) I, II, III ve IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
