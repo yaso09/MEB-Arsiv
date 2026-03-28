@@ -12165,5 +12165,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "216": [
+    {
+      "attempt": 1,
+      "id": 216,
+      "timestamp": "2026-03-28T18:46:58.547Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3947 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 284"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Panda II. Anadolu parsı III. Asya aslanı Hangileri ülkemizde nesli tükenen ya da tükenmekte olan türlerdendir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I&nbsp;\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) Yalnz II&nbsp;\",\"cleaned\":\"B) Yalnz II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) Yalnz II\",\"C) Yalnız III\",\"D) II ve III\",\"E) I , II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
