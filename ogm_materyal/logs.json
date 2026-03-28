@@ -12681,5 +12681,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "223": [
+    {
+      "attempt": 1,
+      "id": 223,
+      "timestamp": "2026-03-28T18:47:38.609Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3940 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 271"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Belirli bir alanda yer alan, I. Fauna II. Flora III. Komünite ekolojik birimlerden hangilerinde ototrof canlı türleri bulunabilir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) &nbsp;Yalnız I\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) &nbsp;Yalnız II\",\"cleaned\":\"B) Yalnız II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) Yalnız II\",\"C) Yalnız III\",\"D) II ve III\",\"E) I, II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
