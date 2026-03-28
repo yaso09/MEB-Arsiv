@@ -2509,5 +2509,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "60": [
+    {
+      "attempt": 1,
+      "id": 60,
+      "timestamp": "2026-03-28T18:18:06.650Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3832 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 211"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıda verilen canlılardan hangisinin oluşturacağı gamet çeşidi en fazladır? ( Genler bağımsızdır. )...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) EeFfGG\",\"cleaned\":\"A) EeFfGG\"},{\"raw\":\"B) EeffGG\",\"cleaned\":\"B) EeffGG\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) EeFfGG\",\"B) EeffGG\",\"C) EeFfGg\",\"D) eeffGg\",\"E) EeFFGG\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
