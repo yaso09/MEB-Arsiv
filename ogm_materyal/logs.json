@@ -18222,5 +18222,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "297": [
+    {
+      "attempt": 1,
+      "id": 297,
+      "timestamp": "2026-03-28T19:09:52.000Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4389 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 609"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"T rkiye&#39;nin 20 Ekim 1921&#39; de Fransa&#39;yla Ankara Antlaşması&#39;nı imzalarken Misak-ı Mill sınırları dışında kalan Hatay&#39;da; - T rk mill...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) K&uuml;lt&uuml;rel bağları korumak\\r\\n\",\"cleaned\":\"A) K lt rel bağları korumak\"},{\"raw\":\"B) T&uuml;rk parasının değerini arttırmak\\r\\n\",\"cleaned\":\"B) T rk parasının değerini arttırmak\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) K lt rel bağları korumak\",\"B) T rk parasının değerini arttırmak\",\"C) T rk n fusunu arttırmak\",\"D) Anavatana katılmasını kolaylaştırmak\",\"E) Yeni bir y netim şekli oluşturmak\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
