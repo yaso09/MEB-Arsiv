@@ -7551,5 +7551,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "138": [
+    {
+      "attempt": 1,
+      "id": 138,
+      "timestamp": "2026-03-28T18:27:09.762Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3984 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 186"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi kimyasal kirlenmeye örnek gösterilemez?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Tarımsal mücadele ilaçları\",\"cleaned\":\"A) Tarımsal mücadele ilaçları\"},{\"raw\":\"B) İyi durulanmayan kaplardan geçen deterjanlar\",\"cleaned\":\"B) İyi durulanmayan kaplardan geçen deterjanlar\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Tarımsal mücadele ilaçları\",\"B) İyi durulanmayan kaplardan geçen deterjanlar\",\"C) Besin ambalajında kullanılan renkli plastikler\",\"D) Saç ve tırnak gibi insan atıkları\",\"E) Önerilen miktarın üzerinde kullanılan gıda katkı maddeleri\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
