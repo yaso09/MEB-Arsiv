@@ -2422,5 +2422,29 @@
       "E) -"
     ],
     "answer": null
+  },
+  {
+    "id": 235,
+    "question": "Aşağıdakilerden hangisi Atat rk&#39; n belirlediği mill dış politikada uyulması gereken esaslardan biri değildir ?",
+    "choices": [
+      "A) Bağımsızlık",
+      "B) Ger ek ilik",
+      "C) Akılcılık",
+      "D) Eşitlik",
+      "E) Yayılmacılık"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 237,
+    "question": "T rkiye Cumhuriyeti Devleti 1932&#39;de Milletler Cemiyetine, 1934&#39;te Balkan Paktı&#39;na ye olmuş, 1936&#39;da da Montreux (Montr ) Boğazlar S zleşmesi&#39;ni imzalamıştır. Bu bilgilere dayanarak; l. T rkiye&#39;nin d nyadaki saygınlığı artmıştır. II. T rkiye&#39;de i barışımızı tehdit eden meseleler vardır. III. T rkiye d nya barışına katkıda bulunmuştur. IV. T rkiye dış politikada saldırgan bir tavır sergilemiştir. yargılarından hangilerine ulaşılabilir?",
+    "choices": [
+      "A) l ve II",
+      "B) I ve III",
+      "C) II ve III",
+      "D) II ve IV",
+      "E) III ve IV"
+    ],
+    "answer": "B"
   }
 ]
