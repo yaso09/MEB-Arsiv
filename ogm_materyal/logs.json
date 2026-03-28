@@ -17557,5 +17557,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "285": [
+    {
+      "attempt": 1,
+      "id": 285,
+      "timestamp": "2026-03-28T19:05:36.303Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3981 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 265"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Mustafa Kemal Atat rk d neminde aşağıdaki gelişmelerden hangisi ile T rkiye doğu sınırlarını g vence altına almıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Montr&ouml; Boğazlar S&ouml;zleşmesi\\r\\n\",\"cleaned\":\"A) Montr Boğazlar S zleşmesi\"},{\"raw\":\"B) Sadabat Paktı\\r\\n\",\"cleaned\":\"B) Sadabat Paktı\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Montr Boğazlar S zleşmesi\",\"B) Sadabat Paktı\",\"C) Balkan Antantı\",\"D) Milletler Cemiyetinin kurulması\",\"E) Briand - Kellog Paktı\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "286": [
+    {
+      "attempt": 1,
+      "id": 286,
+      "timestamp": "2026-03-28T19:05:49.273Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4030 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 237"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"&Ccedil;ok partili hayata ge iş alışmaları ile aşağıdaki gelişmelerden hangisi ama lanmıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Egemenlik anlayışının değişmesi\\r\\n\",\"cleaned\":\"A) Egemenlik anlayışının değişmesi\"},{\"raw\":\"B) Halifenin etkinliğinin kırılması\\r\\n\",\"cleaned\":\"B) Halifenin etkinliğinin kırılması\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Egemenlik anlayışının değişmesi\",\"B) Halifenin etkinliğinin kırılması\",\"C) Eğitimin modernleştirilmesi\",\"D) Kadın hak ve zg rl klerinin genişletilmesi\",\"E) Demokrasinin daha iyi işlemesinin sağlanması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
