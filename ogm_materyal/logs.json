@@ -10884,5 +10884,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "194": [
+    {
+      "attempt": 1,
+      "id": 194,
+      "timestamp": "2026-03-28T18:45:36.093Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3948 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 302"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Kelp yosunu II.Su samuru III. Deniz kestanesi IV. Katil balina Yukarıda verilen canlılardan oluşan besin zinciri aşağıdakilerden hangisinde doğru o...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I-II-III-IV\",\"cleaned\":\"A) I-II-III-IV\"},{\"raw\":\"B) I-III-II-IV\",\"cleaned\":\"B) I-III-II-IV\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I-II-III-IV\",\"B) I-III-II-IV\",\"C) III-I-II-IV\",\"D) III-I-IV-II\",\"E) IV-III-II-I\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
