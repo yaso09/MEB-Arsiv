@@ -2362,5 +2362,17 @@
       "E) B cek il bitki, azot ihtiyacını topraktan karşılayamaz."
     ],
     "answer": "C"
+  },
+  {
+    "id": 228,
+    "question": "l. Çöplerin toplanmasında geri dönüşüm yaygınlaştırılmalı ll. Yenilenebilir enerji tercih edilmeli lll. Biyoçeşitlilik korunmanın gerekliliği ile ilgili bilinç, toplumda oluşturulmalı lV. Tarım alanlarına ayrılan oran aşırı artırılmalı Yukarıdakilerden hangileri madde döngüleri ve hayatın sürdürülebilirliği için yapılmalıdır?",
+    "choices": [
+      "A) l ve lV",
+      "B) l ve lll",
+      "C) ll ve lll",
+      "D) l, ll ve lll",
+      "E) l, ll, lll ve lV"
+    ],
+    "answer": "D"
   }
 ]
