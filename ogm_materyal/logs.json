@@ -9450,5 +9450,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "169": [
+    {
+      "attempt": 1,
+      "id": 169,
+      "timestamp": "2026-03-28T18:44:08.713Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3988 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 248"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Bir ekosistemde yer alan besin zincirinde üreticiden 3. tüketiciye doğru gidilirken aşağıdakilerden hangisi her zaman doğru değildir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Enerji aktarımında kayıplar oluşur.\",\"cleaned\":\"A) Enerji aktarımında kayıplar oluşur.\"},{\"raw\":\"B) Canlıların toplam biyokütlesi azalır.\",\"cleaned\":\"B) Canlıların toplam biyokütlesi azalır.\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Enerji aktarımında kayıplar oluşur.\",\"B) Canlıların toplam biyokütlesi azalır.\",\"C) Kimyasal madde birikimi artar.\",\"D) Evrimsel gelişmişlik artar.\",\"E) Birey sayısı azalır.\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "170": [
+    {
+      "attempt": 1,
+      "id": 170,
+      "timestamp": "2026-03-28T18:44:12.398Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3823 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 192"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Konya Bozdağ'da yaşayan Anadolu Yaban Koyunları ekolojide hangi topluluğa karşılık gelir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Popülasyon\",\"cleaned\":\"A) Popülasyon\"},{\"raw\":\"B) Komünite\",\"cleaned\":\"B) Komünite\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Popülasyon\",\"B) Komünite\",\"C) Ekosistem\",\"D) Ekoton\",\"E) Habitat\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
