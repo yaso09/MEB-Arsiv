@@ -101,6 +101,9 @@
     99,
     100
   ],
-  "failedIds": [],
+  "failedIds": [
+    42,
+    101
+  ],
   "notFoundId": null
 }
