@@ -11400,5 +11400,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "201": [
+    {
+      "attempt": 1,
+      "id": 201,
+      "timestamp": "2026-03-28T18:46:06.624Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3891 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 201"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi omurgalı hayvanların beslenme şekillerine göre farklılık göstermez?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) İnce bağırsağın uzunluğu\",\"cleaned\":\"A) İnce bağırsağın uzunluğu\"},{\"raw\":\"B) Dişlerin yapısı\",\"cleaned\":\"B) Dişlerin yapısı\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) İnce bağırsağın uzunluğu\",\"B) Dişlerin yapısı\",\"C) Midenin yapısı\",\"D) Ağzın yapısı\",\"E) Besinlerin ince bağırsakta emilimi\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
