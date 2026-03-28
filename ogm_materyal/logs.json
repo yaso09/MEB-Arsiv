@@ -16325,5 +16325,217 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "263": [
+    {
+      "attempt": 1,
+      "id": 263,
+      "timestamp": "2026-03-28T18:51:05.471Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3976 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 294"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Lozan Antlaşması&#39;nın imzalanmasından sonraki s re te T rkiye&#39;nin aleyhine z len tek sorun aşağıdakilerden hangisidir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Hatay Sorunu\\r\\n\",\"cleaned\":\"A) Hatay Sorunu\"},{\"raw\":\"B) Musul Sorunu\\r\\n\",\"cleaned\":\"B) Musul Sorunu\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Hatay Sorunu\",\"B) Musul Sorunu\",\"C) Boğazlar Sorunu\",\"D) Yabancı okullar Sorunu\",\"E) Kapit lasyonlar\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "264": [
+    {
+      "attempt": 1,
+      "id": 264,
+      "timestamp": "2026-03-28T18:51:09.377Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 35 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "❌",
+          "detail": "question-item-ask bloğu bulunamadı"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "❌",
+          "detail": "null"
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "❌",
+          "detail": "0 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "❌",
+          "detail": "Toplam eşleşme: 0 → []"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "❌",
+          "detail": "Geçerli şık sayısı: 0 → []"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "❌",
+          "detail": "Cevap bulunamadı"
+        }
+      ],
+      "result": "FAILED",
+      "missing": [
+        "soru",
+        "şıklar",
+        "cevap"
+      ]
+    },
+    {
+      "attempt": 2,
+      "id": 264,
+      "timestamp": "2026-03-28T18:51:10.426Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 35 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "❌",
+          "detail": "question-item-ask bloğu bulunamadı"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "❌",
+          "detail": "null"
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "❌",
+          "detail": "0 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "❌",
+          "detail": "Toplam eşleşme: 0 → []"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "❌",
+          "detail": "Geçerli şık sayısı: 0 → []"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "❌",
+          "detail": "Cevap bulunamadı"
+        }
+      ],
+      "result": "FAILED",
+      "missing": [
+        "soru",
+        "şıklar",
+        "cevap"
+      ]
+    },
+    {
+      "attempt": 3,
+      "id": 264,
+      "timestamp": "2026-03-28T18:51:11.480Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 35 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "❌",
+          "detail": "question-item-ask bloğu bulunamadı"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "❌",
+          "detail": "null"
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "❌",
+          "detail": "0 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "❌",
+          "detail": "Toplam eşleşme: 0 → []"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "❌",
+          "detail": "Geçerli şık sayısı: 0 → []"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "❌",
+          "detail": "Cevap bulunamadı"
+        }
+      ],
+      "result": "FAILED",
+      "missing": [
+        "soru",
+        "şıklar",
+        "cevap"
+      ]
+    }
   ]
 }
