@@ -3121,5 +3121,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "72": [
+    {
+      "attempt": 1,
+      "id": 72,
+      "timestamp": "2026-03-28T18:18:45.614Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3892 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 258"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aabb x AABb çaprazlamasının sonucunda; I. Aabb II. AABb III. AaBB şeklindeki oğul döllerden hangileri oluşmaz ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) Yalnız II\",\"cleaned\":\"B) Yalnız II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) Yalnız II\",\"C) Yalnız III\",\"D) I ve II\",\"E) II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
