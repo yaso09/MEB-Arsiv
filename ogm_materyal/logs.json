@@ -4714,5 +4714,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "97": [
+    {
+      "attempt": 1,
+      "id": 97,
+      "timestamp": "2026-03-28T18:22:32.759Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3947 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 314"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıda fenotipleri verilen bireyler için; l. Dominant ll. Eksik baskınlık lll. Resesif özelliklerinden hangilerinin genotipini belirlemek için kontro...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız l\",\"cleaned\":\"A) Yalnız l\"},{\"raw\":\"B) Yalnız ll\",\"cleaned\":\"B) Yalnız ll\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız l\",\"B) Yalnız ll\",\"C) Yalnız lll\",\"D) l ve ll\",\"E) l ve lll\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "98": [
+    {
+      "attempt": 1,
+      "id": 98,
+      "timestamp": "2026-03-28T18:22:35.975Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3975 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 369"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"AaBbeeXY genotipli bireyden oluşabilecek en fazla gamet eşidi ka tır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) 2\\r\\n\",\"cleaned\":\"A) 2\"},{\"raw\":\"B) 3\\r\\n\",\"cleaned\":\"B) 3\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) 2\",\"B) 3\",\"C) 4\",\"D) 6\",\"E) 8\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
