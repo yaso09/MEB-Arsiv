@@ -3172,5 +3172,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "73": [
+    {
+      "attempt": 1,
+      "id": 73,
+      "timestamp": "2026-03-28T18:18:48.655Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4381 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 730"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Yukarıdaki soy ağacında otozomal kromozom zerinde taşınan resesif bir zelliği fenotopinde g steren bireyler koyu renkle g sterilmiştir. Soy ağacında n...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I\\r\\n\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) Yalnız II\\r\\n\",\"cleaned\":\"B) Yalnız II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) Yalnız II\",\"C) I ve III\",\"D) II ve II\",\"E) I, II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "74": [
+    {
+      "attempt": 1,
+      "id": 74,
+      "timestamp": "2026-03-28T18:18:51.960Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3948 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 298"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. KLMN II. kLmN III. klmn Fenotipli bireylerden hangilerinin genotipini belirlemek i in kontrol aprazlamasına gerek yoktur?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I\\r\\n\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) Yalnız II\\r\\n\",\"cleaned\":\"B) Yalnız II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) Yalnız II\",\"C) Yalnız III\",\"D) I ve III\",\"E) II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
