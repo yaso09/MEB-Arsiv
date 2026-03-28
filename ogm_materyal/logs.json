@@ -2560,5 +2560,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "61": [
+    {
+      "attempt": 1,
+      "id": 61,
+      "timestamp": "2026-03-28T18:18:09.702Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3985 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 353"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Annenin mavi babanın kahverengi göz rengine sahip olduğu bir ailede bir çocuk mavi gözlü, bir çocuk kahverengi gözlüdür. Dünyaya gelecek olan üçüncü ç...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) 1/2&nbsp;\",\"cleaned\":\"A) 1/2\"},{\"raw\":\"B) 1/4&nbsp;\",\"cleaned\":\"B) 1/4\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) 1/2\",\"B) 1/4\",\"C) 1/8\",\"D) 1/12\",\"E) 1/16\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
