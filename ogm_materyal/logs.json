@@ -18069,5 +18069,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "294": [
+    {
+      "attempt": 1,
+      "id": 294,
+      "timestamp": "2026-03-28T19:09:17.557Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4360 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 715"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Cumhuriyet d neminin ilk muhalefet partisi olan Terakkiperver Cumhuriyet Fırkası, Şeyh Said İsyanı ile bağlantısının olabileceği d ş n lerek kapatılmı...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I\\r\\n\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) Yalnız II\\r\\n\",\"cleaned\":\"B) Yalnız II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) Yalnız II\",\"C) I ve II\",\"D) I ve III\",\"E) I, II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
