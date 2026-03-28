@@ -9603,5 +9603,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "172": [
+    {
+      "attempt": 1,
+      "id": 172,
+      "timestamp": "2026-03-28T18:44:18.750Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3895 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 201"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi salgıladıkları enzimlerle organik atıkları inorganik maddelere dönüştürür?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Patojen bakteriler\",\"cleaned\":\"A) Patojen bakteriler\"},{\"raw\":\"B) Saprofit bakteriler\",\"cleaned\":\"B) Saprofit bakteriler\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Patojen bakteriler\",\"B) Saprofit bakteriler\",\"C) Azot bağlayıcı bakteriler\",\"D) Fotosentetik bakteriler\",\"E) Nitrit bakterileri\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
