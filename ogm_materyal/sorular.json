@@ -586,5 +586,113 @@
       "E) homozigot resesif x heterozigot dominant"
     ],
     "answer": "D"
+  },
+  {
+    "id": 65,
+    "question": "Aşağıdakilerden hangisi hem kalıtım hem de çevre etkileşimi sonucu oluşur?",
+    "choices": [
+      "A) Boy uzunluğu",
+      "B) Cinsiyet",
+      "C) Göz rengi",
+      "D) Hemofili",
+      "E) Kan grubu"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 66,
+    "question": "Kan grubu bilinmeyen bir bireye ait kan örneği üzerine, B antikoru içeren kan serumu damlatıldığında çökelme gerçekleşir. Buna göre bu birey; I. A II. B III. AB IV. 0 kan gruplarından hangisine sahip olabilir?",
+    "choices": [
+      "A) I ve II",
+      "B) I ve III",
+      "C) II ve III",
+      "D) II ve IV",
+      "E) III ve IV"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 67,
+    "question": "Renk k rl ğ X kromozomu zerinde bulunan ve ekinik alelle kalıtılan bir zelliktir. I. Renk k r bir annenin kız ocukları taşıyıcı olabilir II. Erkek ocuklara renk k r geni annesinden ge ecektir III. Renk k r bir kız ocuğunun babası da renk k r d r IV. Renk k r bir babanın kız ocukları her zaman renk k r olacaktır ifadelerinden hangileri doğrudur?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I , II ve III",
+      "D) I, II ve IV",
+      "E) II , III ve IV"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 68,
+    "question": "Genotipi bilinmeyen bir canlının meydana getirdiği gametin genotipi AbCdEF şeklinde olup bu gametin oluşma olasılığı 1/16'dır. Buna göre, belirtilen gameti oluşturan canlının genotipi aşağıdakilerden hangisi olur? ( Genler bağımsız)",
+    "choices": [
+      "A) AaBbCcddEEFf",
+      "B) AaBBCcddEeFf",
+      "C) AABBCcDdEeFf",
+      "D) AaBbccDdEEFF",
+      "E) AABbCcddeeFf"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 69,
+    "question": "Aşağıda genotipleri verilen aynı türden bireylerin hangisinin oluşturabileceği gamet çeşidi sayısı diğerlerinden fazla olur? ( Genler bağımsız)",
+    "choices": [
+      "A) AabbGghh",
+      "B) AaBbggHH",
+      "C) AaBbGgHh",
+      "D) aaBbGGhh",
+      "E) aaBbGgHh"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 70,
+    "question": "Bir karakterin oluşumunda etkili olan beş alel genin baskınlık ilişkisi; B 1 B 2 B 3 B 4 = B 5 şeklinde olduğuna g re, bu karakter ile ilgili ka eşit genotip ve fenotip yazılabilir?",
+    "choices": [
+      "A) 10 6",
+      "B) 15 6",
+      "C) 15 4",
+      "D) 10 4",
+      "E) 15 8"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 71,
+    "question": "Yukarıdaki soy ağacında numaralar ile g sterilen bireylerden hangileri arasındaki akrabalık derecesi en azdır?",
+    "choices": [
+      "A) 1 ve 5",
+      "B) 6 ve 7",
+      "C) 2 ve 8",
+      "D) 5 ve 6",
+      "E) 3 ve 7"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 72,
+    "question": "Aabb x AABb çaprazlamasının sonucunda; I. Aabb II. AABb III. AaBB şeklindeki oğul döllerden hangileri oluşmaz ?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) I ve II",
+      "E) II ve III"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 73,
+    "question": "Yukarıdaki soy ağacında otozomal kromozom zerinde taşınan resesif bir zelliği fenotopinde g steren bireyler koyu renkle g sterilmiştir. Soy ağacında numaralarla belirtilen bireylerle ilgili olarak I. 2. ve 3. bireyler kesinlikle heterozigottur II. 5. Birey AA veya Aa genotipli olabilir III. 4. Birey AA genotipli olabilir yargılarından hangileri doğrudur?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve III",
+      "D) II ve II",
+      "E) I, II ve III"
+    ],
+    "answer": "C"
   }
 ]
