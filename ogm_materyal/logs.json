@@ -18895,5 +18895,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "307": [
+    {
+      "attempt": 1,
+      "id": 307,
+      "timestamp": "2026-03-28T19:12:40.282Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3981 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 253"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi I. D nya Savaşı sonrası Avrupa da ekonomik hayatta meydana gelen gelişmelerden sayılamaz ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Ağır sanayinin gelişmesi\\r\\n\",\"cleaned\":\"A) Ağır sanayinin gelişmesi\"},{\"raw\":\"B) İşsizliğin artması\\r\\n\",\"cleaned\":\"B) İşsizliğin artması\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Ağır sanayinin gelişmesi\",\"B) İşsizliğin artması\",\"C) Kamu harcamalarının artması\",\"D) Enflasyonun y kselmesi\",\"E) Se men sayısının artması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
