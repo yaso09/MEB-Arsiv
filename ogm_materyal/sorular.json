@@ -2758,5 +2758,41 @@
       "E) Kapit lasyonlar"
     ],
     "answer": "B"
+  },
+  {
+    "id": 265,
+    "question": "Aşağıdakilerden hangisi Atat rk d nemi T rk dış politikasının temel ilkelerinden biri değildir ?",
+    "choices": [
+      "A) Bağımsızlık",
+      "B) Barış ılık",
+      "C) Ger ek ilik",
+      "D) Savaş ılık",
+      "E) Karşılıklılık"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 266,
+    "question": "Atat rk d neminde n fus m badelesi (değişimi) T rkiye ile aşağıdaki hangi lke arasında yapılmıştır?",
+    "choices": [
+      "A) Yunanistan",
+      "B) Bulgaristan",
+      "C) Suriye",
+      "D) İngiltere",
+      "E) Fransa"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 267,
+    "question": "Mustafa Kemal Atat rk&#39; n vefat tarihi ile Ankara&#39;da inşa edilen Anıtkabir&#39;e naaşının nakledildiği tarih aşağıdakilerden hangisinde birlikte verilmiştir?",
+    "choices": [
+      "A) 1938 - 1963",
+      "B) 1939 - 1943",
+      "C) 1938 - 1973",
+      "D) 1938 - 1953",
+      "E) 1939 - 1951"
+    ],
+    "answer": "D"
   }
 ]
