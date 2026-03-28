@@ -1234,5 +1234,173 @@
       "E) Kullanılan malzemelerde geri dönüşüme önem verilmesi"
     ],
     "answer": "B"
+  },
+  {
+    "id": 128,
+    "question": "Çevre kirliliğine neden olan olaylarla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "choices": [
+      "A) Asit yağmurları ile su kaynaklarının pH'ının değişimi canlılara zarar verebilir.",
+      "B) Fosil yakıt tüketimi ile açığa çıkan gazlar küresel ısınmaya neden olabilir.",
+      "C) Nükleer atıklar ile oluşan radyoaktif kirlenme genetik bozukluklara neden olabilir.",
+      "D) Organik gübre kullanımı ile topraktaki bazı bakteri türlerinin sayısı artarak kirlenmeye neden olabilir.",
+      "E) Evsel atıklar yeraltı sularında kirlenmeye neden olabilir."
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 129,
+    "question": "Aşağıda verilenlerden hangisi yenilenemeyen kaynaklardandır?",
+    "choices": [
+      "A) Güneş",
+      "B) Dalga",
+      "C) Doğalgaz",
+      "D) Rüzgar",
+      "E) Su"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 130,
+    "question": "Bir ekosistemdeki orman varlığının azalması I. Yabani doğal hayatın zarar g rmesi II. K resel ısınma III. Erozyon ile toprak kaybının artışı olaylarından hangilerine neden olur?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) I ve II",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 131,
+    "question": "Atmosferdeki karbondioksit gazının artışına bağlı oluşan sera etkisi atmosferin ısınmasına neden olmaktadır. Bu duruma küresel ısınma denir. Küresel ısınma sonucunda aşağıdaki olaylardan hangisinin gerçekleşmesi beklenmez?",
+    "choices": [
+      "A) Kutup bölgelerinde buzulların erimesi",
+      "B) Verimli ekilebilir arazilerin artışı",
+      "C) Nehir ve deniz sularının yükselmesi",
+      "D) Okyanuslardaki bazı sıcak su akıntılarının etki sahasının değişmesi",
+      "E) Bazı hayvan türlerinin yok olması"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 132,
+    "question": "Aşağıdakilerden hangisi toprak kirliliğinin nedenlerinden sayılamaz?",
+    "choices": [
+      "A) Tarımda suni gübre kullanımının artması",
+      "B) Sanayi faaliyetleri ile toprağa aşırı civa ve kurşun gibi ağır metallerin karışması",
+      "C) Arıtma tesislerinin kurulması",
+      "D) Evsel ve sanayi atıklarının sularla toprağa karışması",
+      "E) Tarımda kimyasal mücadele yapılması"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 133,
+    "question": "Doğal hayatın korunması ile ilgili aşağıdaki uygulamalardan hangisi daha geniş kapsamlıdır?",
+    "choices": [
+      "A) Balıkların yumurtlama döneminde avlanma yasağı konması",
+      "B) Bir türün avlanmasının yasaklanması",
+      "C) Bir doğal yaşam alanında yaşayan türlerin koruma altına alınması",
+      "D) Sera etkisine neden olan gazların sınırlandırılması",
+      "E) Bir orman alanında tarla açılmasının önlenmesi"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 134,
+    "question": "I. Evsel ve endüstriyel atıklarının toplanarak imha edilmesi II. Yapay gübre ve tarım ilaçlarının kullanılmasında yanlış uygulamaların önlenmesi III. Geri dönüştürülebilir atık malzemelerin ham madde olarak tekrar kazandırılması Yukarıda verilen önlemler öncelikle aşağıdakilerden hangisini durdurmaya yöneliktir?",
+    "choices": [
+      "A) Hava kirliliği",
+      "B) Su kirliliği",
+      "C) Toprak kirliliği",
+      "D) Gürültü kirliliği",
+      "E) Besin kirliliği"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 135,
+    "question": "Aşağıda sıralanan faaliyetlerden hangisi gürültü kirliliğinin nedenleri arasında sayılamaz?",
+    "choices": [
+      "A) Tarımsal üretim",
+      "B) Karayolu trafiği",
+      "C) Hava trafiği",
+      "D) Sanayi faaliyetleri",
+      "E) İnşaat faaliyetleri"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 136,
+    "question": "I. Erozyon II. Bilinçsiz yapılaşma III. Tarla açma Yukarıdakilerden hangileri ormanlarda tahribata neden olmaktadır?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve II",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 137,
+    "question": "Aşağıdaki enerji türlerinden hangisi çevreyi olumsuz yönde etkiler?",
+    "choices": [
+      "A) Su",
+      "B) Rüzgâr",
+      "C) Nükleer",
+      "D) Güneş",
+      "E) Jeotermal"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 138,
+    "question": "Aşağıdakilerden hangisi kimyasal kirlenmeye örnek gösterilemez?",
+    "choices": [
+      "A) Tarımsal mücadele ilaçları",
+      "B) İyi durulanmayan kaplardan geçen deterjanlar",
+      "C) Besin ambalajında kullanılan renkli plastikler",
+      "D) Saç ve tırnak gibi insan atıkları",
+      "E) Önerilen miktarın üzerinde kullanılan gıda katkı maddeleri"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 139,
+    "question": "I. Atmosferin ısınması II. Buzulların erimesi III. Tür çeşitliliğinin artması IV. Yeryüzüne ulaşan ışınların atmosferden yansıması Yukarıdaki olaylardan hangileri atmosferde karbondioksit, su buharı ve metan gazının normalden fazla birikmesine yol açar?",
+    "choices": [
+      "A) I ve II",
+      "B) I, II ve III",
+      "C) I, II ve IV",
+      "D) II, III ve IV",
+      "E) I, II, III ve IV"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 140,
+    "question": "Aşağıdakilerden hangisi hava kirliliğini önlemek için alınması gereken önlemlerdendir?",
+    "choices": [
+      "A) Isınmada fosil yakıtların kullanılması",
+      "B) Mera alanların tarıma açılması",
+      "C) Bozuk orman alanlarının yerine yerleşim alanlarının kurulması",
+      "D) Toplu taşıma yerine özel araçların kullanılması",
+      "E) Sanayi tesislerinin bacalarına filtre takılması"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 141,
+    "question": "Su kirliliğinin artmasına bağlı olarak aşağıdakilerden hangisi söylenebilir?",
+    "choices": [
+      "A) Sularda yaşayan tür çeşitliliğinin artması",
+      "B) Ötrofikasyonun görülmesi",
+      "C) Sera etkisinin görülmesi",
+      "D) Küresel ısınmanın görülmesi",
+      "E) İnsanlarda astım ve bronşit gibi hastalıkların görülmesi"
+    ],
+    "answer": "B"
   }
 ]
