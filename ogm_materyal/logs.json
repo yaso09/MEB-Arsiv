@@ -10323,5 +10323,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "183": [
+    {
+      "attempt": 1,
+      "id": 183,
+      "timestamp": "2026-03-28T18:45:00.919Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4091 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 174"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Azot döngüsüyle ilgili olarak aşağıdakilerden hangisi yanlıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Saprofit bakteriler azotlu organik atıkları amonyağa dönüştürürler.\",\"cleaned\":\"A) Saprofit bakteriler azotlu organik atıkları amonyağa dönüştürürler.\"},{\"raw\":\"B) Nitrit bakterileri amoyağı nitrite dönüştürürler.\",\"cleaned\":\"B) Nitrit bakterileri amoyağı nitrite dönü"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Saprofit bakteriler azotlu organik atıkları amonyağa dönüştürürler.\",\"B) Nitrit bakterileri amoyağı nitrite dönüştürürler.\",\"C) Nitrat bakterileri nitriti nitrata dönüştürürler.\",\"D) Baklagillerin köklerinde mutualist yaşayan bakteriler havanın serbest azotunu bağlarlar."
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
