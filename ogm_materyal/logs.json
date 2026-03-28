@@ -2662,5 +2662,158 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "63": [
+    {
+      "attempt": 1,
+      "id": 63,
+      "timestamp": "2026-03-28T18:18:16.266Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4009 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 334"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Balık pulluluğu Y kromozomu zerinde taşınan bir hastalıktır. Fenotipinde balık pulluluğu g zlenen bir bireyin aşağıdaki aile bireylerinin veya akrabal...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Babasında\\r\\n\",\"cleaned\":\"A) Babasında\"},{\"raw\":\"B) Erkek &ccedil;ocuğunda\\r\\n\",\"cleaned\":\"B) Erkek ocuğunda\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Babasında\",\"B) Erkek ocuğunda\",\"C) Teyzesinin oğlunda\",\"D) Amcasında\",\"E) Erkek kardeşinde\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "64": [
+    {
+      "attempt": 1,
+      "id": 64,
+      "timestamp": "2026-03-28T18:18:19.443Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4075 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 285"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aralarında baskınlık - çekiniklik ilişkisi bulunan genleri taşıyan bireylerde anne ve babada görülmeyen özelliklerin yavruda görülmesi için hangi geno...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) homozigot dominant x homozigot resesif\",\"cleaned\":\"A) homozigot dominant x homozigot resesif\"},{\"raw\":\"B) homozigot resesif x homozigot resesif\",\"cleaned\":\"B) homozigot resesif x homozigot resesif\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) homozigot dominant x homozigot resesif\",\"B) homozigot resesif x homozigot resesif\",\"C) heterozigot dominant x homozigot dominant\",\"D) heterozigot dominant x heterozigot dominant\",\"E) homozigot resesif x heterozigot dominant\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "65": [
+    {
+      "attempt": 1,
+      "id": 65,
+      "timestamp": "2026-03-28T18:18:23.122Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3814 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 177"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi hem kalıtım hem de çevre etkileşimi sonucu oluşur?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Boy uzunluğu\",\"cleaned\":\"A) Boy uzunluğu\"},{\"raw\":\"B) Cinsiyet\",\"cleaned\":\"B) Cinsiyet\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Boy uzunluğu\",\"B) Cinsiyet\",\"C) Göz rengi\",\"D) Hemofili\",\"E) Kan grubu\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
