@@ -2170,5 +2170,29 @@
       "E) Organizmaların ölümü"
     ],
     "answer": "B"
+  },
+  {
+    "id": 212,
+    "question": "İnsanların, ekosistemdeki diğer canlılar açısından işlevi aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) Baskın tür",
+      "B) Endemik tür",
+      "C) Ekolojik niş",
+      "D) Komünite",
+      "E) Populasyon"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 213,
+    "question": "Aşağıdaki canlı gruplarının hangisinin üretici, tüketici ve ayrıştırıcı türleri bulunmaktadır?",
+    "choices": [
+      "A) Bakteriler",
+      "B) Mantarlar",
+      "C) Bitkiler",
+      "D) Omurgasız hayvanlar",
+      "E) Omurgalı hayvanlar"
+    ],
+    "answer": "A"
   }
 ]
