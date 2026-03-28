@@ -15332,5 +15332,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "256": [
+    {
+      "attempt": 1,
+      "id": 256,
+      "timestamp": "2026-03-28T18:50:13.253Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4086 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 360"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Yurtta sulh, cihanda sulh Mecbur kalınmadık a savaş bir cinayettir. Mustafa Kemal Atat rk, yukarıda yer alan s zlerinde aşağıdakilerden hangisini vurg...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Ulusal bağımsızlığı\\r\\n\",\"cleaned\":\"A) Ulusal bağımsızlığı\"},{\"raw\":\"B) Ekonomik bağımsızlığı\\r\\n\",\"cleaned\":\"B) Ekonomik bağımsızlığı\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Ulusal bağımsızlığı\",\"B) Ekonomik bağımsızlığı\",\"C) Barış yanlısı bir dış politikayı\",\"D) Halk egemenliğini\",\"E) G l devlet olmayı\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
