@@ -2686,5 +2686,41 @@
       "E) Tam bağımsızlıktan taviz vermemek"
     ],
     "answer": "E"
+  },
+  {
+    "id": 258,
+    "question": "I. D nya Savaşı sonrası silahlanmanın hızla devam etmesi ve yeni bir d nya savaşının ıkabileceği ihtimaline karşı doğu sınırını g vence altına almak isteyen T rkiye, Sadabad Paktı&#39;nda yer almıştır. Aşağıdakilerden hangisi Sadabat Paktı&#39;nda Suriye&#39;nin yer almamış olmasının nedeni olarak g sterilebilir?",
+    "choices": [
+      "A) Suriye&#39;nin T rkiye Cumhuriyeti&#39;ni tanımaması",
+      "B) Suriye ile T rkiye arasında Hatay sorununun yaşanıyor olması",
+      "C) Suriye&#39;nin savaş yanlısı olması",
+      "D) Suriye&#39;nin İran ile savaş halinde olması",
+      "E) Suriye&#39;nin Alman yanlısı bir politika izlemesi"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 259,
+    "question": "Atat rk&#39; n Biz her şeyden nce başka devletlerin egemenliğine saygı duyar, başka devletlerin de bizim egemenliğimize saygı duymasını bekleriz. s z aşağıdakilerden hangisinde T rk devletinin uluslararası alanda nceliğini ifade etmektedir?",
+    "choices": [
+      "A) Uluslararası barışı korumak",
+      "B) K lt r etkileşimini sağlamak",
+      "C) Batı d nyasında kabul g rmek",
+      "D) Ekonomik g birliğini sağlamak",
+      "E) Tam bağımsızlık anlayışını ger ekleştirmek"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 260,
+    "question": "Atat rk d neminde izlenen dış politika ve imzalanan antlaşmalarda; I. Tam bağımsızlık, II. Ulusal egemenlik, III. Karşılıklılık, IV. Uluslararası hukuka uygunluk maddelerinden hangileri dış politikanın temel ilkeleri arasında yer alır?",
+    "choices": [
+      "A) I ve II",
+      "B) I ve III",
+      "C) I, II ve III",
+      "D) II, III ve IV",
+      "E) I, III ve IV"
+    ],
+    "answer": "E"
   }
 ]
