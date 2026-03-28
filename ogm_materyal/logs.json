@@ -3586,5 +3586,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "78": [
+    {
+      "attempt": 1,
+      "id": 78,
+      "timestamp": "2026-03-28T18:19:12.577Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4325 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 421"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Bir canlıda üç karakter üzerine etkili olan genlerin baskınlık durumları; I. karakter: A B = C II. karakter: K = L = M III. karakter: P R S şeklinde v...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Fenotip çeşidi : 16&nbsp;&nbsp;&nbsp;&nbsp;Genotip çeşidi : 64\",\"cleaned\":\"A) Fenotip çeşidi : 16 Genotip çeşidi : 64\"},{\"raw\":\"B) Fenotip çeşidi : 32&nbsp;&nbsp;&nbsp;&nbsp;Genotip çeşidi : 64\",\"cleaned\":\"B) Fenotip çeşidi : 32 Genotip çeşidi : 64\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Fenotip çeşidi : 16 Genotip çeşidi : 64\",\"B) Fenotip çeşidi : 32 Genotip çeşidi : 64\",\"C) Fenotip çeşidi : 36 Genotip çeşidi : 128\",\"D) Fenotip çeşidi : 72 Genotip çeşidi : 128\",\"E) Fenotip çeşidi : 72 Genotip çeşidi : 216\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
