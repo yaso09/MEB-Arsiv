@@ -202,5 +202,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "5": [
+    {
+      "attempt": 1,
+      "id": 5,
+      "timestamp": "2026-03-28T18:06:05.003Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4158 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 325"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Doku k lt r retim alışmaları gelişmiş lkelerde ticari yarar sağlayıcı uygulamalarda kullanılmaktadır. Aşağıdakilerden hangisi bu yararlardan biri deği...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Vir&uuml;slere karşı bağışıklık kazanmış bitkileri elde etme\\r\\n\",\"cleaned\":\"A) Vir slere karşı bağışıklık kazanmış bitkileri elde etme\"},{\"raw\":\"B) Bitki gen kaynağını uzun s&uuml;re saklama\\r\\n\",\"cleaned\":\"B) Bitki gen kaynağını uzun s re saklama\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Vir slere karşı bağışıklık kazanmış bitkileri elde etme\",\"B) Bitki gen kaynağını uzun s re saklama\",\"C) Bitki ıslahı\",\"D) Eczacılık i in belirli bitki organlarını retme\",\"E) Aynı bitki zerinde farklı r nler elde etme\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "6": [
+    {
+      "attempt": 1,
+      "id": 6,
+      "timestamp": "2026-03-28T18:06:08.591Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4581 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 422"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Mayoz bölünmede gerçekleşen olaylardan hangisi mayoz I ve mayoz II' de ortak olarak gerçekleşmez ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) <font face=\\\"Arial\\\">Karyokinez</font>\",\"cleaned\":\"A) Karyokinez\"},{\"raw\":\"B) <span style=\\\"font-family: Arial;\\\">İğ</span>&nbsp;<span style=\\\"font-family: Ar\",\"cleaned\":\"B) İğ ipliklerinin oluşumu\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Karyokinez\",\"B) İğ ipliklerinin oluşumu\",\"C) Kardeş kromatitlerin ayrılması\",\"D) Sitokinez\",\"E) Çekirdek zarının erimesi\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
