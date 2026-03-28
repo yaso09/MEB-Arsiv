@@ -16690,5 +16690,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "268": [
+    {
+      "attempt": 1,
+      "id": 268,
+      "timestamp": "2026-03-28T18:51:28.696Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3875 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 240"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi Atat rk nderliğinde kurulan Balkan Antantı&#39;na ye lkelerden biridir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Almanya\\r\\n\",\"cleaned\":\"A) Almanya\"},{\"raw\":\"B) Yunanistan\\r\\n\",\"cleaned\":\"B) Yunanistan\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Almanya\",\"B) Yunanistan\",\"C) Fransa\",\"D) İtalya\",\"E) Rusya\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
