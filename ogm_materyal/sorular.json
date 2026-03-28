@@ -2338,5 +2338,29 @@
       "E) III-I-IV-II"
     ],
     "answer": "D"
+  },
+  {
+    "id": 226,
+    "question": "Canlılardaki beslenme şekilleriyle ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "choices": [
+      "A) Kemosentetik canlılar kesinlikle prokaryottur.",
+      "B) Bazı mantarlar ototroftur.",
+      "C) Saprofit yaşayan bakteri veya mantarlar olabilir.",
+      "D) Protista alemindeki canlı örneklerinde ototrof ve heteretrof beslenme aynı canlı türünde olabilir.",
+      "E) Bütün hayvanlar heterotroftur."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 227,
+    "question": "Azot d ng s i in aşağıdaki ifadelerden hangisi yanlıştır?",
+    "choices": [
+      "A) Nitrifikasyon olayını yapan canlılar ototroftur.",
+      "B) Denitrifikasyon olayını yapan canlılar, bitki i in olumsuz etki yapar.",
+      "C) Saprofit olan canlılar, kesinlikle prokaryottur.",
+      "D) Siyanobakteriler, d ng de nemli bir role sahiptirler.",
+      "E) B cek il bitki, azot ihtiyacını topraktan karşılayamaz."
+    ],
+    "answer": "C"
   }
 ]
