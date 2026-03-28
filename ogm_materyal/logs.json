@@ -7296,5 +7296,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "133": [
+    {
+      "attempt": 1,
+      "id": 133,
+      "timestamp": "2026-03-28T18:26:53.263Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4042 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 201"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Doğal hayatın korunması ile ilgili aşağıdaki uygulamalardan hangisi daha geniş kapsamlıdır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Balıkların yumurtlama döneminde avlanma yasağı konması\",\"cleaned\":\"A) Balıkların yumurtlama döneminde avlanma yasağı konması\"},{\"raw\":\"B) Bir türün avlanmasının yasaklanması\",\"cleaned\":\"B) Bir türün avlanmasının yasaklanması\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Balıkların yumurtlama döneminde avlanma yasağı konması\",\"B) Bir türün avlanmasının yasaklanması\",\"C) Bir doğal yaşam alanında yaşayan türlerin koruma altına alınması\",\"D) Sera etkisine neden olan gazların sınırlandırılması\",\"E) Bir orman alanında tarla açılmasının önlenm"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "134": [
+    {
+      "attempt": 1,
+      "id": 134,
+      "timestamp": "2026-03-28T18:26:56.524Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4112 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 447"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Evsel ve endüstriyel atıklarının toplanarak imha edilmesi II. Yapay gübre ve tarım ilaçlarının kullanılmasında yanlış uygulamaların önlenmesi III. ...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Hava kirliliği\",\"cleaned\":\"A) Hava kirliliği\"},{\"raw\":\"B) Su kirliliği\",\"cleaned\":\"B) Su kirliliği\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Hava kirliliği\",\"B) Su kirliliği\",\"C) Toprak kirliliği\",\"D) Gürültü kirliliği\",\"E) Besin kirliliği\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
