@@ -2530,5 +2530,77 @@
       "E) V"
     ],
     "answer": "E"
+  },
+  {
+    "id": 245,
+    "question": "Aşağıdaki devletlerden hangisi ile Atat rk D nemi&#39;nde siyasi ilişki kurulmamıştır ?",
+    "choices": [
+      "A) Romanya",
+      "B) Sovyet Rusya",
+      "C) İran",
+      "D) Afganistan",
+      "E) Suriye"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 246,
+    "question": "T rkiye&#39;nin Boğazlar ile ilgili sorunlarının b y k oranda z me kavuştuğu antlaşma aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) Locarno Antlaşması",
+      "B) Sadabat Paktı",
+      "C) Balkan Antantı",
+      "D) Montreux Boğazlar S zleşmesi",
+      "E) Lozan Antlaşması"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 247,
+    "question": "Kurtuluş Savaşı&#39;nın asker safhasının başarıyla tamamlanmasının ardından bu kez diplomasi alanında b y k bir m cadele başlamıştır. Bu er evede aşağıdakilerden hangisi yeni T rk devletinin izlemiş olduğu dış politikasının dayandığı temel ilkelerden biridir?",
+    "choices": [
+      "A) Milletler Cemiyetinin taleplerini yerine getirmek",
+      "B) Yayılmacı anlayışı etkin kılmak",
+      "C) S m rgecilik yarışında yerini almak",
+      "D) Devletlerin eşitliği ilkesini g zetmek",
+      "E) Komşu devletler zerinde baskı oluşturmak"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 248,
+    "question": "Dış politikada g l olmanın ilk koşulu i politikada da g l olmaktır. Aşağıdakilerden hangisi yukarıdaki yargıyı doğrulayan bir gelişmedir?",
+    "choices": [
+      "A) Musul Sorunu",
+      "B) Milletler Cemiyetine yelik",
+      "C) Balkan Antantı",
+      "D) Kubilay Olayı",
+      "E) Sadabad Paktı"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 249,
+    "question": "Yeni T rk devleti, Lozan Antlaşması&#39;nda karara bağlanan Osmanlı bor ları ile ilgili olarak aşağıdaki hangi devletle anlaşmazlığa d şm şt r?",
+    "choices": [
+      "A) İngiltere",
+      "B) İtalya",
+      "C) Fransa",
+      "D) Yunanistan",
+      "E) Rusya"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 250,
+    "question": "Aşağıdakilerden hangisi, I. D nya Savaşı sonrası kurulan Milletler Cemiyeti&#39;nin kuruluş ama ları arasında yer almaz ?",
+    "choices": [
+      "A) Enerji kaynaklarının kullanımına karar vermek",
+      "B) Uluslararası sorunları barış yoluyla zmek",
+      "C) Uluslararası hukuku işler kılmak",
+      "D) Uluslararası iş birliğini geliştirmek",
+      "E) Barış ve g venliği korumak"
+    ],
+    "answer": "A"
   }
 ]
