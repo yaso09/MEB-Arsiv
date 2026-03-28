@@ -8991,5 +8991,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "160": [
+    {
+      "attempt": 1,
+      "id": 160,
+      "timestamp": "2026-03-28T18:43:39.583Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3980 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 194"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi doğal bir ortamın korunmasına yönelik bir çalışma değildir ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Endüstriyel atıkların arıtılması&nbsp;\",\"cleaned\":\"A) Endüstriyel atıkların arıtılması\"},{\"raw\":\"B) Biyolojik mücadele&nbsp;\",\"cleaned\":\"B) Biyolojik mücadele\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Endüstriyel atıkların arıtılması\",\"B) Biyolojik mücadele\",\"C) Yenilenebilir enerji kaynaklarının kullanılması\",\"D) Ormanlık alanların korunması ve artırılması\",\"E) Kimyasal ilaçların kullanılması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
