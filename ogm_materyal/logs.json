@@ -16894,5 +16894,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "272": [
+    {
+      "attempt": 1,
+      "id": 272,
+      "timestamp": "2026-03-28T18:51:48.534Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4001 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 288"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"T rkiye, II. D nya Savaşı ncesinde batı sınırlarını g vence altına almak amacıyla, aşağıdaki antlaşmalardan hangisinin imzalanmasını sağlamıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Balkan Antantı\\r\\n\",\"cleaned\":\"A) Balkan Antantı\"},{\"raw\":\"B) Montr&ouml; Boğazlar S&ouml;zleşmesi\\r\\n\",\"cleaned\":\"B) Montr Boğazlar S zleşmesi\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Balkan Antantı\",\"B) Montr Boğazlar S zleşmesi\",\"C) Sadabat Paktı\",\"D) Mondros M tarekesi\",\"E) Mudanya Ateşkes Antlaşması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
