@@ -2470,5 +2470,65 @@
       "E) Milletler Cemiyetinin Musul sorunundaki taraflı tutumu"
     ],
     "answer": "E"
+  },
+  {
+    "id": 240,
+    "question": "Bozkurt - Lotus Davası olarak bilinen hukuki sorun, T rkiye ile hangi lke arasında yaşanmıştır?",
+    "choices": [
+      "A) İngiltere",
+      "B) Fransa",
+      "C) İtalya",
+      "D) Yunanistan",
+      "E) Bulgaristan"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 241,
+    "question": "T rkiye, 1937&#39;de imzaladığı Sadabat Paktı ile aşağıdakilerden hangisini ger ekleştirmiştir?",
+    "choices": [
+      "A) Batı sınırlarını g vence altına almıştır.",
+      "B) D nya barışına katkıda bulunmuştur.",
+      "C) Doğu sınırını g venlik altına almıştır.",
+      "D) Doğu Akdeniz&#39;de etkinliğini artırmıştır.",
+      "E) Balkan devletleri ile sınır sorunlarını zm şt r."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 242,
+    "question": "I. Milletler Cemiyeti&#39;ne girilmesi, II. Balkan Antantı&#39;nın imzalanması, III. Irak sınırının izilmesi, IV. Sadabat Paktı&#39;nın imzalanması, V. Hatay&#39;ın T rkiye&#39;ye katılması Yukarıdaki olayların kronolojik sıralaması aşağıdakilerin hangisinde doğru olarak verilmiştir?",
+    "choices": [
+      "A) I - III - V - IV - II",
+      "B) IV - I - V - II - III",
+      "C) I - II - IV - V - III",
+      "D) III - I - II - IV - V",
+      "E) V - I - IV - III - I"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 243,
+    "question": "I. Birleşmiş Milletler II. Montr S zleşmesi III. Balkan Antantı IV. Sadabat Paktı V. Milletler Cemiyeti VI. Lozan Antlaşması Yukarıdaki rg t ve antlaşmalardan hangileri g n m zde ge erliğini kaybetmiştir ?",
+    "choices": [
+      "A) I ve III",
+      "B) II ve IV",
+      "C) I, II ve VI",
+      "D) III, V ve VI",
+      "E) III, IV ve V"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 244,
+    "question": "I. Yugoslavya II. Yunanistan III. T rkiye IV. Romanya V. Bulgaristan Yukarıdaki devletlerden hangisi Balkan Antantı&#39;na katılmamıştır ?",
+    "choices": [
+      "A) I",
+      "B) II",
+      "C) III",
+      "D) IV",
+      "E) V"
+    ],
+    "answer": "E"
   }
 ]
