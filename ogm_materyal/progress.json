@@ -1,6 +1,9 @@
 {
-  "lastSuccessId": 0,
-  "savedIds": [],
+  "lastSuccessId": 2,
+  "savedIds": [
+    1,
+    2
+  ],
   "failedIds": [],
   "notFoundId": null
 }
