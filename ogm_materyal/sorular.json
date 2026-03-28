@@ -1990,5 +1990,17 @@
       "E) Sıcaklık"
     ],
     "answer": "D"
+  },
+  {
+    "id": 197,
+    "question": "Aşağıda verilen canlılardan hangisi heterotrof beslenme yapar?",
+    "choices": [
+      "A) Kara yosunu",
+      "B) Eğrelti otu",
+      "C) Canavar otu",
+      "D) Ökse otu",
+      "E) Göknar"
+    ],
+    "answer": "C"
   }
 ]
