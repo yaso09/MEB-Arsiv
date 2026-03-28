@@ -14567,5 +14567,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "241": [
+    {
+      "attempt": 1,
+      "id": 241,
+      "timestamp": "2026-03-28T18:49:21.624Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4098 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 229"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"T rkiye, 1937&#39;de imzaladığı Sadabat Paktı ile aşağıdakilerden hangisini ger ekleştirmiştir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Batı sınırlarını g&uuml;vence&nbsp;altına almıştır.\\r\\n\",\"cleaned\":\"A) Batı sınırlarını g vence altına almıştır.\"},{\"raw\":\"B) D&uuml;nya barışına katkıda bulunmuştur.\\r\\n\",\"cleaned\":\"B) D nya barışına katkıda bulunmuştur.\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Batı sınırlarını g vence altına almıştır.\",\"B) D nya barışına katkıda bulunmuştur.\",\"C) Doğu sınırını g venlik altına almıştır.\",\"D) Doğu Akdeniz&#39;de etkinliğini artırmıştır.\",\"E) Balkan devletleri ile sınır sorunlarını zm şt r.\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
