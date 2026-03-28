@@ -7704,5 +7704,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "141": [
+    {
+      "attempt": 1,
+      "id": 141,
+      "timestamp": "2026-03-28T18:27:19.486Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3950 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 186"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Su kirliliğinin artmasına bağlı olarak aşağıdakilerden hangisi söylenebilir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Sularda yaşayan tür çeşitliliğinin artması\",\"cleaned\":\"A) Sularda yaşayan tür çeşitliliğinin artması\"},{\"raw\":\"B) Ötrofikasyonun görülmesi\",\"cleaned\":\"B) Ötrofikasyonun görülmesi\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Sularda yaşayan tür çeşitliliğinin artması\",\"B) Ötrofikasyonun görülmesi\",\"C) Sera etkisinin görülmesi\",\"D) Küresel ısınmanın görülmesi\",\"E) İnsanlarda astım ve bronşit gibi hastalıkların görülmesi\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
