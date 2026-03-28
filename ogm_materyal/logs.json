@@ -2815,5 +2815,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "66": [
+    {
+      "attempt": 1,
+      "id": 66,
+      "timestamp": "2026-03-28T18:18:26.178Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3988 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 356"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Kan grubu bilinmeyen bir bireye ait kan örneği üzerine, B antikoru içeren kan serumu damlatıldığında çökelme gerçekleşir. Buna göre bu birey; I. A II....\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I ve II\",\"cleaned\":\"A) I ve II\"},{\"raw\":\"B) I ve III\",\"cleaned\":\"B) I ve III\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I ve II\",\"B) I ve III\",\"C) II ve III\",\"D) II ve IV\",\"E) III ve IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
