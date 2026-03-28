@@ -2962,5 +2962,29 @@
       "E) Dış politikada d nya konjonkt r dikkate alınmalıdır."
     ],
     "answer": "D"
+  },
+  {
+    "id": 283,
+    "question": "I. Mustafa Kemal Atat rk 1881&#39;de doğmuş, 1938&#39;de vefat etmiştir. II. Mustafa Kemal Atat rk Sel nik&#39;te doğmuş, İstanbul&#39;da vefat etmiştir. III. Mustafa Kemal Atat rk Selanik&#39;te doğmuş, Ankara&#39;da vefat etmiştir. IV. Mustafa Kemal Atat rk 1881&#39;de doğmuş, 1923&#39;te T rk orduları başkumandanı olmuştur. V. Mustafa Kemal Atat rk 1881&#39;de doğmuş, T rkiye Cumhuriyeti&#39;ni 1923&#39;te kurmuştur. Yukarıdaki bilgilerden hangileri yanlıştır ?",
+    "choices": [
+      "A) I ve II",
+      "B) I ve V",
+      "C) II ve IV",
+      "D) III ve IV",
+      "E) IV ve V"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 284,
+    "question": "Aşağıdakilerden hangisi Atat rk&#39; n hayatı boyunca ge irdiği rahatsızlıklardan biri değildir ?",
+    "choices": [
+      "A) Akciğer",
+      "B) B brek",
+      "C) Karaciğer",
+      "D) G z",
+      "E) Kalp"
+    ],
+    "answer": "A"
   }
 ]
