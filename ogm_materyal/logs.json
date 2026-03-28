@@ -6009,5 +6009,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "114": [
+    {
+      "attempt": 1,
+      "id": 114,
+      "timestamp": "2026-03-28T18:23:46.939Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3838 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 159"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi doğal hava kirliliği kaynağıdır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Volkanik patlamalar\",\"cleaned\":\"A) Volkanik patlamalar\"},{\"raw\":\"B) Termik santraller\",\"cleaned\":\"B) Termik santraller\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Volkanik patlamalar\",\"B) Termik santraller\",\"C) Petrokimya tesisleri\",\"D) Fosil yakıtlar\",\"E) Nükleer santraller\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
