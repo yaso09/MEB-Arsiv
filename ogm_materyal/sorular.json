@@ -1666,5 +1666,101 @@
       "E) Birey sayısı azalır."
     ],
     "answer": "D"
+  },
+  {
+    "id": 170,
+    "question": "Konya Bozdağ'da yaşayan Anadolu Yaban Koyunları ekolojide hangi topluluğa karşılık gelir?",
+    "choices": [
+      "A) Popülasyon",
+      "B) Komünite",
+      "C) Ekosistem",
+      "D) Ekoton",
+      "E) Habitat"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 171,
+    "question": "I. İhtiyacı olan azotu yakaladıkları böceklerden karşılarlar. II. Hücre dışı sindirim yaparlar. III. Yapraklarında kloroplast bulundurmazlar. Yukarıda verilenlerden hangileri böcekçil bitkilerin özelliklerindendir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve II",
+      "D) I ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 172,
+    "question": "Aşağıdakilerden hangisi salgıladıkları enzimlerle organik atıkları inorganik maddelere dönüştürür?",
+    "choices": [
+      "A) Patojen bakteriler",
+      "B) Saprofit bakteriler",
+      "C) Azot bağlayıcı bakteriler",
+      "D) Fotosentetik bakteriler",
+      "E) Nitrit bakterileri"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 173,
+    "question": "Aşağıdaki canlılardan hangisi bir otoburdur?",
+    "choices": [
+      "A) Kartal",
+      "B) Baykuş",
+      "C) Çekirge",
+      "D) Kurbağa",
+      "E) Yılan"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 174,
+    "question": "Aşağıdakilerden hangisi atmosferin karbon kaynaklarından biri değildir?",
+    "choices": [
+      "A) Fotosentez tepkimeleri",
+      "B) Solunum tepkimeleri",
+      "C) Volkanik patlamalar",
+      "D) Saprofitlerin faaliyetleri",
+      "E) Endüstriyel faaliyetler"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 175,
+    "question": "Su döngüsüyle ilgili aşağıdakilerden hangisi yanlıştır?",
+    "choices": [
+      "A) Atmosferdeki su buharı yağmur ve kar şeklinde yeryüzüne iner.",
+      "B) Toprağa sızan yağmur suları yeraltı sularının oluşmasında rol oynar.",
+      "C) Bitkiler fotosentez yaparak atmosfere su verirler.",
+      "D) Hayvanlar solunum yaparak atmosfere su verirler.",
+      "E) Su buharı yoğunlaşarak bulutları oluşturur."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 176,
+    "question": "Tabiatta karbon devrinin ger ekleşmesi s recinde; canlıların solunumla atmosfere verdikleri CO2, bitkilerin fotosentez ile kullandıkları CO2&#39;i karşılamaya yetmez. Ancak atmosferde CO2 oranı genellikle dengede kalır. Buna g re I. Fosil yakıtların kullanılması II. Volkan patlamaları III. Kemosentetik canlıların CO2 ile besin sentezlemesi IV. Saprofitlerin r me ile ortama CO2 vermeleri olaylarından hangileri tabiatta CO2 dengelemesinde etkili olaylardır?",
+    "choices": [
+      "A) I ve II",
+      "B) II ve IV",
+      "C) I, II ve IV",
+      "D) I, III ve IV",
+      "E) II, III ve IV"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 177,
+    "question": "Azot döngüsüyle ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "choices": [
+      "A) Mantarlar ve saprofit bakteriler azotlu organik atıkları amonyağa dönüştürür.",
+      "B) Nitrifikasyon bakterileri toprağın inorganik azot tuzlarınca zenginleşmesini sağlar.",
+      "C) Denitrifikasyon olayı sonucunda atmosfer azot yönünden zenginleşir.",
+      "D) Şimşek ve yıldırım topraktaki azotun atmosfere geçmesinde rol oynar.",
+      "E) Bitkiler topraktan aldıkları nitrat tuzlarını protein sentezinde kullanırlar."
+    ],
+    "answer": "D"
   }
 ]
