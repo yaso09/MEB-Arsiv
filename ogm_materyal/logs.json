@@ -12936,5 +12936,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "228": [
+    {
+      "attempt": 1,
+      "id": 228,
+      "timestamp": "2026-03-28T18:47:56.521Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4104 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 461"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"l. Çöplerin toplanmasında geri dönüşüm yaygınlaştırılmalı ll. Yenilenebilir enerji tercih edilmeli lll. Biyoçeşitlilik korunmanın gerekliliği ile ilgi...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) l ve lV\",\"cleaned\":\"A) l ve lV\"},{\"raw\":\"B) l ve lll\",\"cleaned\":\"B) l ve lll\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) l ve lV\",\"B) l ve lll\",\"C) ll ve lll\",\"D) l, ll ve lll\",\"E) l, ll, lll ve lV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
