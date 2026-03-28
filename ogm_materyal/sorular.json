@@ -34,5 +34,29 @@
       "E) IV-III-II-I"
     ],
     "answer": "A"
+  },
+  {
+    "id": 4,
+    "question": "Aşağıdakilerden hangisi doku kültürü çalışması yapan bir bilim insanının hazırlaması gereken besi ortamında bulunmaz ?",
+    "choices": [
+      "A) Mineraller ve su",
+      "B) Monosakkaritler ve aminoasitler",
+      "C) Mutasyona uğramış nükleik asitler",
+      "D) Vitaminler ve hormonlar",
+      "E) Hormonlar ve yağ asitleri"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 5,
+    "question": "Doku k lt r retim alışmaları gelişmiş lkelerde ticari yarar sağlayıcı uygulamalarda kullanılmaktadır. Aşağıdakilerden hangisi bu yararlardan biri değildir ?",
+    "choices": [
+      "A) Vir slere karşı bağışıklık kazanmış bitkileri elde etme",
+      "B) Bitki gen kaynağını uzun s re saklama",
+      "C) Bitki ıslahı",
+      "D) Eczacılık i in belirli bitki organlarını retme",
+      "E) Aynı bitki zerinde farklı r nler elde etme"
+    ],
+    "answer": "E"
   }
 ]
