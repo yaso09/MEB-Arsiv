@@ -1030,5 +1030,137 @@
       "E) Bitki ve hayvan atıkları"
     ],
     "answer": "E"
+  },
+  {
+    "id": 111,
+    "question": "I. Çöplüklerde oluşan metan gazı II. Volkan patlamalarından kaynaklanan büyük kül bulutları III. Termik santrallerin bacalarından çıkan kükürt dioksit gazı Yukarıdakilerden hangileri hava kirliliğine yol açar? Yukarıdakilerden hangileri hava kirliliğine yol açar?",
+    "choices": [
+      "A) Yalnız III",
+      "B) I ve II",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 112,
+    "question": "Aşağıdakilerden hangisinin hava kirliliğine olan etkisi diğerlerine göre daha azdır?",
+    "choices": [
+      "A) Çöplüklerden çıkan metan gazı",
+      "B) Motorlu taşıtlardan çıkan egzoz gazları",
+      "C) Bitkilerin atmosfere verdiği karbondioksit gazı",
+      "D) Termik santrallerden çıkan kükürtdioksit gazı",
+      "E) Sanayi tesislerinden çıkan azotdioksit gazı"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 113,
+    "question": "I. Solunum ve terlemenin hızlanması II. Yaprak uçlarında ve kenarlarında sararma ve yanma benzeri değişiklikler III. Bitki olgunlaşmasının gecikmesi Yukarıdakilerden hangileri bitkilerde hava kirliliğinden dolayı görülen etkilerdir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) I ve II",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 114,
+    "question": "Aşağıdakilerden hangisi doğal hava kirliliği kaynağıdır?",
+    "choices": [
+      "A) Volkanik patlamalar",
+      "B) Termik santraller",
+      "C) Petrokimya tesisleri",
+      "D) Fosil yakıtlar",
+      "E) Nükleer santraller"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 115,
+    "question": "I. Yenilenebilir enerji kaynakları kullanılmalı II. Elektrikle çalışan motorlu araçlar tercih edilmeli III. Yeşil alanlar artırılmalı Yerleşim yerlerinde hava kirliliğini azaltmek için yukarıdakilerden hangilerinin yapılması gereklidir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) I ve II",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 116,
+    "question": "Aşağıdakilerden hangisi küresel ısınmanın olumlu beklentileri arasında yer almaktadır?",
+    "choices": [
+      "A) Buzulların erimesi ve denizlerdeki su seviyesinin yükselmesiyle kıyılarda toprak kayıplarının olması",
+      "B) Bölgesel yağış sistemlerinin değişmesiyle taşkınların olması",
+      "C) Yüksek sıcaklık artışlarının aşırı buharlaşma oluşturarak göl ve ırmak sularını azaltması",
+      "D) Kanada ve Rusya gibi soğuk iklim yapısına sahip ülkelerde tarımsal üretimin artması",
+      "E) Bitki ve hayvan türlerinin azalma ve yok olma tehlikesiyle karşı karşıya kalması"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 117,
+    "question": "Aşağıdakilerden hangisinin toprak kirliliğine olan etkisi diğerlerine göre daha azdır?",
+    "choices": [
+      "A) Endüstriyel atıklar",
+      "B) Tarımsal mücadele ilaçları",
+      "C) Bitki ve hayvan atıkları",
+      "D) Radyoaktif atıklar",
+      "E) Deterjan atıkları"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 118,
+    "question": "I. Ormanlarda tahribat yapması II. Tatlı su balık popülasyonlarının artması III. Tarihi eserlerin bozulması Yukarıdakilerden hangileri asit yağmurlarından kaynaklanan olumsuz etkilerdir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) I ve II",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 119,
+    "question": "Aşağıdakilerden hangisi biyolojik kirlenme örneklerinden biri değildir?",
+    "choices": [
+      "A) Uygun koşullarda saklanmayan patatesler",
+      "B) Tarımsal mücadele ilaçları",
+      "C) Zehirli mantarların tüketilmesi",
+      "D) Meyvelerde görülen küflenme",
+      "E) Patojen bakterilerin toksinleri"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 120,
+    "question": "I. Endüstriyel tesislerin bacalarına filtre takılması II. Yenilenebilir enerji kaynaklarının kullanılması III. Binalarda ısı yalıtımının yaptırılması Yukarıda verilen önlemler öncelikle aşağıdakilerden hangisini durdurmaya yöneliktir?",
+    "choices": [
+      "A) Hava kirliliği",
+      "B) Su kirliliği",
+      "C) Toprak kirliliği",
+      "D) Gürültü kirliliği",
+      "E) Besin kirliliği"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 121,
+    "question": "I. Yerleşim alanlarından çıkan evsel ve endüstriyel atıklar II. Kullandığımız otomobil parçalarından açığa çıkan atıklar III. Tarımsal mücadele ilaçlarının bilinçsiz ve aşırı kullanımı Yukarıdakilerden hangileri toprak kirliliğine yol açar?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
   }
 ]
