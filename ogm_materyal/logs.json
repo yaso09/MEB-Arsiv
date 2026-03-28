@@ -304,5 +304,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "7": [
+    {
+      "attempt": 1,
+      "id": 7,
+      "timestamp": "2026-03-28T18:06:12.573Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3908 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 189"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"22+X kromozoma sahip bir insan için aşağıdakilerden hangisi kesin olarak söylenebilir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yumurta hücresidir.\",\"cleaned\":\"A) Yumurta hücresidir.\"},{\"raw\":\"B) Üreme ana hücresinin mayoz geçirmesi ile oluşur.\",\"cleaned\":\"B) Üreme ana hücresinin mayoz geçirmesi ile oluşur.\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yumurta hücresidir.\",\"B) Üreme ana hücresinin mayoz geçirmesi ile oluşur.\",\"C) Otozom sayısı 23'tür.\",\"D) Sperm hücresidir.\",\"E) Vücut hücresine aittir.\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
