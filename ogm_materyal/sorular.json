@@ -1882,5 +1882,113 @@
       "E) I, II ve III"
     ],
     "answer": "B"
+  },
+  {
+    "id": 188,
+    "question": "Buğday Tavuk ​​​​​​​ Tilki ​​​​​​​ Kartal Yukarıda verilen besin zincirine g re, I. V cut b y kl ğ genelde artar. II. Gelişmişlik derecesi artar. III. Enerji kaybı artar. olaylarından hangileri reticiden son t keticiye doğru gidildik e ger ekleşir? ​​​​​​​",
+    "choices": [
+      "A) Yalnız III",
+      "B) I ve II",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 189,
+    "question": "&Ccedil;imen ​​​​​​​ B cek ​​​​​​​ Kertenkele ​​​​​​​ Yılan ​​​​​​​ Şahin Yukarıda verilen besin zincirine g re, en fazla zehirli madde aşağıdakilerden hangisinde g r l r?",
+    "choices": [
+      "A) &Ccedil;imen",
+      "B) B cek",
+      "C) Kertenkele",
+      "D) Yılan",
+      "E) Şahin"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 190,
+    "question": "Aşağıdakilerden hangisi hem ototrof hem heterotrof beslenme yapar?",
+    "choices": [
+      "A) Mantar",
+      "B) Kara yosunu",
+      "C) Böcekçil bitki",
+      "D) Canavar otu",
+      "E) Paramesyum"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 191,
+    "question": "I. Fitoplankton II. Fok III. Zooplankton IV. Köpek balığı V. Balık Yukarıda verilen canlılar arasındaki besin zinciri aşağıdaki seçeneklerden hangisinde doğru olarak verilmiştir?",
+    "choices": [
+      "A) I-III-V-II-IV",
+      "B) I-II-III-IV-V",
+      "C) III-I-V-IV-II",
+      "D) IV-II-V-I-III",
+      "E) III-I-V-II-IV"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 192,
+    "question": "Bitki ​​​​​​​ &Ccedil;ekirge ​​​​​​​ Kurbağa ​​​​​​​ Yılan ​​​​​​​ Atmaca Yukarıda verilen besin zincirine g re aşağıdakilerden hangisi yanlıştır?",
+    "choices": [
+      "A) İkincil t ketici kurbağadır.",
+      "B) &Uuml; nc l etobur t ketici yılandır.",
+      "C) Birincil t ketici ekirgedir.",
+      "D) D rd nc l t ketici atmacadır.",
+      "E) Otobur t ketici ekirgedir."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 193,
+    "question": "Aşağıdakilerden hangisi azot döngüsü için söylenemez?",
+    "choices": [
+      "A) Azotlu organik atıklar ayrıştırılırsa ortamda inorganik azotlu bileşikler birikir",
+      "B) Nitrifikasyon olayında nitrit ve nitrat bakterileri görev alır.",
+      "C) Bitkiler azotlu inorganik bileşikleri azotlu organik bileşiklere dönüştürürler.",
+      "D) Canlıların azotlu organik atıkları sadece saprofit bakterilerce ayrıştırılır.",
+      "E) Azot döngüsünde fotosentetik ve saprofit canlılar da görev alır."
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 194,
+    "question": "I. Kelp yosunu II.Su samuru III. Deniz kestanesi IV. Katil balina Yukarıda verilen canlılardan oluşan besin zinciri aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "choices": [
+      "A) I-II-III-IV",
+      "B) I-III-II-IV",
+      "C) III-I-II-IV",
+      "D) III-I-IV-II",
+      "E) IV-III-II-I"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 195,
+    "question": "Aşağıda verilen canlılardan hangisi ototrof beslenme yapar?",
+    "choices": [
+      "A) Kara yosunu",
+      "B) Amip",
+      "C) Paramesyum",
+      "D) Kartal",
+      "E) Mantar"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 196,
+    "question": "Aşağıdakilerden hangisi canlıların çeşitliliğini etkileyen abiyotik faktörlerden biri değildir?",
+    "choices": [
+      "A) İklim",
+      "B) Mineraller",
+      "C) Toprak",
+      "D) Hayvanlar",
+      "E) Sıcaklık"
+    ],
+    "answer": "D"
   }
 ]
