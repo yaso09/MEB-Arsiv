@@ -1834,5 +1834,41 @@
       "E) Denitrifikasyon bakterileri havadaki serbest azotu nitrata dönüştürürler."
     ],
     "answer": "E"
+  },
+  {
+    "id": 184,
+    "question": "Bir ekosistemde madde döngülerinin gerçekleşmesi sürecinde; I. Üretici II. Tüketici III. Ayrıştırıcı Yukarıda verilen canlı gruplarından hangilerinde prokaryot özellik taşıyan canlılar bulunur?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 185,
+    "question": "I. Beyşehir gölündeki balıklar II. Toroslardaki fıstık çamları III. Kaz dağlarındaki açık tohumlu bitkiler Y ukarıdakilerden hangileri komüniteye örnek verilebilir?",
+    "choices": [
+      "A) Yalnız I",
+      "B) I ve II",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 186,
+    "question": "Doğadaki azot döngüsü ile ilgili aşağıda verilen ifadelerden hangisi yanlıştır?",
+    "choices": [
+      "A) Döngüde ototrof beslenen canlılar görev almaz.",
+      "B) Saprofitler döngünün gerçekleşmesi için organik maddeleri inorganik maddelere dönüştürürler.",
+      "C) İnorganik yapıdaki azot tuzları, fotosentez yoluyla organik bileşiklerin yapısına katılır.",
+      "D) Denitrifikasyon bakterileri atmosferdeki azot oranını artırırlar.",
+      "E) Döngüde nitrit ve nitrat bakterileri görev alır."
+    ],
+    "answer": "A"
   }
 ]
