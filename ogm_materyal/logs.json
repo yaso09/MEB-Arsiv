@@ -7500,5 +7500,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "137": [
+    {
+      "attempt": 1,
+      "id": 137,
+      "timestamp": "2026-03-28T18:27:06.757Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3797 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 177"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdaki enerji türlerinden hangisi çevreyi olumsuz yönde etkiler?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Su\",\"cleaned\":\"A) Su\"},{\"raw\":\"B) Rüzgâr\",\"cleaned\":\"B) Rüzgâr\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Su\",\"B) Rüzgâr\",\"C) Nükleer\",\"D) Güneş\",\"E) Jeotermal\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
