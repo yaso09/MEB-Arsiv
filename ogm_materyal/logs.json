@@ -915,6 +915,55 @@
       ],
       "result": "OK",
       "missing": []
+    },
+    {
+      "attempt": 1,
+      "id": 18,
+      "timestamp": "2026-03-28T18:10:53.659Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3980 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 225"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Mitoz bölünme sonucu oluşan hücrelerde kromozom sayısının sabit kalmasını sağlayan olay aşağıdakilerden hangisidir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Kromatin ipliklerinin kısalıp kalınlaşması\",\"cleaned\":\"A) Kromatin ipliklerinin kısalıp kalınlaşması\"},{\"raw\":\"B) Kardeş kromatitlerin ayrılması\",\"cleaned\":\"B) Kardeş kromatitlerin ayrılması\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Kromatin ipliklerinin kısalıp kalınlaşması\",\"B) Kardeş kromatitlerin ayrılması\",\"C) Kromozomların ekvatoral düzlemde dizilmesi\",\"D) Sitoplazmanın boğumlanması\",\"E) İğ ipliklerinin oluşması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
     }
   ]
 }
