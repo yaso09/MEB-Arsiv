@@ -10680,5 +10680,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "190": [
+    {
+      "attempt": 1,
+      "id": 190,
+      "timestamp": "2026-03-28T18:45:23.456Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3819 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 176"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi hem ototrof hem heterotrof beslenme yapar?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Mantar\",\"cleaned\":\"A) Mantar\"},{\"raw\":\"B) Kara yosunu\",\"cleaned\":\"B) Kara yosunu\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Mantar\",\"B) Kara yosunu\",\"C) Böcekçil bitki\",\"D) Canavar otu\",\"E) Paramesyum\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
