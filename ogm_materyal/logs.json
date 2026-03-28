@@ -8526,5 +8526,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "154": [
+    {
+      "attempt": 1,
+      "id": 154,
+      "timestamp": "2026-03-28T18:28:08.090Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3977 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 201"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi su erozyonunun olumsuz sonuçlarından biri değildir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Aşınmış toprağın baraj göllerini doldurması\",\"cleaned\":\"A) Aşınmış toprağın baraj göllerini doldurması\"},{\"raw\":\"B) Kullanılabilir tarım alanlarının azalması\",\"cleaned\":\"B) Kullanılabilir tarım alanlarının azalması\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Aşınmış toprağın baraj göllerini doldurması\",\"B) Kullanılabilir tarım alanlarının azalması\",\"C) Vahşi yaşamın olumsuz yönde etkilenmesi\",\"D) Yeraltı su kaynaklarında rezerv artışı\",\"E) Toprakta verimin düşmesi\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
