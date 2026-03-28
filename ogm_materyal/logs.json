@@ -17149,5 +17149,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "277": [
+    {
+      "attempt": 1,
+      "id": 277,
+      "timestamp": "2026-03-28T18:52:11.364Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3970 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 346"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Mustafa Kemal Atat rk&#39; n doğumunun 100. Yıld n m n d nyada Atat rk Yılı olarak ilan eden uluslararası rg t aşağıdakilerden hangisidir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) UNICEF\\r\\n\",\"cleaned\":\"A) UNICEF\"},{\"raw\":\"B) NATO\\r\\n\",\"cleaned\":\"B) NATO\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) UNICEF\",\"B) NATO\",\"C) UNESCO\",\"D) AB\",\"E) CENTO\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
