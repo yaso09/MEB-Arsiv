@@ -8940,5 +8940,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "159": [
+    {
+      "attempt": 1,
+      "id": 159,
+      "timestamp": "2026-03-28T18:43:36.308Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4005 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 353"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Hava kirliliğinin artması sonucunda; I. Yeraltı sularının kirlenmesi II. Asit yağmurlarının artması III. Küresel ısınma IV. Ozon tabakasında incelme ç...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I ve II&nbsp;\",\"cleaned\":\"A) I ve II\"},{\"raw\":\"B) III ve IV\",\"cleaned\":\"B) III ve IV\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I ve II\",\"B) III ve IV\",\"C) I, II ve III\",\"D) I, II ve IV\",\"E) I, II, III ve IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
