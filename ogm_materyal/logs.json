@@ -3739,5 +3739,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "81": [
+    {
+      "attempt": 1,
+      "id": 81,
+      "timestamp": "2026-03-28T18:19:21.800Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3814 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 215"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"AaBbDdEErrHhXY genotipli canlıda bir mayoz bölünme sonunda en fazla kaç çeşit gamet oluşur? (Genler bağımsızdır)...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) 4\",\"cleaned\":\"A) 4\"},{\"raw\":\"B) 8\",\"cleaned\":\"B) 8\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) 4\",\"B) 8\",\"C) 16\",\"D) 32\",\"E) 64\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
