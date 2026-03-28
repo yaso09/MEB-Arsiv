@@ -14873,5 +14873,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "247": [
+    {
+      "attempt": 1,
+      "id": 247,
+      "timestamp": "2026-03-28T18:49:42.237Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4248 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 433"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Kurtuluş Savaşı&#39;nın asker safhasının başarıyla tamamlanmasının ardından bu kez diplomasi alanında b y k bir m cadele başlamıştır. Bu er evede aşağ...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Milletler Cemiyetinin taleplerini yerine getirmek\\r\\n\",\"cleaned\":\"A) Milletler Cemiyetinin taleplerini yerine getirmek\"},{\"raw\":\"B) Yayılmacı anlayışı etkin kılmak\\r\\n\",\"cleaned\":\"B) Yayılmacı anlayışı etkin kılmak\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Milletler Cemiyetinin taleplerini yerine getirmek\",\"B) Yayılmacı anlayışı etkin kılmak\",\"C) S m rgecilik yarışında yerini almak\",\"D) Devletlerin eşitliği ilkesini g zetmek\",\"E) Komşu devletler zerinde baskı oluşturmak\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
