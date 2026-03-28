@@ -15383,5 +15383,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "257": [
+    {
+      "attempt": 1,
+      "id": 257,
+      "timestamp": "2026-03-28T18:50:16.526Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4190 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 408"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Lozan Antlaşması&#39;na g re yabancı okulların T rk kanunlarına ve T rk eğitim kurallarına uymaları ve denetimlerinin T rk Mill Eğitim m fettişlerince...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) &Ccedil;ağdaş eğitim hedefini ger&ccedil;ekleştirmek\\r\\n\",\"cleaned\":\"A) &Ccedil;ağdaş eğitim hedefini ger ekleştirmek\"},{\"raw\":\"B) Eğitimde fırsat eşitliğini sağlamak\\r\\n\",\"cleaned\":\"B) Eğitimde fırsat eşitliğini sağlamak\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) &Ccedil;ağdaş eğitim hedefini ger ekleştirmek\",\"B) Eğitimde fırsat eşitliğini sağlamak\",\"C) Yabancılara s z hakkı tanımak\",\"D) Eğitim kalitesini arttırmak\",\"E) Tam bağımsızlıktan taviz vermemek\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
