@@ -11451,5 +11451,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "202": [
+    {
+      "attempt": 1,
+      "id": 202,
+      "timestamp": "2026-03-28T18:46:09.824Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3848 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 193"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi inorganik maddelerden organik madde sentezi yapamaz?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Kara yosunu\",\"cleaned\":\"A) Kara yosunu\"},{\"raw\":\"B) Fotosentetik bakteri\",\"cleaned\":\"B) Fotosentetik bakteri\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Kara yosunu\",\"B) Fotosentetik bakteri\",\"C) Ökse otu\",\"D) Canavar otu\",\"E) Böcekçil bitki\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
