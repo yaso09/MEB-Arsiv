@@ -15179,5 +15179,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "253": [
+    {
+      "attempt": 1,
+      "id": 253,
+      "timestamp": "2026-03-28T18:50:02.926Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4268 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 544"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Mustafa Kemal Atat rk, 1932 yılında ABD&#39;li General McArthur ile yaptığı s yleşide uluslararası sorunların barış yolu ile z lememesi durumunda 1940...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Vatanseverliği\\r\\n\",\"cleaned\":\"A) Vatanseverliği\"},{\"raw\":\"B) Barış&ccedil;ılığı\\r\\n\",\"cleaned\":\"B) Barış ılığı\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Vatanseverliği\",\"B) Barış ılığı\",\"C) &Ccedil;alışkanlığı\",\"D) D r stl ğ\",\"E) İleri g r şl l ğ\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
