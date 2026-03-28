@@ -10578,5 +10578,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "188": [
+    {
+      "attempt": 1,
+      "id": 188,
+      "timestamp": "2026-03-28T18:45:17.265Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4204 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 557"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Buğday Tavuk ​​​​​​​ Tilki ​​​​​​​ Kartal Yukarıda verilen besin zincirine g re, I. V cut b y kl ğ genelde artar. II. Gelişmişlik derecesi artar. III....\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız III\\r\\n\",\"cleaned\":\"A) Yalnız III\"},{\"raw\":\"B) I ve II\\r\\n\",\"cleaned\":\"B) I ve II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız III\",\"B) I ve II\",\"C) I ve III\",\"D) II ve III\",\"E) I, II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
