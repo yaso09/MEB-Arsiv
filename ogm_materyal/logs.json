@@ -7143,5 +7143,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "130": [
+    {
+      "attempt": 1,
+      "id": 130,
+      "timestamp": "2026-03-28T18:26:43.512Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4013 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 366"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Bir ekosistemdeki orman varlığının azalması I. Yabani doğal hayatın zarar g rmesi II. K resel ısınma III. Erozyon ile toprak kaybının artışı olayların...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I\\r\\n\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) Yalnız II\\r\\n\",\"cleaned\":\"B) Yalnız II\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) Yalnız II\",\"C) Yalnız III\",\"D) I ve II\",\"E) I, II ve III\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "131": [
+    {
+      "attempt": 1,
+      "id": 131,
+      "timestamp": "2026-03-28T18:26:47.043Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4144 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 345"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Atmosferdeki karbondioksit gazının artışına bağlı oluşan sera etkisi atmosferin ısınmasına neden olmaktadır. Bu duruma küresel ısınma denir. Küresel ı...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Kutup bölgelerinde buzulların erimesi\",\"cleaned\":\"A) Kutup bölgelerinde buzulların erimesi\"},{\"raw\":\"B) Verimli ekilebilir arazilerin artışı\",\"cleaned\":\"B) Verimli ekilebilir arazilerin artışı\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Kutup bölgelerinde buzulların erimesi\",\"B) Verimli ekilebilir arazilerin artışı\",\"C) Nehir ve deniz sularının yükselmesi\",\"D) Okyanuslardaki bazı sıcak su akıntılarının etki sahasının değişmesi\",\"E) Bazı hayvan türlerinin yok olması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
