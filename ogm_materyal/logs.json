@@ -5397,5 +5397,56 @@
         "cevap"
       ]
     }
+  ],
+  "102": [
+    {
+      "attempt": 1,
+      "id": 102,
+      "timestamp": "2026-03-28T18:23:06.892Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3836 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 186"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi ülkemize özgü endemik bir hayvan türü değildir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Kelaynak\",\"cleaned\":\"A) Kelaynak\"},{\"raw\":\"B) Toros kurbağası\",\"cleaned\":\"B) Toros kurbağası\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Kelaynak\",\"B) Toros kurbağası\",\"C) Hamsi\",\"D) Abant alabalığı\",\"E) Kafkas semenderi\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
