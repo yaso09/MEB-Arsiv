@@ -17047,5 +17047,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "275": [
+    {
+      "attempt": 1,
+      "id": 275,
+      "timestamp": "2026-03-28T18:52:02.439Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3925 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 292"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Misak-ı Mill &#39;ye d hil olup Atat rk&#39; n vefatından hemen sonra anavatana katılan son toprak par ası aşağıdakilerden hangisidir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Hatay\\r\\n\",\"cleaned\":\"A) Hatay\"},{\"raw\":\"B) Musul\\r\\n\",\"cleaned\":\"B) Musul\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Hatay\",\"B) Musul\",\"C) Kerk k\",\"D) Batum\",\"E) Edirne\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
