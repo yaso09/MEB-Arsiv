@@ -5907,5 +5907,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "112": [
+    {
+      "attempt": 1,
+      "id": 112,
+      "timestamp": "2026-03-28T18:23:40.488Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3981 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 187"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisinin hava kirliliğine olan etkisi diğerlerine göre daha azdır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Çöplüklerden çıkan metan gazı\",\"cleaned\":\"A) Çöplüklerden çıkan metan gazı\"},{\"raw\":\"B) Motorlu taşıtlardan çıkan egzoz gazları\",\"cleaned\":\"B) Motorlu taşıtlardan çıkan egzoz gazları\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Çöplüklerden çıkan metan gazı\",\"B) Motorlu taşıtlardan çıkan egzoz gazları\",\"C) Bitkilerin atmosfere verdiği karbondioksit gazı\",\"D) Termik santrallerden çıkan kükürtdioksit gazı\",\"E) Sanayi tesislerinden çıkan azotdioksit gazı\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
