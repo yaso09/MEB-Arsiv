@@ -13038,5 +13038,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "230": [
+    {
+      "attempt": 1,
+      "id": 230,
+      "timestamp": "2026-03-28T18:48:03.241Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3973 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 350"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Başka bir bölgeden getirilen ve yeni getirildikleri ortamda hızla çoğalıp yerleşen ve orada doğal habitatlarında yaşayan canlıların sayısını azaltan c...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Endemik\",\"cleaned\":\"A) Endemik\"},{\"raw\":\"B) İstilacı\",\"cleaned\":\"B) İstilacı\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Endemik\",\"B) İstilacı\",\"C) Ekoton\",\"D) Flora\",\"E) Epifit\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
