@@ -6735,5 +6735,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "122": [
+    {
+      "attempt": 1,
+      "id": 122,
+      "timestamp": "2026-03-28T18:26:17.287Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4110 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 241"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdaki uygulamalardan hangisi toprak kirliliğinin önlenebilmesi amacıyla yapılabilecek etkinliklerden biri değildir ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Fabrika bacalarına, zehirli gazlar için filtreler takılmalıdır.\",\"cleaned\":\"A) Fabrika bacalarına, zehirli gazlar için filtreler takılmalıdır.\"},{\"raw\":\"B) Tarımda, organik tarım yöntemleri seçilmelidir.\",\"cleaned\":\"B) Tarımda, organik tarım yöntemleri seçilmelidir.\"}"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Fabrika bacalarına, zehirli gazlar için filtreler takılmalıdır.\",\"B) Tarımda, organik tarım yöntemleri seçilmelidir.\",\"C) Ambalaj sanayinde, geri dönüştürülebilen maddeler seçilip geri dönüşümü sağlanmalıdır.\",\"D) Ormanlar ve otlak alanları korunmalıdır.\",\"E) Sanayi atık"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
