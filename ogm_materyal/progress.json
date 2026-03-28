@@ -1,5 +1,5 @@
 {
-  "lastSuccessId": 65,
+  "lastSuccessId": 66,
   "savedIds": [
     1,
     2,
@@ -64,7 +64,8 @@
     62,
     63,
     64,
-    65
+    65,
+    66
   ],
   "failedIds": [
     42
