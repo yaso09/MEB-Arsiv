@@ -5754,5 +5754,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "109": [
+    {
+      "attempt": 1,
+      "id": 109,
+      "timestamp": "2026-03-28T18:23:29.523Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3855 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 190"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi astım ve bronşit gibi rahatsızlıkları öncelikli olarak etkiler?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Hava kirliliği\",\"cleaned\":\"A) Hava kirliliği\"},{\"raw\":\"B) Su kirliliği\",\"cleaned\":\"B) Su kirliliği\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Hava kirliliği\",\"B) Su kirliliği\",\"C) Toprak kirliliği\",\"D) Gürültü kirliliği\",\"E) Besin kirliliği\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
