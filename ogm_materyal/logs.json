@@ -12834,5 +12834,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "226": [
+    {
+      "attempt": 1,
+      "id": 226,
+      "timestamp": "2026-03-28T18:47:49.919Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4040 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 200"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Canlılardaki beslenme şekilleriyle ilgili olarak aşağıdakilerden hangisi yanlıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Kemosentetik canlılar kesinlikle prokaryottur.\",\"cleaned\":\"A) Kemosentetik canlılar kesinlikle prokaryottur.\"},{\"raw\":\"B) Bazı mantarlar ototroftur.\",\"cleaned\":\"B) Bazı mantarlar ototroftur.\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Kemosentetik canlılar kesinlikle prokaryottur.\",\"B) Bazı mantarlar ototroftur.\",\"C) Saprofit yaşayan bakteri veya mantarlar olabilir.\",\"D) Protista alemindeki canlı örneklerinde ototrof ve heteretrof beslenme aynı canlı türünde olabilir.\",\"E) Bütün hayvanlar heterotroftu"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
