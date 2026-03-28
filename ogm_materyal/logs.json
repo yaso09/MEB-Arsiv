@@ -9297,5 +9297,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "166": [
+    {
+      "attempt": 1,
+      "id": 166,
+      "timestamp": "2026-03-28T18:43:58.748Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4259 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 448"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Proteinleri hidroliz ederek aminoasit elde etme II. Amino asitlerden oksijenli ortamda enerji retme III. İnorganik maddeleri kullanarak ATP sentezl...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) &Ccedil;ok h&uuml;creli &ouml;karyot bir canlıdır.\\r\\n\",\"cleaned\":\"A) &Ccedil;ok h creli karyot bir canlıdır.\"},{\"raw\":\"B) Protein sentezi yapabilir.\\r\\n\",\"cleaned\":\"B) Protein sentezi yapabilir.\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) &Ccedil;ok h creli karyot bir canlıdır.\",\"B) Protein sentezi yapabilir.\",\"C) Azot d ng s nde g revlidir.\",\"D) Işığa ihtiya duymadan besin retebilir.\",\"E) Sindirim enzimleri sentezleyebilir.\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
