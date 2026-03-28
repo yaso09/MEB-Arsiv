@@ -17200,5 +17200,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "278": [
+    {
+      "attempt": 1,
+      "id": 278,
+      "timestamp": "2026-03-28T19:04:10.001Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3927 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 280"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Mustafa Kemal Atat rk&#39; 1934 yılında Nobel Barış &Ouml;d l &#39;ne aday g steren yabancı devlet adamı aşağıdakilerden hangisidir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Venizelos\\r\\n\",\"cleaned\":\"A) Venizelos\"},{\"raw\":\"B) Roosevelt\\r\\n\",\"cleaned\":\"B) Roosevelt\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Venizelos\",\"B) Roosevelt\",\"C) Churchill\",\"D) De Gaulle\",\"E) Eisenhower\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
