@@ -2458,5 +2458,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "59": [
+    {
+      "attempt": 1,
+      "id": 59,
+      "timestamp": "2026-03-28T18:18:03.206Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3895 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 218"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıda verilen karakterlerden hangisi sadece kalıtıma bağlı olarak ortaya ıkmaz?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Hemofili\\r\\n\",\"cleaned\":\"A) Hemofili\"},{\"raw\":\"B) İnsanda kan grupları\\r\\n\",\"cleaned\":\"B) İnsanda kan grupları\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Hemofili\",\"B) İnsanda kan grupları\",\"C) Renk k rl ğ\",\"D) Bronşit\",\"E) G z rengi\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
