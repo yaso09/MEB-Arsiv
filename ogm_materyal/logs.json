@@ -16741,5 +16741,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "269": [
+    {
+      "attempt": 1,
+      "id": 269,
+      "timestamp": "2026-03-28T18:51:34.164Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3997 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 271"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisini Mustafa Kemal Atat rk &#39;&#39;benim en b y k eserim&#39;&#39; diye nitelendirmiştir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) T&uuml;rkiye Cumhuriyeti Devleti\\r\\n\",\"cleaned\":\"A) T rkiye Cumhuriyeti Devleti\"},{\"raw\":\"B) T&uuml;rkiye B&uuml;y&uuml;k Millet Meclisi\\r\\n\",\"cleaned\":\"B) T rkiye B y k Millet Meclisi\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) T rkiye Cumhuriyeti Devleti\",\"B) T rkiye B y k Millet Meclisi\",\"C) Nutuk\",\"D) Cumhuriyet Halk Partisi\",\"E) Lozan Antlaşması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
