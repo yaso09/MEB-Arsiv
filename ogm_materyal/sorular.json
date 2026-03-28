@@ -2986,5 +2986,53 @@
       "E) Kalp"
     ],
     "answer": "A"
+  },
+  {
+    "id": 285,
+    "question": "Mustafa Kemal Atat rk d neminde aşağıdaki gelişmelerden hangisi ile T rkiye doğu sınırlarını g vence altına almıştır?",
+    "choices": [
+      "A) Montr Boğazlar S zleşmesi",
+      "B) Sadabat Paktı",
+      "C) Balkan Antantı",
+      "D) Milletler Cemiyetinin kurulması",
+      "E) Briand - Kellog Paktı"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 286,
+    "question": "&Ccedil;ok partili hayata ge iş alışmaları ile aşağıdaki gelişmelerden hangisi ama lanmıştır?",
+    "choices": [
+      "A) Egemenlik anlayışının değişmesi",
+      "B) Halifenin etkinliğinin kırılması",
+      "C) Eğitimin modernleştirilmesi",
+      "D) Kadın hak ve zg rl klerinin genişletilmesi",
+      "E) Demokrasinin daha iyi işlemesinin sağlanması"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 287,
+    "question": "&Ccedil;ok partili hayata ge iş alışmaları aşağıdaki gelişmelerden hangisi ile kesintiye uğramıştır?",
+    "choices": [
+      "A) Anzavur Ayaklanması&#39;nın ıkması",
+      "B) &Ccedil;erkez Ethem İsyanı&#39;nın başlaması",
+      "C) İstanbul&#39;un işgal edilmesi",
+      "D) Kapit lasyonların kaldırılması",
+      "E) Şeyh Said Ayaklanması&#39;nın başlaması"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 288,
+    "question": "Aşağıdaki gelişmelerden hangisi, lkede hen z ok partili hayata ge ilmesine hazır bir ortam olmadığı, inkılapların benimsenmesinin zaman alacağı d ş ncesini desteklemiştir?",
+    "choices": [
+      "A) Demirci Mehmet Efe İsyanı",
+      "B) Menemen Olayı",
+      "C) Kuvay-ı İnzibatiye İsyanı",
+      "D) N fus m badelesi sorunu",
+      "E) Ethem İsyanı"
+    ],
+    "answer": "B"
   }
 ]
