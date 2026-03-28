@@ -18997,5 +18997,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "309": [
+    {
+      "attempt": 1,
+      "id": 309,
+      "timestamp": "2026-03-28T19:13:06.275Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3980 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 289"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi 1923&#39;ten sonra T rk dış politikasında ele alınıp z mlenmeye alışılmış konulardan biri değildir ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Boğazlar Sorunu\\r\\n\",\"cleaned\":\"A) Boğazlar Sorunu\"},{\"raw\":\"B) Kapit&uuml;lasyonlar\\r\\n\",\"cleaned\":\"B) Kapit lasyonlar\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Boğazlar Sorunu\",\"B) Kapit lasyonlar\",\"C) Dış Bor lar\",\"D) Irak Sınırı\",\"E) N fus M badelesi\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "310": [
+    {
+      "attempt": 1,
+      "id": 310,
+      "timestamp": "2026-03-28T19:13:18.285Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3982 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 277"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"T rkiye II. D nya Savaşı ncesi doğu sınırlarının g venliğini sağlamak i in aşağıdakilerden hangisini ger ekleştirmiştir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Montr&ouml; Boğazlar S&ouml;zleşmesi\\r\\n\",\"cleaned\":\"A) Montr Boğazlar S zleşmesi\"},{\"raw\":\"B) Balkan Antantı\\r\\n\",\"cleaned\":\"B) Balkan Antantı\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Montr Boğazlar S zleşmesi\",\"B) Balkan Antantı\",\"C) Sadabat Paktı\",\"D) Mondros Ateşkes Antlaşması\",\"E) Sevr Antlaşması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
