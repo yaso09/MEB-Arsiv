@@ -14618,5 +14618,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "242": [
+    {
+      "attempt": 1,
+      "id": 242,
+      "timestamp": "2026-03-28T18:49:24.826Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4186 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 469"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Milletler Cemiyeti&#39;ne girilmesi, II. Balkan Antantı&#39;nın imzalanması, III. Irak sınırının izilmesi, IV. Sadabat Paktı&#39;nın imzalanması, V...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I - III - V - IV - II\\r\\n\",\"cleaned\":\"A) I - III - V - IV - II\"},{\"raw\":\"B) IV - I - V - II - III&nbsp;\\r\\n\",\"cleaned\":\"B) IV - I - V - II - III\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I - III - V - IV - II\",\"B) IV - I - V - II - III\",\"C) I - II - IV - V - III\",\"D) III - I - II - IV - V\",\"E) V - I - IV - III - I\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
