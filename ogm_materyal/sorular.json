@@ -238,5 +238,65 @@
       "E) İğ ipliklerinin oluşması"
     ],
     "answer": "B"
+  },
+  {
+    "id": 35,
+    "question": "Yenilenme (rejenerasyon) ile ilgili olarak I. Bazı canlılarda yeni birey oluşumuna yol a tığı i in bir eşit eşeysiz reme olarak kabul edilir. II. H cre b l nmesi ve h cre farklılaşmasını kapsayan bir olaydır. III. Canlının gelişmişlik derecesi ile doğru orantılıdır. ifadelerinden hangileri yanlıştır ?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız III",
+      "C) I ve II",
+      "D) I ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 36,
+    "question": "I. Sentromerlerin b l nmesi II. Golgi etkinliği ile sitoplazmanın b l nmesi III. Sitoplazmadaki proteinler yardımı ile iğ ipliklerinin oluşması IV. Sitoplazmanın boğumlanması V. Sentriollerin eşlenmesi VI. Kardeş kromatitlerin ayrılması Yukarıda verilen olayların ger ekleştiği h cre eşidi hangi se enekte doğru olarak verilmiştir?",
+    "choices": [
+      "A) Bitki h cresi: I,II,III Hayvan h cresi:IV,V,VI",
+      "B) Bitki h cresi: I,II,III,VI Hayvan h cresi:I,IV,V,VI",
+      "C) Bitki h cresi: I,II Hayvan h cresi:III,IV,V,VI",
+      "D) Bitki h cresi:IV,V,VI Hayvan h cresi: I,II,III",
+      "E) Bitki h cresi: I,II,VI Hayvan h cresi:III,V,VI"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 37,
+    "question": "Eşeyli reyen canlılarda I. Kalıtsal eşitliliğin oluşması II. Kromozom sayısının değişmesi III. Kromozom yapısının değişmesi yeni canlının ana ve babadan farklı zellikte olmasını sağlar. Bu olaylardan hangisi crossing-over sonucunda oluşur?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve III",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 38,
+    "question": "Mayoz b l nme sonucunda genetik eşitliliği I. Sitokinez sonucu organellerin ve sitoplazmanın yeni oluşan h crelere dağılması II. Homolog kromozomların rastgele dağılımı III. Cross-overdan sonra kardeş kromatitlerin birbirinden ayrılması IV. Homolog kromozomların kardeş olan kromatitleri arasında gen alışverişi zelliklerinden hangileri sağlar?",
+    "choices": [
+      "A) I ve II",
+      "B) I ve III",
+      "C) II ve III",
+      "D) III ve IV",
+      "E) II, III ve IV"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 39,
+    "question": "Farklı canlılarda görülen; I. Tomurcuklanma ile üreme II. Bölünerek üreme III. Tohumla üreme olaylarından hangilerinde mayoz bölünme görülebilir?",
+    "choices": [
+      "A) Yalnız II",
+      "B) Yalnız III",
+      "C) I ve II",
+      "D) II ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "B"
   }
 ]
