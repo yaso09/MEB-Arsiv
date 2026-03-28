@@ -2074,5 +2074,41 @@
       "E) I, II ve III"
     ],
     "answer": "E"
+  },
+  {
+    "id": 204,
+    "question": "Ekosistemde madde ve enerji akışında üretici, tüketici ve ayrıştırıcı canlılar görev yaparlar. Aynı ekosistemde bulunan canlılarla ilgili aşağıda verilenlerden hangisi yanlıştır?",
+    "choices": [
+      "A) Üretici canlılar organik besin için sadece ışık enerjisinden faydalanırlar.",
+      "B) Birincil tüketiciler üretici canlılarla beslenen otçul hayvan türleridir.",
+      "C) Omnivor (karışık) beslenen hayvan türleri hem üretici hem de tüketicilerle beslenir.",
+      "D) Ayrıştırıcı canlılar organik maddeleri inorganik maddelere çevirir.",
+      "E) Ayrıştırıcı canlılara saprofit bakteriler örnek verilebilir."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 205,
+    "question": "I. Aynı ekolojik nişe sahiptirler. II. Besin kaynakları aynıdır. III. Aynı kromozom sayısına sahiptirler. IV. Kendi aralarında çiftleşebilirler. Bir popülasyonu oluşturan bireylerle ilgili yukarıdaki ifadelerden hangileri söylenebilir?",
+    "choices": [
+      "A) I ve II",
+      "B) III ve IV",
+      "C) I, II ve III",
+      "D) I, II ve IV",
+      "E) I, II, III ve IV"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 206,
+    "question": "Bir ekosistemde birlikte yer alan iki farklı canlı türü aşağıdaki ekolojik birimlerden hangisinde kesinlikle birarada bulunamaz?",
+    "choices": [
+      "A) Popülasyon",
+      "B) Biyotop",
+      "C) Komünite",
+      "D) Habitat",
+      "E) Biyosfer"
+    ],
+    "answer": "A"
   }
 ]
