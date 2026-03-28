@@ -11604,5 +11604,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "205": [
+    {
+      "attempt": 1,
+      "id": 205,
+      "timestamp": "2026-03-28T18:46:19.516Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4015 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 369"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I. Aynı ekolojik nişe sahiptirler. II. Besin kaynakları aynıdır. III. Aynı kromozom sayısına sahiptirler. IV. Kendi aralarında çiftleşebilirler. Bir p...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I ve II\",\"cleaned\":\"A) I ve II\"},{\"raw\":\"B) III ve IV\",\"cleaned\":\"B) III ve IV\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I ve II\",\"B) III ve IV\",\"C) I, II ve III\",\"D) I, II ve IV\",\"E) I, II, III ve IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
