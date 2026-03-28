@@ -18375,5 +18375,160 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "300": [
+    {
+      "attempt": 1,
+      "id": 300,
+      "timestamp": "2026-03-28T19:11:02.646Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 27 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "❌",
+          "detail": "question-item-ask bloğu bulunamadı"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "❌",
+          "detail": "null"
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "❌",
+          "detail": "0 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "❌",
+          "detail": "Toplam eşleşme: 0 → []"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "❌",
+          "detail": "Geçerli şık sayısı: 0 → []"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "❌",
+          "detail": "Cevap bulunamadı"
+        }
+      ],
+      "result": "FAILED",
+      "missing": [
+        "soru",
+        "şıklar",
+        "cevap"
+      ]
+    },
+    {
+      "attempt": 2,
+      "id": 300,
+      "timestamp": "2026-03-28T19:11:12.861Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4631 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 843"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"- H k met kurmak zorunludur, - Ge ici olarak bir h k met başkanı tanımak veya padişah vekili atamak doğru değildir, - B y k Millet Meclisi yasama ve y...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) G&uuml;&ccedil;ler birliği ilkesi hakimdir.\\r\\n\",\"cleaned\":\"A) G ler birliği ilkesi hakimdir.\"},{\"raw\":\"B) Meclis h&uuml;k&uuml;meti sistemi benimsenmiştir.\\r\\n\",\"cleaned\":\"B) Meclis h k meti sistemi benimsenmiştir.\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) G ler birliği ilkesi hakimdir.\",\"B) Meclis h k meti sistemi benimsenmiştir.\",\"C) Padişaha bağlıdır.\",\"D) Milli egemenlik esasına dayandırılmıştır.\",\"E) Meclisin devamlılığı belirtilmiştir.\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "301": [
+    {
+      "attempt": 1,
+      "id": 301,
+      "timestamp": "2026-03-28T19:11:19.306Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4313 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 515"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"T rkiye 9 Şubat 1934&#39;te Yunanistan, Yugoslavya ve Romanya ile Balkan Antantı&#39;nı, 8 Temmuz 1937&#39;de İran, Irak ve Afganistan ile Sadabat Pak...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yeni bir d&uuml;nya savaşının &ccedil;ıkmasını engellemek\\r\\n\",\"cleaned\":\"A) Yeni bir d nya savaşının ıkmasını engellemek\"},{\"raw\":\"B) B&ouml;lgesel barışı korumak\\r\\n\",\"cleaned\":\"B) B lgesel barışı korumak\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yeni bir d nya savaşının ıkmasını engellemek\",\"B) B lgesel barışı korumak\",\"C) Sınır g venliğini sağlamak\",\"D) B lgesel işbirliği kurmak\",\"E) Alman ve İtalyan yayılmacılığına karşı tedbir almak\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
