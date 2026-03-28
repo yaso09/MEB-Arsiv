@@ -4459,5 +4459,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "92": [
+    {
+      "attempt": 1,
+      "id": 92,
+      "timestamp": "2026-03-28T18:22:16.999Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4093 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 447"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Soy ağacında taralı bireyler O kan grubuna sahip olduğuna g re aşağıda verilen bireylerden hangilerinin kan grubunun genotipi tam olarak belirlenemez ...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) 1, 2 ve 3\\r\\n\",\"cleaned\":\"A) 1, 2 ve 3\"},{\"raw\":\"B) 2, 3 ve 4\\r\\n\",\"cleaned\":\"B) 2, 3 ve 4\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) 1, 2 ve 3\",\"B) 2, 3 ve 4\",\"C) 3, 4 ve 5\",\"D) 3, 5 ve 6\",\"E) 4, 5 ve 6\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
