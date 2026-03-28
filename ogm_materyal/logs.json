@@ -8169,5 +8169,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "147": [
+    {
+      "attempt": 1,
+      "id": 147,
+      "timestamp": "2026-03-28T18:27:45.650Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4076 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 271"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Türkiye'de tarım alanlarından erozyon nedeniyle önemli oranda toprak kaybedilmesinde, tarım alanlarının hangi özelliği öncelikli olarak etkilidir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Humus oranının çok olması\",\"cleaned\":\"A) Humus oranının çok olması\"},{\"raw\":\"B) Topraklarımızın azot yönünden fakir olması&nbsp;\",\"cleaned\":\"B) Topraklarımızın azot yönünden fakir olması\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Humus oranının çok olması\",\"B) Topraklarımızın azot yönünden fakir olması\",\"C) Ülkemizde su kaynaklarının çok olması\",\"D) Tarım yapılan alanların eğimli olması\",\"E) Topraklarımızda saçak köklü bitkilerin tarımının az yapılması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
