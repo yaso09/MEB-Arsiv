@@ -418,5 +418,53 @@
       "E) Çileğin sürünücü gövdeyle çoğalması"
     ],
     "answer": "C"
+  },
+  {
+    "id": 51,
+    "question": "Cross-overin ger ekleşmediği mayoz b l nmede oluşan h cre i in l. Oluşan h crelerin hepsi farklıdır. ll. Oluşan h creler ana h crenin kopyasıdır. lll. Oluşan h crelerden ilk ikisi aynı diğer ikisi de kendi arasında aynıdır. lV. Haploit kromozumlu h creler oluşmuştur. ifadelerden hangileri doğrudur?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız ll",
+      "C) Yalnız lll",
+      "D) l ve V",
+      "E) III ve IV"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 52,
+    "question": "Aşağıdakilerden hangisi mayoz hücre bölünmesi için yanlıştır ?",
+    "choices": [
+      "A) Mayoz l de tür içi çeşitlilik sağlanır.",
+      "B) Mayoz ll de interfaz evresi görülmez.",
+      "C) Mayoz l de homolog kromozomlar ekvatoral düzlemde tek sıra halinde dizilir.",
+      "D) Mayoz ll de ayrılan kromatitler kromozom adını alır.",
+      "E) İnsanda sadece üreme ana hücrelerinde görülür."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 53,
+    "question": "Mayoz hücre bölünmesinin profaz l aşamasında 22 tetrat sayılan hücrenin, anafaz ll aşamasının sonunda kromozom sayısı aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) 11",
+      "B) 22",
+      "C) 44",
+      "D) 66",
+      "E) 88"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 54,
+    "question": "Diploit bir canlının, eşeyli remesiyle t r i i eşitliliğin oluşmasında l. Cross-overin ger ekleşmesi ll. DNA &#39;nın eşlenmesi lll. Homolog kromozomların farklı kombinasyonlarla dizilimi lV. D llenme olayının ger ekleşmesi olaylarından hangilerinin etkisi vardır?",
+    "choices": [
+      "A) l ve lll",
+      "B) ll ve lV",
+      "C) l, ll ve lll",
+      "D) l, lll ve lV",
+      "E) l, ll, lll ve lV"
+    ],
+    "answer": "D"
   }
 ]
