@@ -1483,5 +1483,311 @@
         "cevap"
       ]
     }
+  ],
+  "43": [
+    {
+      "attempt": 1,
+      "id": 43,
+      "timestamp": "2026-03-28T18:17:03.760Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3894 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 192"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisinin gerçekleşmesi için hücre bölünmesi gerçekleşmez ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yaraların iyileşmesi\",\"cleaned\":\"A) Yaraların iyileşmesi\"},{\"raw\":\"B) Sporcunun kas geliştirmesi\",\"cleaned\":\"B) Sporcunun kas geliştirmesi\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yaraların iyileşmesi\",\"B) Sporcunun kas geliştirmesi\",\"C) Bira mayasının tomurcuklanması\",\"D) Üreme hücresinin oluşumu\",\"E) Boy uzaması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "44": [
+    {
+      "attempt": 1,
+      "id": 44,
+      "timestamp": "2026-03-28T18:17:06.998Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4058 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 202"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi mitoz hücre bölünmesini açıklayan doğru ifadelerden değildir ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Ökaryot hücrelerde görülen bölünmedir.\",\"cleaned\":\"A) Ökaryot hücrelerde görülen bölünmedir.\"},{\"raw\":\"B) Diploit hücrelerde homolog kromozomlar metafaz evrede yan yana dizilmiştir.\",\"cleaned\":\"B) Diploit hücrelerde homolog kromozomlar metafaz evrede yan yana dizilmiş"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Ökaryot hücrelerde görülen bölünmedir.\",\"B) Diploit hücrelerde homolog kromozomlar metafaz evrede yan yana dizilmiştir.\",\"C) Profaz evresinde kromatinler kromozomlara dönüşür.\",\"D) Anafazda kromozom sayısı iki katına çıkar.\",\"E) İnsanda oluşan haploit hücrelerde mitoz bö"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "45": [
+    {
+      "attempt": 1,
+      "id": 45,
+      "timestamp": "2026-03-28T18:17:10.152Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3990 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 350"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"l. Erkek arıların üreme ana hücreleri ll. Rejenerasyon ile üreyen planarya lll.Tomurcuklanma ile üreyen maya lV.Tohumla üreyen bitki Yukarıdaki üreme ...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız l\",\"cleaned\":\"A) Yalnız l\"},{\"raw\":\"B) Yalnız lV\",\"cleaned\":\"B) Yalnız lV\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız l\",\"B) Yalnız lV\",\"C) ll ve lll\",\"D) l,ll ve lll\",\"E) ll,lll ve lV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "46": [
+    {
+      "attempt": 1,
+      "id": 46,
+      "timestamp": "2026-03-28T18:17:13.291Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4023 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 175"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıda eşeysiz üreme örneklerinden hangisi yanlıştır ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Planarya canlısında, ikiye bölünerek üreme görülür.\",\"cleaned\":\"A) Planarya canlısında, ikiye bölünerek üreme görülür.\"},{\"raw\":\"B) Çilek bitkisinde, sürünücü gövde vejetatif üreme görülür.\",\"cleaned\":\"B) Çilek bitkisinde, sürünücü gövde vejetatif üreme görülür.\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Planarya canlısında, ikiye bölünerek üreme görülür.\",\"B) Çilek bitkisinde, sürünücü gövde vejetatif üreme görülür.\",\"C) Hidra omurgasız hayvanında, tomurcuklanma görülür.\",\"D) Patates bitkisinde, yumru gövde ile vejetatif üreme görülür.\",\"E) Öglenada, boyuna ikiye bölünm"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "47": [
+    {
+      "attempt": 1,
+      "id": 47,
+      "timestamp": "2026-03-28T18:17:16.638Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3806 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 173"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi farklı bir eşeysiz üreme örneğidir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Kara yosunu\",\"cleaned\":\"A) Kara yosunu\"},{\"raw\":\"B) Çilek\",\"cleaned\":\"B) Çilek\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Kara yosunu\",\"B) Çilek\",\"C) Ayrık otu\",\"D) Cam güzeli\",\"E) Patates\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "48": [
+    {
+      "attempt": 1,
+      "id": 48,
+      "timestamp": "2026-03-28T18:17:19.837Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3956 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 317"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"l. Hidra ve mercan gibi canlılarda görülür. ll. Ana bireye bağlı ya da ayrı yaşayabilir. lll. Mitoz hücre bölünmesi ile gerçekleşir. Yukarıda verilenl...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Vejetatif\",\"cleaned\":\"A) Vejetatif\"},{\"raw\":\"B) Bölünme\",\"cleaned\":\"B) Bölünme\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Vejetatif\",\"B) Bölünme\",\"C) Tomurcuklanma\",\"D) Aşılama\",\"E) Rejenerasyon\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
