@@ -9756,5 +9756,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "175": [
+    {
+      "attempt": 1,
+      "id": 175,
+      "timestamp": "2026-03-28T18:44:28.259Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4026 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 165"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Su döngüsüyle ilgili aşağıdakilerden hangisi yanlıştır?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Atmosferdeki su buharı yağmur ve kar şeklinde yeryüzüne iner.\",\"cleaned\":\"A) Atmosferdeki su buharı yağmur ve kar şeklinde yeryüzüne iner.\"},{\"raw\":\"B) Toprağa sızan yağmur suları yeraltı sularının oluşmasında rol oynar.\",\"cleaned\":\"B) Toprağa sızan yağmur suları yera"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Atmosferdeki su buharı yağmur ve kar şeklinde yeryüzüne iner.\",\"B) Toprağa sızan yağmur suları yeraltı sularının oluşmasında rol oynar.\",\"C) Bitkiler fotosentez yaparak atmosfere su verirler.\",\"D) Hayvanlar solunum yaparak atmosfere su verirler.\",\"E) Su buharı yoğunlaşar"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
