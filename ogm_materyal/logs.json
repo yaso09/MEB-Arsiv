@@ -661,5 +661,209 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "14": [
+    {
+      "attempt": 1,
+      "id": 14,
+      "timestamp": "2026-03-28T18:06:38.369Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4138 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 430"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"The contributions of the French philosopher Ren Descartes in the seventeenth century to mechanics, like his contributions to the scientific endeavour ...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) either / or<br />\\r\\n&nbsp;\\r\\n\",\"cleaned\":\"A) either / or\"},{\"raw\":\"B) as / as<br />\\r\\n&nbsp;\\r\\n\",\"cleaned\":\"B) as / as\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) either / or\",\"B) as / as\",\"C) so / that\",\"D) more / than\",\"E) such a / that\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "15": [
+    {
+      "attempt": 1,
+      "id": 15,
+      "timestamp": "2026-03-28T18:06:41.750Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4009 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 358"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"I . ATP kullanımı ve protein sentez hızı artar. II. Organel sayısı artar. III. DNA miktarı iki katına çıkar. IV. Kromatitler zıt kutuplara çekilir. Yu...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalnız I\",\"cleaned\":\"A) Yalnız I\"},{\"raw\":\"B) I, II ve III\",\"cleaned\":\"B) I, II ve III\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalnız I\",\"B) I, II ve III\",\"C) I, II ve IV\",\"D) II, III ve IV\",\"E) I, II, III ve IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "16": [
+    {
+      "attempt": 1,
+      "id": 16,
+      "timestamp": "2026-03-28T18:06:45.208Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4390 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 476"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Bir hayvan h cresinde ger ekleşen mitoz b l nmenin yukarıdaki evresi ile ilgili hangi zellik bitki h cresinde farklılık g sterir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Kromozomların en belirgin g&ouml;r&uuml;ld&uuml;ğ&uuml; evre olması\\r\\n\",\"cleaned\":\"A) Kromozomların en belirgin g r ld ğ evre olması\"},{\"raw\":\"B) Kromozomların ekvator d&uuml;zleminde dizilmesi\\r\\n\",\"cleaned\":\"B) Kromozomların ekvator d zleminde dizilmesi\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Kromozomların en belirgin g r ld ğ evre olması\",\"B) Kromozomların ekvator d zleminde dizilmesi\",\"C) Bir nceki evrede, sentrozomlar tarafından oluşturulan iğ ipliklerine kromozomların tutunması\",\"D) Kromozomların kardeş kromatitlerden oluşması\",\"E) Kardeş kromatitlerin se"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "17": [
+    {
+      "attempt": 1,
+      "id": 17,
+      "timestamp": "2026-03-28T18:06:48.827Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4394 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 458"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Yukarıda bir canlıya ait reme olayları şematize edilmiştir. Numaralandırılmış olaylar ile ilgili olarak aşağıdaki ifadelerden hangisi s ylenemez ?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) &nbsp;I ve II &uuml;reme ana h&uuml;crelerinde oluşur.\\r\\n\",\"cleaned\":\"A) I ve II reme ana h crelerinde oluşur.\"},{\"raw\":\"B) &nbsp;III ve IV. olaylar sonucunda oluşan h&uuml;creler aynı kalıtsal yapıya \",\"cleaned\":\"B) III ve IV. olaylar sonucunda oluşan h creler aynı "
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I ve II reme ana h crelerinde oluşur.\",\"B) III ve IV. olaylar sonucunda oluşan h creler aynı kalıtsal yapıya sahiptir.\",\"C) I, II ve III. olaylar kalıtsal eşitliliğe neden olur.\",\"D) Homolog kromozomların ayrılması II ve III. olaylar sırasında ger ekleşir.\",\"E) IV. olay "
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: D"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
