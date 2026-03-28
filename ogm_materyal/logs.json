@@ -7914,5 +7914,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "142": [
+    {
+      "attempt": 1,
+      "id": 142,
+      "timestamp": "2026-03-28T18:27:29.756Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4009 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 191"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi hava kirliliğine neden olan faktörlerden değildir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Motorlu taşıtların egzoz gazları\",\"cleaned\":\"A) Motorlu taşıtların egzoz gazları\"},{\"raw\":\"B) Bitkilerin fotosentez sonucu atmosfere verdiği gazlar\",\"cleaned\":\"B) Bitkilerin fotosentez sonucu atmosfere verdiği gazlar\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Motorlu taşıtların egzoz gazları\",\"B) Bitkilerin fotosentez sonucu atmosfere verdiği gazlar\",\"C) Evsel ve endüstriyel atıkların atmosfere karışması\",\"D) Volkan patlamalarından kaynaklanan büyük kül bulutları\",\"E) Isınmada fosil yakıtların kullanılması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
