@@ -21621,5 +21621,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "328": [
+    {
+      "attempt": 1,
+      "id": 328,
+      "timestamp": "2026-04-07T12:17:27.150Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4105 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 221"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi İtalya&#39;nın Habeşistan&#39;ı işgalini kolaylaştıran etkenlerden biridir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) İtalya&#39;nın s&ouml;m&uuml;rge arayışı i&ccedil;inde olması\\r\\n\",\"cleaned\":\"A) İtalya&#39;nın s m rge arayışı i inde olması\"},{\"raw\":\"B) İtalya&#39;nın Habeşistan&#39;a demokrasiyi yerleştirmek istemesi\\r\\n\",\"cleaned\":\"B) İtalya&#39;nın Habeşistan&#39;a demokrasiyi "
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) İtalya&#39;nın s m rge arayışı i inde olması\",\"B) İtalya&#39;nın Habeşistan&#39;a demokrasiyi yerleştirmek istemesi\",\"C) Milletler Cemiyeti&#39;nin caydırıcı olmaması\",\"D) İtalya&#39;nın faşist sistemle idare edilmesi\",\"E) Farklı lkelerin Habeşistan&#39;ı ele ge irmek is"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
