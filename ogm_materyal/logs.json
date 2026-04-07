@@ -21213,5 +21213,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "320": [
+    {
+      "attempt": 1,
+      "id": 320,
+      "timestamp": "2026-04-07T12:15:45.948Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4468 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 486"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Yunanistan dan T rkiye ye gelen m badillere yapılan yardımları i eren yukarıdaki mal dağıtım tablosu incelendiğinde aşağıda verilen yargılardan hangis...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) M&uuml;badiller arasında&nbsp;zeytincilikle uğraşanlar bulunmaktadır.\\r\\n\",\"cleaned\":\"A) M badiller arasında zeytincilikle uğraşanlar bulunmaktadır.\"},{\"raw\":\"B) M&uuml;badillere mısır ekimi teşvik edilmiştir.\\r\\n\",\"cleaned\":\"B) M badillere mısır ekimi teşvik edilmişt"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) M badiller arasında zeytincilikle uğraşanlar bulunmaktadır.\",\"B) M badillere mısır ekimi teşvik edilmiştir.\",\"C) M badillere ait hayvanların yem ihtiyacını karşılamak i in tohumluk verilmiştir.\",\"D) M badillerin tarım faaliyetlerine devam etmelerine imkan hazırlanmıştır."
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
