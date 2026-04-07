@@ -3394,5 +3394,53 @@
       "E) III ve IV"
     ],
     "answer": "E"
+  },
+  {
+    "id": 324,
+    "question": "Aşağıdakilerden hangisi II. D nya Savaşı sonrasında kurulan devletlerden biridir?",
+    "choices": [
+      "A) İsrail",
+      "B) Japonya",
+      "C) Bulgaristan",
+      "D) Polonya",
+      "E) &Ccedil;ekoslovakya"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 325,
+    "question": "II. D nya Savaşı&#39;nda ABD&#39;nin liderliğinde Fransa&#39;daki Alman işgalini sonlandırmak i in d zenlenen ve tarihin en b y k deniz ıkarmalarından biri olarak kabul edilen harekat aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) Kartal Harekatı",
+      "B) Pearl Harbor Baskını",
+      "C) Stalingrad Kuşatması",
+      "D) Barbarossa Harekatı",
+      "E) Normandiya &Ccedil;ıkarması"
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 326,
+    "question": "II. D nya Savaşı yıllarında T rkiye Cumhuriyeti&#39;nin Cumhurbaşkanı aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) Celal Bayar",
+      "B) İsmet İn n",
+      "C) Cemal G rsel",
+      "D) Cevdet Sunay",
+      "E) Fahri Korut rk"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 327,
+    "question": "II. D nya Savaşı sonunda d nya barışının esaslarını saptamak amacıyla 4-11 Şubat 1945 tarihleri arasında toplanan konferans aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) Yalta Konferansı",
+      "B) Potsdam Konferansı",
+      "C) Kazablanka Konferansı",
+      "D) San Francisco Konferansı",
+      "E) Kahire Konferansı"
+    ],
+    "answer": "A"
   }
 ]
