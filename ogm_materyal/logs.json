@@ -21672,5 +21672,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "329": [
+    {
+      "attempt": 1,
+      "id": 329,
+      "timestamp": "2026-04-07T12:17:34.067Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4177 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 525"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"II. D nya Savaşı devam ederken ABD ve İngiltere&#39;nin birlikte yayımladığı Atlantik Bildirisi&#39;nde; I. Savaştan sonra toprak talep edilmeyecek, I...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I ve II\\r\\n\",\"cleaned\":\"A) I ve II\"},{\"raw\":\"B) I ve IV\\r\\n\",\"cleaned\":\"B) I ve IV\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I ve II\",\"B) I ve IV\",\"C) I, II ve III\",\"D) II, III ve IV\",\"E) I, III ve IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
