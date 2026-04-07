@@ -21723,5 +21723,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "330": [
+    {
+      "attempt": 1,
+      "id": 330,
+      "timestamp": "2026-04-07T12:17:48.061Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4228 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 580"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"II. D nya Savaşı devam ederken İngiltere ve ABD, T rkiye&#39;nin savaşa dahil olması i in bir ok girişimde bulunmuştur. Buna g re; I. Kahire Konferans...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I ve II\\r\\n\",\"cleaned\":\"A) I ve II\"},{\"raw\":\"B) I ve III\\r\\n\",\"cleaned\":\"B) I ve III\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I ve II\",\"B) I ve III\",\"C) III ve IV\",\"D) I, II ve IV\",\"E) I, III ve IV\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
