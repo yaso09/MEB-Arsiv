@@ -21417,5 +21417,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "324": [
+    {
+      "attempt": 1,
+      "id": 324,
+      "timestamp": "2026-04-07T12:16:36.943Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3859 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 208"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Aşağıdakilerden hangisi II. D nya Savaşı sonrasında kurulan devletlerden biridir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) İsrail\\r\\n\",\"cleaned\":\"A) İsrail\"},{\"raw\":\"B) Japonya\\r\\n\",\"cleaned\":\"B) Japonya\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) İsrail\",\"B) Japonya\",\"C) Bulgaristan\",\"D) Polonya\",\"E) &Ccedil;ekoslovakya\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
