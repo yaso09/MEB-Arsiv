@@ -3346,5 +3346,53 @@
       "E) Kabotaj Kanunu nun y r rl ğe girmesi"
     ],
     "answer": "B"
+  },
+  {
+    "id": 320,
+    "question": "Yunanistan dan T rkiye ye gelen m badillere yapılan yardımları i eren yukarıdaki mal dağıtım tablosu incelendiğinde aşağıda verilen yargılardan hangisine ulaşılamaz ?",
+    "choices": [
+      "A) M badiller arasında zeytincilikle uğraşanlar bulunmaktadır.",
+      "B) M badillere mısır ekimi teşvik edilmiştir.",
+      "C) M badillere ait hayvanların yem ihtiyacını karşılamak i in tohumluk verilmiştir.",
+      "D) M badillerin tarım faaliyetlerine devam etmelerine imkan hazırlanmıştır.",
+      "E) Patates retimini Anadolu da ilk defa m badiller ger ekleştirmiştir."
+    ],
+    "answer": "E"
+  },
+  {
+    "id": 321,
+    "question": "Truman Doktrini; I. T rkiye, II. Yugoslavya, III. Yunanistan gibi devletlerden hangilerine yardım etmeyi ama lamıştır?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) I ve II",
+      "D) I ve III",
+      "E) I, II ve III"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 322,
+    "question": "Birleşmiş Milletler Teşkilatı&#39;nın 5 daim yesinin veto hakkına sahip olduğu organ aşağıdakilerden hangisidir?",
+    "choices": [
+      "A) Genel Kurul",
+      "B) G venlik Konseyi",
+      "C) Uluslararası Adalet Divanı",
+      "D) Ekonomik ve Sosyal Konsey",
+      "E) Genel Sekreterlik"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 323,
+    "question": "II. D nya Savaşı sonrası; I. Japonya, II. İtalya, III. Almanya, IV. Kore topraklarının hangilerinde farklı rejimlerle y netilen iki ayrı devlet kurulmuştur?",
+    "choices": [
+      "A) Yalnız I",
+      "B) Yalnız II",
+      "C) Yalnız III",
+      "D) II ve IV",
+      "E) III ve IV"
+    ],
+    "answer": "E"
   }
 ]
