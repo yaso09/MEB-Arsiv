@@ -21519,5 +21519,107 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "326": [
+    {
+      "attempt": 1,
+      "id": 326,
+      "timestamp": "2026-04-07T12:17:02.441Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3910 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 229"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"II. D nya Savaşı yıllarında T rkiye Cumhuriyeti&#39;nin Cumhurbaşkanı aşağıdakilerden hangisidir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Celal Bayar\\r\\n\",\"cleaned\":\"A) Celal Bayar\"},{\"raw\":\"B) İsmet İn&ouml;n&uuml;\\r\\n\",\"cleaned\":\"B) İsmet İn n\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Celal Bayar\",\"B) İsmet İn n\",\"C) Cemal G rsel\",\"D) Cevdet Sunay\",\"E) Fahri Korut rk\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
+  ],
+  "327": [
+    {
+      "attempt": 1,
+      "id": 327,
+      "timestamp": "2026-04-07T12:17:14.463Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3990 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 293"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"II. D nya Savaşı sonunda d nya barışının esaslarını saptamak amacıyla 4-11 Şubat 1945 tarihleri arasında toplanan konferans aşağıdakilerden hangisidir...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Yalta Konferansı\\r\\n\",\"cleaned\":\"A) Yalta Konferansı\"},{\"raw\":\"B) Potsdam Konferansı\\r\\n\",\"cleaned\":\"B) Potsdam Konferansı\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Yalta Konferansı\",\"B) Potsdam Konferansı\",\"C) Kazablanka Konferansı\",\"D) San Francisco Konferansı\",\"E) Kahire Konferansı\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: A"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
