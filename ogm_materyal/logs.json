@@ -21468,5 +21468,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "325": [
+    {
+      "attempt": 1,
+      "id": 325,
+      "timestamp": "2026-04-07T12:16:48.965Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4070 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 368"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"II. D nya Savaşı&#39;nda ABD&#39;nin liderliğinde Fransa&#39;daki Alman işgalini sonlandırmak i in d zenlenen ve tarihin en b y k deniz ıkarmalarından...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Kartal Harekatı\\r\\n\",\"cleaned\":\"A) Kartal Harekatı\"},{\"raw\":\"B) Pearl Harbor Baskını\\r\\n\",\"cleaned\":\"B) Pearl Harbor Baskını\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Kartal Harekatı\",\"B) Pearl Harbor Baskını\",\"C) Stalingrad Kuşatması\",\"D) Barbarossa Harekatı\",\"E) Normandiya &Ccedil;ıkarması\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: E"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
