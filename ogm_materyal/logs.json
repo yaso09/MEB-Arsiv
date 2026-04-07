@@ -21774,5 +21774,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "331": [
+    {
+      "attempt": 1,
+      "id": 331,
+      "timestamp": "2026-04-07T12:18:00.072Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4119 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 421"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"İsrail Devleti&#39;nin kuruluşu ile ilgili; I. Siyonist beklenti, II. Litvinov Protokol , III. Balfour Deklarasyonu, IV. Eisenhower Doktrini, V. İngil...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) I, II ve III\\r\\n\",\"cleaned\":\"A) I, II ve III\"},{\"raw\":\"B) I, II ve IV&nbsp;\\r\\n\",\"cleaned\":\"B) I, II ve IV\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) I, II ve III\",\"B) I, II ve IV\",\"C) I, III ve V\",\"D) II, III ve IV\",\"E) II, III ve V\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: C"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
