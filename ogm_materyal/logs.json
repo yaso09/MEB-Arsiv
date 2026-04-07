@@ -21315,5 +21315,56 @@
       "result": "OK",
       "missing": []
     }
+  ],
+  "322": [
+    {
+      "attempt": 1,
+      "id": 322,
+      "timestamp": "2026-04-07T12:16:08.447Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 3966 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 253"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"Birleşmiş Milletler Teşkilatı&#39;nın 5 daim yesinin veto hakkına sahip olduğu organ aşağıdakilerden hangisidir?...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Genel Kurul&nbsp;\\r\\n\",\"cleaned\":\"A) Genel Kurul\"},{\"raw\":\"B) G&uuml;venlik Konseyi\\r\\n\",\"cleaned\":\"B) G venlik Konseyi\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Genel Kurul\",\"B) G venlik Konseyi\",\"C) Uluslararası Adalet Divanı\",\"D) Ekonomik ve Sosyal Konsey\",\"E) Genel Sekreterlik\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
