@@ -21109,5 +21109,109 @@
         "cevap"
       ]
     }
+  ],
+  "319": [
+    {
+      "attempt": 1,
+      "id": 319,
+      "timestamp": "2026-04-07T12:15:23.852Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 27 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "❌",
+          "detail": "question-item-ask bloğu bulunamadı"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "❌",
+          "detail": "null"
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "❌",
+          "detail": "0 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "❌",
+          "detail": "Toplam eşleşme: 0 → []"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "❌",
+          "detail": "Geçerli şık sayısı: 0 → []"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "❌",
+          "detail": "Cevap bulunamadı"
+        }
+      ],
+      "result": "FAILED",
+      "missing": [
+        "soru",
+        "şıklar",
+        "cevap"
+      ]
+    },
+    {
+      "attempt": 2,
+      "id": 319,
+      "timestamp": "2026-04-07T12:15:30.947Z",
+      "steps": [
+        {
+          "step": "html_check",
+          "result": "✅",
+          "detail": "HTML uzunluğu: 4636 karakter"
+        },
+        {
+          "step": "404_check",
+          "result": "✅",
+          "detail": "404 yok"
+        },
+        {
+          "step": "soru_regex",
+          "result": "✅",
+          "detail": "Ham eşleşme uzunluğu: 849"
+        },
+        {
+          "step": "soru_temizle",
+          "result": "✅",
+          "detail": "\"1930 yılında Konyalı Aşık Mehmed in yazmış olduğu şiirden bazı d rtl kler verilmiştir. Yaşasın Fethi Bey kurdu bir Fırka İyi namı gitti şark ile garba...\""
+        },
+        {
+          "step": "ham_sik_blok",
+          "result": "✅",
+          "detail": "5 adet form-check bloğu bulundu"
+        },
+        {
+          "step": "sik_regex_ham",
+          "result": "✅",
+          "detail": "Toplam eşleşme: 5 → [{\"raw\":\"A) Beş Yıllık Kalkınma Planının Hazırlanması\\r\\n\",\"cleaned\":\"A) Beş Yıllık Kalkınma Planının Hazırlanması\"},{\"raw\":\"B) D&uuml;nya Ekonomik Buhranı\\r\\n\",\"cleaned\":\"B) D nya Ekonomik Buhranı\"}]"
+        },
+        {
+          "step": "sik_filtrele",
+          "result": "✅",
+          "detail": "Geçerli şık sayısı: 5 → [\"A) Beş Yıllık Kalkınma Planının Hazırlanması\",\"B) D nya Ekonomik Buhranı\",\"C) Aşar Vergisinin Kaldırılması\",\"D) Satış kooperatiflerinin kurulması\",\"E) Kabotaj Kanunu nun y r rl ğe girmesi\"]"
+        },
+        {
+          "step": "cevap_regex",
+          "result": "✅",
+          "detail": "Cevap: B"
+        }
+      ],
+      "result": "OK",
+      "missing": []
+    }
   ]
 }
